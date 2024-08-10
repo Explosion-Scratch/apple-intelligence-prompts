@@ -3,6 +3,8 @@
 System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer Beta. These prompts give lots of insight into how Apple Intelligence works and what it can do.
 
 # Files and what prompts they contain:
+**See [PROMPTS.md](PROMPTS.md) for a markdown breakdown of all the prompts**
+
 <!-- SUMMARY -->
 - [125d1d](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/125d1d3a3663c98e4d38bc4112795795ee5fe412.asset/AssetData/metadata.json): Makes text more concise.
 - [135ef0](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/135ef0aea73908521060216cfef15cf598edf949.asset/AssetData/metadata.json): Generates human-like stories based on user photos and input.
