@@ -1,0 +1,46 @@
+{
+    "model_type": "ane",
+    "model_config": "v3-302m",
+    "backbone_signature": "2077d12eb8aa7d17295d95444dfa3e52567f95ab",
+    "e5_function_name_map": {
+        "extend_512_64": {
+            "type": "extend",
+            "ctx_len": 512,
+            "seq_len": 64
+        },
+        "extend_256_64": {
+            "type": "extend",
+            "ctx_len": 256,
+            "seq_len": 64
+        },
+        "extend_2048_64": {
+            "type": "extend",
+            "ctx_len": 2048,
+            "seq_len": 64
+        },
+        "extend_2048_8": {
+            "type": "extend",
+            "ctx_len": 2048,
+            "seq_len": 8
+        },
+        "extend_1024_64": {
+            "type": "extend",
+            "ctx_len": 1024,
+            "seq_len": 64
+        }
+    },
+    "default_parameters": {
+        "temperature": 0.1
+    },
+    "special_tokens_map": {
+        "start_prompt_token": 1,
+        "end_prompt_token": "",
+        "stop_token": "<turn_end>",
+        "chat.role.system": "system<n>",
+        "chat.role.assistant": "assistant<n>",
+        "chat.role.user": "user<n>",
+        "chat.component.turnEnd": "<turn_end>",
+        "chat.role.system.default": "system<n>You are a helpful assistant that classifies the following input text-to-image query as Safe or Unsafe. In the first line, reply with Safe or Unsafe. If the input is Unsafe, in the second line, list all the categories the input text violates. The Unsafe categories are: CSEAI, Drugs, Gore, Harassment, Hate, Nudity or sexual, Offensive words, Self-harm, Terrorism or extremism, Toxic, Violence, Weapons."
+    },
+    "isDraft": false
+}
