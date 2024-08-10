@@ -31,17 +31,56 @@ async function main() {
     writeFileSync("summary.json", JSON.stringify(out, null, 2));
     await new Promise((r) => setTimeout(r, 500));
   }
-  const summary = Object.entries(out)
-    .filter(i => !i[1].includes('ane rank 16'))
-    .map(([k, v]) => {
-      let id = k.split("/").slice(-3)[0].replace(".asset", "").slice(0, 6);
-      return `- [${id}](${k}): ${v}`;
-    })
-    .join("\n");
+  const ENTRIES = Object.entries(out).filter(
+    (i) => !i[1].includes("ane rank 16")
+  );
+  const summary = ENTRIES.map(([k, v]) => {
+    let id = k.split("/").slice(-3)[0].replace(".asset", "").slice(0, 6);
+    return `- [${id}](${k}): ${v}`;
+  }).join("\n");
   const SPL = "<!-- SUMMARY -->";
   writeFileSync(
     "README.md",
     readFileSync("README.md", "utf-8").split(SPL)[0] + SPL + "\n" + summary
+  );
+  const formatted = ENTRIES.map(([k, v]) => {
+    let id = k.split("/").slice(-3)[0].replace(".asset", "").slice(0, 6);
+    const parsed = JSON.parse(readFileSync(k, "utf-8"));
+    const KEYS = ["prompt_template", "system_prompt", "promptTemplates"];
+    const CODE = "```";
+
+    // If it's just a string or something:
+    const jsonify = (k, v) => {
+      // Already tested Object.keys.length == 1
+      const isOneKeyObj = typeof v === "object";
+      const key = isOneKeyObj ? Object.keys(v)[0] : null;
+      return `\`${k}${
+        isOneKeyObj ? "." + key : ""
+      }\`:\n${CODE}\n${JSON.stringify(
+        isOneKeyObj ? v[key] : v,
+        null,
+        2
+      )}\n${CODE}`;
+    };
+    // If it's an object
+    const objectify = (k, v) =>
+      `\`${k}\`:\n` +
+      Object.entries(v)
+        .map(([k2, v2]) => `**${k2}**:\n${CODE}\n${v2}\n${CODE}`)
+        .join("\n");
+
+    return `## [${id}](${k}): ${v}\n${Object.entries(parsed)
+      .filter((i) => KEYS.includes(i[0]))
+      .map(([k, v]) =>
+        typeof v === "object" && Object.keys(v).length > 1
+          ? objectify(k, v)
+          : jsonify(k, v)
+      )
+      .join("\n\n")}`;
+  }).join("\n\n");
+  writeFileSync(
+    "PROMPTS.md",
+    readFileSync("PROMPTS.md", "utf-8").split(SPL)[0] + SPL + "\n" + formatted
   );
 }
 
