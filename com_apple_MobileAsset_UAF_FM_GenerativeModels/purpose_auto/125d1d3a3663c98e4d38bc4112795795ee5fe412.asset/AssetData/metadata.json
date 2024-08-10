@@ -1,82 +1,82 @@
 {
-    "model_type": "mlm",
-    "tamm_id": "afm-text-30b-instruct-v4_1-astc-6x6-20240428",
-    "checkpoint": "model.mlm",
-    "tokenizer": "afm-text-instruct-multilingual-100kt",
-    "original_checkpoint": "bolttorchmodel://6figfss3cv/1235",
-    "export_date": "06/18/2024-03:44:30",
-    "mlm_config": {
-        "model_name": "ajax",
-        "backend": "metal",
-        "context_len": 2048,
-        "batch_size": 1,
-        "sampling_type": 2,
-        "temperature": 1.0,
-        "repeat_penalty": 1.0,
-        "topp": 1.0,
-        "topk": 10,
-        "num_layers": 48,
-        "hidden_dim": 7168,
-        "num_heads": 56,
-        "num_kv_heads": 8,
-        "checkpoint_type": "tamm-adapt",
-        "seed": 1234,
-        "checkpoint": "/coreflow/data/conductor/bolt-prod-2700946619/tasks/6figfss3cv/artifacts/train/checkpoint_1235.tar",
-        "save_model_path": "/task_wrapper/user_output/artifacts/model.mlm",
-        "data_type": "fp16",
-        "merge_loras": false,
-        "state_dict_kw": "network",
-        "adapter_only": true,
-        "export_draft_model": false,
-        "ffn_dim": 23296.0,
-        "pos_emb": 1,
-        "lora_scale": 0.5
-    },
-    "default_parameters": {
-        "samplingType": "TIE_ARGMAX",
-        "temperature": 1.0,
-        "seed": 1234,
-        "topK": 10,
-        "topP": 1.0,
-        "repeatPenalty": 1.0
-    },
-    "special_tokens_map": {
-        "start_prompt_token": 1,
-        "end_prompt_token": "",
-        "chat.role.system": "system<n>",
-        "chat.role.user": "user<n>",
-        "chat.role.assistant": "assistant<n>",
-        "chat.component.turnEnd": "<turn_end>",
-        "stop_token": "<turn_end>",
-        "chat.role.system.default": "system<n>A conversation between a user and a helpful assistant."
-    },
-    "adapter_info": {
-        "base_adapter": {
-            "rank": 64,
-            "alpha": 32,
-            "adapt_attention_queries": true,
-            "adapt_attention_keys": true,
-            "adapt_attention_values": true,
-            "adapt_attention_outputs": false,
-            "adapt_feed_forward_hidden_states": true,
-            "adapt_feed_forward_outputs": false,
-            "dropout_p": 0.0,
-            "dtype": null,
-            "pretrained_path": "conductor://afm-official-permanent/model-lifecycle/afm-text-30b-instruct-20240422/tamm-release/20240428/adapters/afm-text-30b-instruct-v4_1-astc-6x6-20240428-adapter-rank-64.pt",
-            "freeze_params": false,
-            "device": null
-        }
-    },
-    "localization": {
-        "locale_instruction": {
-            "en_GB": " Respond in British English.",
-            "en_AU": " Respond in Australian English."
-        },
-        "locale_instructions_injection_location": "chat.role.system.default:end"
-    },
-    "display_version": "v4.1-30b",
-    "ref_id": "6figfss3cv",
-    "promptTemplates": {
-        "com.apple.textComposition.ConciseTone": "{{ specialToken.chat.role.system }}Make this text more concise.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  "model_type": "mlm",
+  "tamm_id": "afm-text-30b-instruct-v4_1-astc-6x6-20240428",
+  "checkpoint": "model.mlm",
+  "tokenizer": "afm-text-instruct-multilingual-100kt",
+  "original_checkpoint": "bolttorchmodel://6figfss3cv/1235",
+  "export_date": "06/18/2024-03:44:30",
+  "mlm_config": {
+    "model_name": "ajax",
+    "backend": "metal",
+    "context_len": 2048,
+    "batch_size": 1,
+    "sampling_type": 2,
+    "temperature": 1.0,
+    "repeat_penalty": 1.0,
+    "topp": 1.0,
+    "topk": 10,
+    "num_layers": 48,
+    "hidden_dim": 7168,
+    "num_heads": 56,
+    "num_kv_heads": 8,
+    "checkpoint_type": "tamm-adapt",
+    "seed": 1234,
+    "checkpoint": "/coreflow/data/conductor/bolt-prod-2700946619/tasks/6figfss3cv/artifacts/train/checkpoint_1235.tar",
+    "save_model_path": "/task_wrapper/user_output/artifacts/model.mlm",
+    "data_type": "fp16",
+    "merge_loras": false,
+    "state_dict_kw": "network",
+    "adapter_only": true,
+    "export_draft_model": false,
+    "ffn_dim": 23296.0,
+    "pos_emb": 1,
+    "lora_scale": 0.5
+  },
+  "default_parameters": {
+    "samplingType": "TIE_ARGMAX",
+    "temperature": 1.0,
+    "seed": 1234,
+    "topK": 10,
+    "topP": 1.0,
+    "repeatPenalty": 1.0
+  },
+  "special_tokens_map": {
+    "start_prompt_token": 1,
+    "end_prompt_token": "",
+    "chat.role.system": "system<n>",
+    "chat.role.user": "user<n>",
+    "chat.role.assistant": "assistant<n>",
+    "chat.component.turnEnd": "<turn_end>",
+    "stop_token": "<turn_end>",
+    "chat.role.system.default": "system<n>A conversation between a user and a helpful assistant."
+  },
+  "adapter_info": {
+    "base_adapter": {
+      "rank": 64,
+      "alpha": 32,
+      "adapt_attention_queries": true,
+      "adapt_attention_keys": true,
+      "adapt_attention_values": true,
+      "adapt_attention_outputs": false,
+      "adapt_feed_forward_hidden_states": true,
+      "adapt_feed_forward_outputs": false,
+      "dropout_p": 0.0,
+      "dtype": null,
+      "pretrained_path": "conductor://afm-official-permanent/model-lifecycle/afm-text-30b-instruct-20240422/tamm-release/20240428/adapters/afm-text-30b-instruct-v4_1-astc-6x6-20240428-adapter-rank-64.pt",
+      "freeze_params": false,
+      "device": null
     }
+  },
+  "localization": {
+    "locale_instruction": {
+      "en_GB": " Respond in British English.",
+      "en_AU": " Respond in Australian English."
+    },
+    "locale_instructions_injection_location": "chat.role.system.default:end"
+  },
+  "display_version": "v4.1-30b",
+  "ref_id": "6figfss3cv",
+  "promptTemplates": {
+    "com.apple.textComposition.ConciseTone": "{{ specialToken.chat.role.system }}Make this text more concise.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  }
 }

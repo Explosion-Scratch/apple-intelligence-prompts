@@ -1,1 +1,85 @@
-{"model_type": "mlm", "tamm_id": "afm-text-30b-instruct-v4_1-astc-6x6-20240428", "checkpoint": "model.mlm", "tokenizer": "afm-text-instruct-multilingual-100kt", "original_checkpoint": "bolttorchmodel://3x6xgzirqq/828", "export_date": "06/17/2024-11:33:44", "mlm_config": {"model_name": "ajax", "backend": "metal", "context_len": 2048, "batch_size": 1, "sampling_type": 2, "temperature": 1.0, "repeat_penalty": 1.0, "topp": 1.0, "topk": 10, "num_layers": 48, "hidden_dim": 7168, "num_heads": 56, "num_kv_heads": 8, "checkpoint_type": "tamm-adapt", "seed": 1234, "checkpoint": "/coreflow/data/conductor/bolt-prod-2320462763/tasks/3x6xgzirqq/artifacts/train/checkpoint_828.tar", "save_model_path": "/task_wrapper/user_output/artifacts/model.mlm", "data_type": "fp16", "merge_loras": false, "state_dict_kw": "network", "adapter_only": true, "export_draft_model": false, "ffn_dim": 23296.0, "pos_emb": 1, "lora_scale": 0.5}, "default_parameters": {"samplingType": "TIE_ARGMAX", "temperature": 1.0, "seed": 1234, "topK": 10, "topP": 1.0, "repeatPenalty": 1.0}, "special_tokens_map": {"start_prompt_token": 1, "end_prompt_token": "", "chat.role.system": "system<n>", "chat.role.user": "user<n>", "chat.role.assistant": "assistant<n>", "chat.component.turnEnd": "<turn_end>", "stop_token": "<turn_end>", "chat.role.system.default": "system<n>A conversation between a user and a helpful assistant."}, "adapter_info": {"base_adapter": {"rank": 64, "alpha": 32, "adapt_attention_queries": true, "adapt_attention_keys": true, "adapt_attention_values": true, "adapt_attention_outputs": false, "adapt_feed_forward_hidden_states": true, "adapt_feed_forward_outputs": false, "dropout_p": 0.0, "dtype": null, "pretrained_path": "conductor://afm-official-permanent/model-lifecycle/afm-text-30b-instruct-20240422/tamm-release/20240428/adapters/afm-text-30b-instruct-v4_1-astc-6x6-20240428-adapter-rank-64.pt", "freeze_params": false, "device": null}}, "localization": {"locale_instruction": {"en_GB": " Respond in British English.", "en_AU": " Respond in Australian English."}, "locale_instructions_injection_location": "chat.role.system.default:end"}, "display_version": "v4.1-30b", "ref_id": "3x6xgzirqq", "promptTemplates": {"com.apple.photos.memoryCreation.Storyteller.v2": "{{ specialToken.chat.role.system }}A conversation between a user requesting a story from their photos and a creative writer assistant who responds with a story<n><n>Respond in JSON with these keys and values in order:<n>- traits: list of strings, visual themes selected from the photos<n>- story: list of chapters as defined below<n>- cover: string, photo caption describing the title card<n>- title: string, title of story<n>- subtitle: string, safer version of the title<n><n>Each chapter is a JSON with these keys and values in order:<n>- chapter: string, title of chapter<n>- fallback: string, generic photo caption summarizing chapter theme<n>- shots: list of strings, photo captions in chapter<n><n>Here are the story guidelines you must obey:<n>- The story should be about the intent of the user<n>- The story should contain a clear arc<n>- The story should be diverse, that is, do not overly focus the entire story on one very specific theme or trait<n>- Do not write a story that is religious, political, harmful, violent, sexual, filthy or in anyway negative, sad or provocative<n><n>Here are the photo caption list guidelines you must obey:<n>- You can choose to include chapters or photo captions related to relationships, pets or locations if it is relevant to the user request<n>- All photo captions within a chapter should be distinct<n>- Ignore all references to music, artists or song titles. None of the shots, chapters or titles should contain references to music in any way<n>- There should be no reference to time periods or time of day in any chapters or photo captions<n><n>Here are the title guidelines you must obey:<n>- The title should summarize all the shot lists and chapters such that if any chapters or shots are missing the title still makes sense<n>- The title should avoid being funny, quirky or using references to specific culture or events<n>- Never use profanity or words that are not appropriate for children<n>- If the user query contains a location which is also their home location, do not create a title that refers to a trip<n>- If the story is about people do not make the title describe with non-human entities like fictional creatures or animals{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}Write me a story about: \"{{ freeformStoryPromptQuery }}\"<n>Visual themes in my photos: {{ freeformInputTraits }}<n>Pick this number of visual themes to write the story on: {{ freeformNumSelectedTraits }}<n>I want the story structure to be: {{ freeformStoryStructure }}<n>Write this many chapters in the story: {{ freeformNumChapters }}<n>Include at least this many photo captions in each chapter: {{ freeformMinNumShots }}<n>Children are in my photos: {{ freeformHasChildren }}<n>Pets are in my photos: {{ freeformHasPets }}<n>People with these relationships to me are in my photos: {{ freeformLifeContextRelationship }}<n>My home location: {{ freeformLifeContextHomeLocation }}<n>Some of the top locations present in my photos: {{ freeformLifeContextTopLocations }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"}, "allowPromptFallback": false, "constraints_override": "schema_raw_v1", "constraints_override_payload": "{\"order\":[\"traits\",\"story\",\"cover\",\"title\",\"subtitle\"],\"properties\":{\"story\":{\"type\":\"array\",\"items\":{\"order\":[\"chapter\",\"fallback\",\"shots\"],\"type\":\"object\",\"properties\":{\"shots\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"chapter\":{\"type\":\"string\"},\"fallback\":{\"type\":\"string\"}},\"required\":[\"chapter\",\"fallback\",\"shots\"]}},\"subtitle\":{\"type\":\"string\"},\"cover\":{\"type\":\"string\"},\"title\":{\"type\":\"string\"},\"traits\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"traits\",\"story\",\"cover\",\"title\",\"subtitle\"],\"type\":\"object\"}"}
+{
+  "model_type": "mlm",
+  "tamm_id": "afm-text-30b-instruct-v4_1-astc-6x6-20240428",
+  "checkpoint": "model.mlm",
+  "tokenizer": "afm-text-instruct-multilingual-100kt",
+  "original_checkpoint": "bolttorchmodel://3x6xgzirqq/828",
+  "export_date": "06/17/2024-11:33:44",
+  "mlm_config": {
+    "model_name": "ajax",
+    "backend": "metal",
+    "context_len": 2048,
+    "batch_size": 1,
+    "sampling_type": 2,
+    "temperature": 1.0,
+    "repeat_penalty": 1.0,
+    "topp": 1.0,
+    "topk": 10,
+    "num_layers": 48,
+    "hidden_dim": 7168,
+    "num_heads": 56,
+    "num_kv_heads": 8,
+    "checkpoint_type": "tamm-adapt",
+    "seed": 1234,
+    "checkpoint": "/coreflow/data/conductor/bolt-prod-2320462763/tasks/3x6xgzirqq/artifacts/train/checkpoint_828.tar",
+    "save_model_path": "/task_wrapper/user_output/artifacts/model.mlm",
+    "data_type": "fp16",
+    "merge_loras": false,
+    "state_dict_kw": "network",
+    "adapter_only": true,
+    "export_draft_model": false,
+    "ffn_dim": 23296.0,
+    "pos_emb": 1,
+    "lora_scale": 0.5
+  },
+  "default_parameters": {
+    "samplingType": "TIE_ARGMAX",
+    "temperature": 1.0,
+    "seed": 1234,
+    "topK": 10,
+    "topP": 1.0,
+    "repeatPenalty": 1.0
+  },
+  "special_tokens_map": {
+    "start_prompt_token": 1,
+    "end_prompt_token": "",
+    "chat.role.system": "system<n>",
+    "chat.role.user": "user<n>",
+    "chat.role.assistant": "assistant<n>",
+    "chat.component.turnEnd": "<turn_end>",
+    "stop_token": "<turn_end>",
+    "chat.role.system.default": "system<n>A conversation between a user and a helpful assistant."
+  },
+  "adapter_info": {
+    "base_adapter": {
+      "rank": 64,
+      "alpha": 32,
+      "adapt_attention_queries": true,
+      "adapt_attention_keys": true,
+      "adapt_attention_values": true,
+      "adapt_attention_outputs": false,
+      "adapt_feed_forward_hidden_states": true,
+      "adapt_feed_forward_outputs": false,
+      "dropout_p": 0.0,
+      "dtype": null,
+      "pretrained_path": "conductor://afm-official-permanent/model-lifecycle/afm-text-30b-instruct-20240422/tamm-release/20240428/adapters/afm-text-30b-instruct-v4_1-astc-6x6-20240428-adapter-rank-64.pt",
+      "freeze_params": false,
+      "device": null
+    }
+  },
+  "localization": {
+    "locale_instruction": {
+      "en_GB": " Respond in British English.",
+      "en_AU": " Respond in Australian English."
+    },
+    "locale_instructions_injection_location": "chat.role.system.default:end"
+  },
+  "display_version": "v4.1-30b",
+  "ref_id": "3x6xgzirqq",
+  "promptTemplates": {
+    "com.apple.photos.memoryCreation.Storyteller.v2": "{{ specialToken.chat.role.system }}A conversation between a user requesting a story from their photos and a creative writer assistant who responds with a story<n><n>Respond in JSON with these keys and values in order:<n>- traits: list of strings, visual themes selected from the photos<n>- story: list of chapters as defined below<n>- cover: string, photo caption describing the title card<n>- title: string, title of story<n>- subtitle: string, safer version of the title<n><n>Each chapter is a JSON with these keys and values in order:<n>- chapter: string, title of chapter<n>- fallback: string, generic photo caption summarizing chapter theme<n>- shots: list of strings, photo captions in chapter<n><n>Here are the story guidelines you must obey:<n>- The story should be about the intent of the user<n>- The story should contain a clear arc<n>- The story should be diverse, that is, do not overly focus the entire story on one very specific theme or trait<n>- Do not write a story that is religious, political, harmful, violent, sexual, filthy or in anyway negative, sad or provocative<n><n>Here are the photo caption list guidelines you must obey:<n>- You can choose to include chapters or photo captions related to relationships, pets or locations if it is relevant to the user request<n>- All photo captions within a chapter should be distinct<n>- Ignore all references to music, artists or song titles. None of the shots, chapters or titles should contain references to music in any way<n>- There should be no reference to time periods or time of day in any chapters or photo captions<n><n>Here are the title guidelines you must obey:<n>- The title should summarize all the shot lists and chapters such that if any chapters or shots are missing the title still makes sense<n>- The title should avoid being funny, quirky or using references to specific culture or events<n>- Never use profanity or words that are not appropriate for children<n>- If the user query contains a location which is also their home location, do not create a title that refers to a trip<n>- If the story is about people do not make the title describe with non-human entities like fictional creatures or animals{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}Write me a story about: \"{{ freeformStoryPromptQuery }}\"<n>Visual themes in my photos: {{ freeformInputTraits }}<n>Pick this number of visual themes to write the story on: {{ freeformNumSelectedTraits }}<n>I want the story structure to be: {{ freeformStoryStructure }}<n>Write this many chapters in the story: {{ freeformNumChapters }}<n>Include at least this many photo captions in each chapter: {{ freeformMinNumShots }}<n>Children are in my photos: {{ freeformHasChildren }}<n>Pets are in my photos: {{ freeformHasPets }}<n>People with these relationships to me are in my photos: {{ freeformLifeContextRelationship }}<n>My home location: {{ freeformLifeContextHomeLocation }}<n>Some of the top locations present in my photos: {{ freeformLifeContextTopLocations }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  },
+  "allowPromptFallback": false,
+  "constraints_override": "schema_raw_v1",
+  "constraints_override_payload": "{\"order\":[\"traits\",\"story\",\"cover\",\"title\",\"subtitle\"],\"properties\":{\"story\":{\"type\":\"array\",\"items\":{\"order\":[\"chapter\",\"fallback\",\"shots\"],\"type\":\"object\",\"properties\":{\"shots\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"chapter\":{\"type\":\"string\"},\"fallback\":{\"type\":\"string\"}},\"required\":[\"chapter\",\"fallback\",\"shots\"]}},\"subtitle\":{\"type\":\"string\"},\"cover\":{\"type\":\"string\"},\"title\":{\"type\":\"string\"},\"traits\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"traits\",\"story\",\"cover\",\"title\",\"subtitle\"],\"type\":\"object\"}"
+}

@@ -1,54 +1,54 @@
 {
-    "model_type": "ane",
-    "model_config": "v3-9m",
-    "backbone_signature": "801a58997ab64021f7c984248db8fc2b05ff0f92",
-    "e5_function_name_map": {
-        "extend_512_64": {
-            "type": "extend",
-            "ctx_len": 512,
-            "seq_len": 64
-        },
-        "extend_256_64": {
-            "type": "extend",
-            "ctx_len": 256,
-            "seq_len": 64
-        },
-        "extend_2048_64": {
-            "type": "extend",
-            "ctx_len": 2048,
-            "seq_len": 64
-        },
-        "extend_2048_8": {
-            "type": "extend",
-            "ctx_len": 2048,
-            "seq_len": 8
-        },
-        "extend_1024_64": {
-            "type": "extend",
-            "ctx_len": 1024,
-            "seq_len": 64
-        }
+  "model_type": "ane",
+  "model_config": "v3-9m",
+  "backbone_signature": "801a58997ab64021f7c984248db8fc2b05ff0f92",
+  "e5_function_name_map": {
+    "extend_512_64": {
+      "type": "extend",
+      "ctx_len": 512,
+      "seq_len": 64
     },
-    "default_parameters": {
-        "temperature": 0.1,
-        "draft_steps": 7,
-        "draft_is_adaptive": false,
-        "draft_tree_factor": 1,
-        "draft_soft_match_tolerance": 0.0,
-        "draft_tree_max_paths": null,
-        "draft_early_return": true,
-        "draft_early_return_probability_threshold": 0.8
+    "extend_256_64": {
+      "type": "extend",
+      "ctx_len": 256,
+      "seq_len": 64
     },
-    "special_tokens_map": {
-        "start_prompt_token": 1,
-        "end_prompt_token": "",
-        "stop_token": "<turn_end>",
-        "chat.role.system": "system<n>",
-        "chat.role.assistant": "assistant<n>",
-        "chat.role.user": "user<n>",
-        "chat.component.turnEnd": "<turn_end>",
-        "chat.role.system.default": "system<n>A conversation between a user and a helpful assistant."
+    "extend_2048_64": {
+      "type": "extend",
+      "ctx_len": 2048,
+      "seq_len": 64
     },
-    "context_length": 2048,
-    "ref_id": "upv9vy3hb7"
+    "extend_2048_8": {
+      "type": "extend",
+      "ctx_len": 2048,
+      "seq_len": 8
+    },
+    "extend_1024_64": {
+      "type": "extend",
+      "ctx_len": 1024,
+      "seq_len": 64
+    }
+  },
+  "default_parameters": {
+    "temperature": 0.1,
+    "draft_steps": 7,
+    "draft_is_adaptive": false,
+    "draft_tree_factor": 1,
+    "draft_soft_match_tolerance": 0.0,
+    "draft_tree_max_paths": null,
+    "draft_early_return": true,
+    "draft_early_return_probability_threshold": 0.8
+  },
+  "special_tokens_map": {
+    "start_prompt_token": 1,
+    "end_prompt_token": "",
+    "stop_token": "<turn_end>",
+    "chat.role.system": "system<n>",
+    "chat.role.assistant": "assistant<n>",
+    "chat.role.user": "user<n>",
+    "chat.component.turnEnd": "<turn_end>",
+    "chat.role.system.default": "system<n>A conversation between a user and a helpful assistant."
+  },
+  "context_length": 2048,
+  "ref_id": "upv9vy3hb7"
 }

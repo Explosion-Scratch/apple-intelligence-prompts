@@ -1,1 +1,8 @@
-{"model_type": "ane", "rank": 16, "type": "lora_16", "backbone_signature": "af7e12a3dc666886fe8d522b4ef4f4799a38daf8", "adapter_signature": "75f8bce3c9072389a4f73c72390540afde6c93aa", "ref_id": "tq37t5u6d6"}
+{
+  "model_type": "ane",
+  "rank": 16,
+  "type": "lora_16",
+  "backbone_signature": "af7e12a3dc666886fe8d522b4ef4f4799a38daf8",
+  "adapter_signature": "75f8bce3c9072389a4f73c72390540afde6c93aa",
+  "ref_id": "tq37t5u6d6"
+}
