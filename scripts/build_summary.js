@@ -54,23 +54,22 @@ async function main() {
       // Already tested Object.keys.length == 1
       const isOneKeyObj = typeof v === "object";
       const key = isOneKeyObj ? Object.keys(v)[0] : null;
-      return `\`${k}${
-        isOneKeyObj ? "." + key : ""
-      }\`:\n${CODE}\n${JSON.stringify(
-        isOneKeyObj ? v[key] : v,
-        null,
-        2
+      return `\`${k}${isOneKeyObj ? "." + key : ""}\`:\n${CODE}\n${formatStr(
+        isOneKeyObj ? v[key] : v
       )}\n${CODE}`;
     };
+    const formatStr = (str) => str?.replaceAll("<n>", "\n");
     // If it's an object
     const objectify = (k, v) =>
       `\`${k}\`:\n` +
       Object.entries(v)
-        .map(([k2, v2]) => `**${k2}**:\n${CODE}\n${v2}\n${CODE}`)
+        .map(([k2, v2]) => `**${k2}**:\n${CODE}\n${formatStr(v2)}\n${CODE}`)
         .join("\n");
 
     return `## [${id}](${k}): ${v}\n${Object.entries(parsed)
-      .filter((i) => KEYS.includes(i[0]))
+      .filter((i) =>
+        k.includes("summarization-template.json") ? true : KEYS.includes(i[0])
+      )
       .map(([k, v]) =>
         typeof v === "object" && Object.keys(v).length > 1
           ? objectify(k, v)
