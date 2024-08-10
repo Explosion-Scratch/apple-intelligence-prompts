@@ -32,8 +32,9 @@ async function main() {
     await new Promise((r) => setTimeout(r, 500));
   }
   const summary = Object.entries(out)
+    .filter(i => !i[1].includes('ane rank 16'))
     .map(([k, v]) => {
-      let id = k.split("/").slice(-3)[0].replace(".asset", "");
+      let id = k.split("/").slice(-3)[0].replace(".asset", "").slice(0, 6);
       return `- [${id}](${k}): ${v}`;
     })
     .join("\n");
