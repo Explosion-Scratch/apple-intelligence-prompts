@@ -1,6 +1,6 @@
 # Prompts List
 
-Rendered promtps from each of the files. Credit to [Simon Wilson](https://observablehq.com/@simonw/apple-intelligence-prompts)
+Rendered prompts from each of the files. Credit to [Simon Willison](https://observablehq.com/@simonw/apple-intelligence-prompts)
 
 <!-- SUMMARY -->
 ## [125d1d](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/125d1d3a3663c98e4d38bc4112795795ee5fe412.asset/AssetData/metadata.json): Makes text more concise.
