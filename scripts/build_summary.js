@@ -31,8 +31,9 @@ async function main() {
     writeFileSync("summary.json", JSON.stringify(out, null, 2));
     await new Promise((r) => setTimeout(r, 500));
   }
+  const BLACKLIST = ['ane rank 16', 'Blank.', 'conversation between a user and a helpful assistant']
   const ENTRIES = Object.entries(out).filter(
-    (i) => !i[1].includes("ane rank 16")
+    (i) => !BLACKLIST.find(j => i[1].includes(j))
   );
   const summary = ENTRIES.map(([k, v]) => {
     let id = k.split("/").slice(-3)[0].replace(".asset", "").slice(0, 6);
