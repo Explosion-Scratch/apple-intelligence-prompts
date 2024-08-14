@@ -1,0 +1,268 @@
+config_version: 5
+confidence_info {
+    confidence_pairs {
+        bucket: today
+        range {
+            low_threshold: 0.001
+            high_threshold: 0.999
+        }
+    }
+    confidence_pairs {
+        bucket: within_24_hours
+        range {
+            low_threshold: 0.001
+            high_threshold: 0.999
+        }
+    }
+    confidence_pairs {
+        bucket: after_24_hours
+        range {
+            low_threshold: 0.01
+            high_threshold: 0.99
+        }
+    }
+    confidence_pairs {
+        bucket: no_event_time
+        range {
+            low_threshold: 0.0001
+            high_threshold: 0.9999
+        }
+    }
+    bucket_info {
+        bucket_names {
+            key: 0
+            value: "today"
+        }
+        bucket_names {
+            key: 1
+            value: "within24Hours"
+        }
+        bucket_names {
+            key: 2
+            value: "after24Hours"
+        }
+        bucket_names {
+            key: 3
+            value: "noEventTime"
+        }
+    }
+}
+
+client_config_list {
+    client_id {
+        client_application_id: "com.apple.suggestd"
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyMailMessage"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyMailMessageThread"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyUserNotification"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 5
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyUserNotificationThread"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyTextMessage"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 5
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyTextMessageThread"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+}
+
+# Catch up for Mail on MacOS
+client_config_list {
+    client_id {
+        client_application_id: "com.apple.mail"
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyMailMessage"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyMailMessageThread"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyUserNotification"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 5
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyUserNotificationThread"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyTextMessage"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 5
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyTextMessageThread"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+}
+
+# Catch up for Mail on iOS
+client_config_list {
+    client_id {
+        client_application_id: "com.apple.mobilemail"
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyMailMessage"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyMailMessageThread"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyUserNotification"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 5
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyUserNotificationThread"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyTextMessage"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 5
+            }
+        }
+    }
+    use_case_config_list {
+        use_case_id {
+            use_case_unique_name: "classification.classifyTextMessageThread"
+        }
+        safety_config {
+            lang_check_config: {
+                allowed_languages: ["en"]
+                recognizer_max_samples: 10
+            }
+        }
+    }
+}
+

@@ -37,3 +37,4 @@ System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer B
 - [82790e](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/82790e42190160258b9dccb38af92327718f0338.asset/AssetData/metadata.json): Predicts next turn (?)
 - [892473](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/89247375851dbe95c8f569ad6666d923d4db1ee7.asset/AssetData/metadata.json): Makes text more concise.
 - [c3bebe](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c3bebe7db631b93420debf07976e46b7a376de49.asset/AssetData/metadata.json): Makes the user's input about urgency classification more interactive.
+- [256dfc](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/256dfcc19eb64aabcd4b1b9298641410fbd04bda.asset/AssetData/metadata.json): Makes generated text more friendly using friendly tone input.
