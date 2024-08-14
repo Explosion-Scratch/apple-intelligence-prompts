@@ -2,7 +2,7 @@
 
 import "dotenv/config";
 import { execSync } from "child_process";
-import { readFileSync, writeFileSync } from "fs";
+import { existsSync, readFileSync, writeFileSync } from "fs";
 
 const files = execSync('fd --type f -g "*.json"')
   .toString()
@@ -31,6 +31,12 @@ async function main() {
     writeFileSync("summary.json", JSON.stringify(out, null, 2));
     await new Promise((r) => setTimeout(r, 500));
   }
+  for (let k of Object.keys(out)){
+    if (!existsSync(k)){
+      delete out[k];
+    }
+  }
+  writeFileSync("summary.json", JSON.stringify(out, null, 2));
   const BLACKLIST = ['ane rank 16', 'Blank.', 'conversation between a user and a helpful assistant']
   const ENTRIES = Object.entries(out).filter(
     (i) => !BLACKLIST.find(j => i[1].includes(j))
