@@ -28,3 +28,12 @@ System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer B
 - [ef56a4](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ef56a417170bb1085e2e92c80a472b7becf2bff5.asset/AssetData/metadata.json): Makes text more professional, adhering to British or Australian tone.
 - [fe6265](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/fe6265190939e1902c29032c3f98dd4cc69ad6de.asset/AssetData/metadata.json): Creates urgent classification prompts for conversational dialogue.
 - [1f2896](com_apple_MobileAsset_UAF_SummarizationKitConfiguration/purpose_auto/1f289643c1beb11123b7f425f49fac81dc358e73.asset/AssetData/summarization-template.json): Lots of interesting summarization prompts
+- [02da2d](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/02da2d8b9b48b42dfc82bf8895886f354f5dc573.asset/AssetData/metadata.json): Generates proofreading suggestions.
+- [2f98c2](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/2f98c28404a1dd931279dacd4a9d09f08e758a10.asset/AssetData/metadata.json): Several prompts for summarizing text in various contexts.
+- [32ad14](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/32ad14bd3a19ff6fe5385f13b8bf997faae68e91.asset/AssetData/metadata.json): Rewrites text
+- [579f6e](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/579f6e215861bb041361364d36f76080e92f40d4.asset/AssetData/metadata.json): Generates two short reply snippets for mail responses.
+- [5c9f1d](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5c9f1d09e8f87a69c40abe00358320dfe38d20b4.asset/AssetData/metadata.json): Transforms prompts into structured query formats, extracting tags and categories.
+- [68ebe7](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/68ebe7a93b9c3f9c734b798f61fcefc6bfccc777.asset/AssetData/metadata.json): Makes text more professional.
+- [82790e](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/82790e42190160258b9dccb38af92327718f0338.asset/AssetData/metadata.json): Predicts next turn (?)
+- [892473](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/89247375851dbe95c8f569ad6666d923d4db1ee7.asset/AssetData/metadata.json): Makes text more concise.
+- [c3bebe](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c3bebe7db631b93420debf07976e46b7a376de49.asset/AssetData/metadata.json): Makes the user's input about urgency classification more interactive.

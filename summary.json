@@ -28,5 +28,15 @@
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/edcac377f200ec19316f91c9b1fe164e3efecd73.asset/AssetData/metadata.json": "ane rank 16 lora.",
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ef56a417170bb1085e2e92c80a472b7becf2bff5.asset/AssetData/metadata.json": "Makes text more professional, adhering to British or Australian tone.",
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/fe6265190939e1902c29032c3f98dd4cc69ad6de.asset/AssetData/metadata.json": "Creates urgent classification prompts for conversational dialogue.",
-  "com_apple_MobileAsset_UAF_SummarizationKitConfiguration/purpose_auto/1f289643c1beb11123b7f425f49fac81dc358e73.asset/AssetData/summarization-template.json": "Lots of interesting summarization prompts"
+  "com_apple_MobileAsset_UAF_SummarizationKitConfiguration/purpose_auto/1f289643c1beb11123b7f425f49fac81dc358e73.asset/AssetData/summarization-template.json": "Lots of interesting summarization prompts",
+  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/02da2d8b9b48b42dfc82bf8895886f354f5dc573.asset/AssetData/metadata.json": "Generates proofreading suggestions.",
+  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/2f98c28404a1dd931279dacd4a9d09f08e758a10.asset/AssetData/metadata.json": "Several prompts for summarizing text in various contexts.",
+  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/32ad14bd3a19ff6fe5385f13b8bf997faae68e91.asset/AssetData/metadata.json": "Rewrites text",
+  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/579f6e215861bb041361364d36f76080e92f40d4.asset/AssetData/metadata.json": "Generates two short reply snippets for mail responses.",
+  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5c9f1d09e8f87a69c40abe00358320dfe38d20b4.asset/AssetData/metadata.json": "Transforms prompts into structured query formats, extracting tags and categories.",
+  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/68ebe7a93b9c3f9c734b798f61fcefc6bfccc777.asset/AssetData/metadata.json": "Makes text more professional.",
+  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/82790e42190160258b9dccb38af92327718f0338.asset/AssetData/metadata.json": "Predicts next turn (?)",
+  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/89247375851dbe95c8f569ad6666d923d4db1ee7.asset/AssetData/metadata.json": "Makes text more concise.",
+  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c3bebe7db631b93420debf07976e46b7a376de49.asset/AssetData/metadata.json": "Makes the user's input about urgency classification more interactive.",
+  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/895eef85098745225f15e925a58a0ae102835db5.asset/AssetData/metadata.json": "ane rank 16 lora."
 }

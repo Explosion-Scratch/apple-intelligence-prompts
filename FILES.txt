@@ -1,9 +1,15 @@
 .
+├── .env
 ├── FILES.txt
 ├── PROMPTS.md
 ├── README.md
 ├── com_apple_MobileAsset_UAF_FM_GenerativeModels
 │   └── purpose_auto
+│       ├── 02da2d8b9b48b42dfc82bf8895886f354f5dc573.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
 │       ├── 1248a939eb03aa21c16bd81e68d1d43a8bcd3cd3.asset
 │       │   ├── AssetData
 │       │   │   ├── lora.part.bin
@@ -1128,10 +1134,630 @@
 │       │           │   ├── tss-request.plist
 │       │           │   └── tss-response.plist
 │       │           └── receipt.plist
-│       ├── 35bfad48dea9660cddeae3f4863f7e027478e60b.asset
+│       ├── 2f98c28404a1dd931279dacd4a9d09f08e758a10.asset
 │       │   ├── AssetData
-│       │   │   └── tokenizer
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
 │       │   └── Info.plist
+│       ├── 32ad14bd3a19ff6fe5385f13b8bf997faae68e91.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 34caab168f7861be2163bfbf333314ef283ceec1.asset
+│       │   ├── .AssetData
+│       │   │   ├── System
+│       │   │   │   └── Library
+│       │   │   │       └── CoreServices
+│       │   │   │           ├── RestoreVersion.plist
+│       │   │   │           └── SystemVersion.plist
+│       │   │   ├── com.apple.fm.language.instruct_3b.answer_synthesis.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   ├── com.apple.fm.language.instruct_3b.autonaming_messages.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   ├── com.apple.fm.language.instruct_3b.concise_tone.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   ├── com.apple.fm.language.instruct_3b.friendly_tone.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   ├── com.apple.fm.language.instruct_3b.magic_rewrite.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   ├── com.apple.fm.language.instruct_3b.mail_reply.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   ├── com.apple.fm.language.instruct_3b.messages_reply.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   ├── com.apple.fm.language.instruct_3b.professional_tone.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   ├── com.apple.fm.language.instruct_3b.proofreading_review.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   ├── com.apple.fm.language.instruct_3b.summarization.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   ├── com.apple.fm.language.instruct_3b.ui_previews.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   ├── com.apple.fm.language.instruct_3b.urgency_classification.draft
+│       │   │   │   ├── metadata.json
+│       │   │   │   ├── model.bundle
+│       │   │   │   │   └── H13G.bundle
+│       │   │   │   │       ├── H13G.e5
+│       │   │   │   │       ├── extend_1024_64
+│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_64
+│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_2048_8
+│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │   │   │       │   │   └── fragment.mil
+│       │   │   │   │       │   └── multiprocedure
+│       │   │   │   │       │       └── model.hwx
+│       │   │   │   │       ├── extend_256_64
+│       │   │   │   │       │   ├── extend_256_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       ├── extend_512_64
+│       │   │   │   │       │   ├── extend_512_64_classic_cpu
+│       │   │   │   │       │   │   ├── model.espresso.net
+│       │   │   │   │       │   │   ├── model.espresso.shape
+│       │   │   │   │       │   │   └── model.espresso.weights
+│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
+│       │   │   │   │       │       └── fragment.mil
+│       │   │   │   │       └── load_embeddings
+│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
+│       │   │   │   │               ├── fragment.mil
+│       │   │   │   │               └── weights.bin
+│       │   │   │   ├── model.mil
+│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
+│       │   │   └── metadata.json
+│       │   ├── AssetData
+│       │   │   └── Restore
+│       │   │       ├── BuildManifest.plist
+│       │   │       ├── Firmware
+│       │   │       │   ├── Manifests
+│       │   │       │   │   └── restore
+│       │   │       │   │       └── cryptex1
+│       │   │       │   │           └── com.apple.MobileAsset.UAF.FM.GenerativeModels:com.apple.fm.language.instruct_3b.drafts.generic-H13g
+│       │   │       │   │               └── apticket.mobileassetx86macosap.im4m
+│       │   │       │   ├── UC_INSTRUCT_3B_DRAFTS_GENERIC_H13G_Cryptex.dmg.cryptex_info
+│       │   │       │   ├── UC_INSTRUCT_3B_DRAFTS_GENERIC_H13G_Cryptex.dmg.integrity_catalog
+│       │   │       │   ├── UC_INSTRUCT_3B_DRAFTS_GENERIC_H13G_Cryptex.dmg.root_hash
+│       │   │       │   └── UC_INSTRUCT_3B_DRAFTS_GENERIC_H13G_Cryptex.dmg.trustcache
+│       │   │       ├── Restore.plist
+│       │   │       └── UC_INSTRUCT_3B_DRAFTS_GENERIC_H13G_Cryptex.dmg
+│       │   ├── Info.plist
+│       │   └── SecureAssetData
+│       │       ├── BuildManifest.plist
+│       │       ├── SecureMobileAsset-Info.plist
+│       │       ├── SecureMobileAsset.dmg
+│       │       ├── SecureMobileAsset.integritycatalog
+│       │       ├── SecureMobileAsset.root_hash
+│       │       ├── SecureMobileAsset.trustcache
+│       │       └── amai
+│       │           ├── Cryptex1
+│       │           │   └── Cryptex1,Ticket
+│       │           ├── debug
+│       │           │   ├── tss-request.plist
+│       │           │   └── tss-response.plist
+│       │           └── receipt.plist
 │       ├── 3a20f668d4ccca36ecc3efc3a109b2e9e101906f.asset
 │       │   ├── AssetData
 │       │   │   ├── lora.part.bin
@@ -1141,7 +1767,7 @@
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 53f7b403c3e6a8190335aac238e9d926ba6ac6cf.asset
+│       ├── 579f6e215861bb041361364d36f76080e92f40d4.asset
 │       │   ├── AssetData
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
@@ -1156,6 +1782,10 @@
 │       │   │   └── metadata.json
 │       │   └── Info.plist
 │       ├── 5abd97bb23a059f12376a2209f608046168fd015.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 5c9f1d09e8f87a69c40abe00358320dfe38d20b4.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
@@ -1245,6 +1875,11 @@
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
+│       ├── 68ebe7a93b9c3f9c734b798f61fcefc6bfccc777.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
 │       ├── 6a2bbad040933b68c4821e77b014508941d9c838.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
@@ -1261,6 +1896,15 @@
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
+│       ├── 82790e42190160258b9dccb38af92327718f0338.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 834d6076d452f0894bad4a82de8ec8dfaf5b8eac.asset
+│       │   ├── AssetData
+│       │   │   └── tokenizer
+│       │   └── Info.plist
 │       ├── 845a722d31ea1c32692c01967e3dd333cb18f23d.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
@@ -1275,6 +1919,16 @@
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
+│       ├── 89247375851dbe95c8f569ad6666d923d4db1ee7.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 895eef85098745225f15e925a58a0ae102835db5.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
 │       ├── 89b4791ac034a0a3f2d71088b8acb7793c58494c.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
@@ -1283,58 +1937,12 @@
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 93faf6a8ecffe7576d83dd4132a958ca9512088f.asset
-│       │   ├── .AssetData
-│       │   │   ├── System
-│       │   │   │   └── Library
-│       │   │   │       └── CoreServices
-│       │   │   │           ├── RestoreVersion.plist
-│       │   │   │           └── SystemVersion.plist
-│       │   │   ├── metadata.json
-│       │   │   └── model.bundle
-│       │   │       └── H13G.bundle
-│       │   │           ├── H13G.e5
-│       │   │           ├── extend_1024_64
-│       │   │           │   ├── extend_1024_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── extend_1024_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── extend_2048_64
-│       │   │           │   ├── extend_2048_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── extend_2048_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── extend_2048_8
-│       │   │           │   ├── extend_2048_8_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   ├── extend_2048_8_e5_minimal_cpu
-│       │   │           │   │   └── fragment.mil
-│       │   │           │   └── multiprocedure
-│       │   │           │       └── model.hwx
-│       │   │           ├── extend_256_64
-│       │   │           │   ├── extend_256_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── extend_256_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── extend_512_64
-│       │   │           │   ├── extend_512_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── extend_512_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           └── load_embeddings
-│       │   │               └── load_embeddings_e5_minimal_cpu
-│       │   │                   ├── fragment.mil
-│       │   │                   └── weights.bin
+│       ├── 9b6c66a4fe393270a673fdcc3fb95bc2c0910702.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── ae95250c47005175958af451a28101590df48d2d.asset
 │       │   ├── AssetData
 │       │   │   └── Restore
 │       │   │       ├── BuildManifest.plist
@@ -1342,14 +1950,14 @@
 │       │   │       │   ├── Manifests
 │       │   │       │   │   └── restore
 │       │   │       │   │       └── cryptex1
-│       │   │       │   │           └── com.apple.MobileAsset.UAF.FM.GenerativeModels:com.apple.fm.language.safety_guardrail.base.generic-H13g
+│       │   │       │   │           └── com.apple.MobileAsset.UAF.FM.GenerativeModels:com.apple.fm.language.instruct_3b.base.generic-H13g
 │       │   │       │   │               └── apticket.mobileassetx86macosap.im4m
-│       │   │       │   ├── UC_SAFETY_GUARDRAIL_BASE_GENERIC_H13G_Cryptex.dmg.cryptex_info
-│       │   │       │   ├── UC_SAFETY_GUARDRAIL_BASE_GENERIC_H13G_Cryptex.dmg.integrity_catalog
-│       │   │       │   ├── UC_SAFETY_GUARDRAIL_BASE_GENERIC_H13G_Cryptex.dmg.root_hash
-│       │   │       │   └── UC_SAFETY_GUARDRAIL_BASE_GENERIC_H13G_Cryptex.dmg.trustcache
+│       │   │       │   ├── UC_INSTRUCT_3B_BASE_GENERIC_H13G_Cryptex.dmg.cryptex_info
+│       │   │       │   ├── UC_INSTRUCT_3B_BASE_GENERIC_H13G_Cryptex.dmg.integrity_catalog
+│       │   │       │   ├── UC_INSTRUCT_3B_BASE_GENERIC_H13G_Cryptex.dmg.root_hash
+│       │   │       │   └── UC_INSTRUCT_3B_BASE_GENERIC_H13G_Cryptex.dmg.trustcache
 │       │   │       ├── Restore.plist
-│       │   │       └── UC_SAFETY_GUARDRAIL_BASE_GENERIC_H13G_Cryptex.dmg
+│       │   │       └── UC_INSTRUCT_3B_BASE_GENERIC_H13G_Cryptex.dmg
 │       │   ├── Info.plist
 │       │   └── SecureAssetData
 │       │       ├── BuildManifest.plist
@@ -1365,17 +1973,17 @@
 │       │           │   ├── tss-request.plist
 │       │           │   └── tss-response.plist
 │       │           └── receipt.plist
-│       ├── 9b6c66a4fe393270a673fdcc3fb95bc2c0910702.asset
-│       │   ├── AssetData
-│       │   │   ├── lora.part.bin
-│       │   │   └── metadata.json
-│       │   └── Info.plist
 │       ├── b536ef054977d4f48b8d41544e5fe023fb7afd41.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
 │       ├── b7996c3db9a46f17b0c070239231d267fc2d459b.asset
 │       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── c3bebe7db631b93420debf07976e46b7a376de49.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
 │       ├── c7f233bd03663d5f0ccb931bcc14b500b4617397.asset
@@ -1419,8 +2027,7 @@
 │       │   │   ├── ClientSafetyConfiguration.pbtxt
 │       │   │   └── ClientSwitchConfiguration.pbtxt
 │       │   └── Info.plist
-│       ├── com_apple_MobileAsset_UAF_SummarizationKitConfiguration.xml
-│       └── com_apple_MobileAsset_UAF_SummarizationKitConfiguration.xml.purged
+│       └── com_apple_MobileAsset_UAF_SummarizationKitConfiguration.xml
 ├── scripts
 │   ├── add_files.sh
 │   ├── build_summary.js
@@ -1431,4 +2038,4 @@
 │   └── run_all.sh
 └── summary.json
 
-624 directories, 808 files
+886 directories, 1153 files

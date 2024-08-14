@@ -1,0 +1,12 @@
+{
+  "model_type": "ane",
+  "rank": 16,
+  "type": "lora_16",
+  "backbone_signature": "d95e977fa8053546c6b733aa9d28367d6b23c822",
+  "adapter_signature": "75f8bce3c9072389a4f73c72390540afde6c93aa",
+  "ref_id": "ks6ppz83ba",
+  "promptTemplates": {
+    "com.apple.textComposition.MessagesReply": "{{ specialToken.chat.role.system }}Predict next turn:{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  },
+  "disable_spec_decoding": false
+}
