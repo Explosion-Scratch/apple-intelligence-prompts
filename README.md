@@ -9,8 +9,6 @@ System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer B
 - [125d1d](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/125d1d3a3663c98e4d38bc4112795795ee5fe412.asset/AssetData/metadata.json): Makes text more concise.
 - [135ef0](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/135ef0aea73908521060216cfef15cf598edf949.asset/AssetData/metadata.json): Generates human-like stories based on user photos and input.
 - [180d47](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/180d473dba621909e874d91220455c5a8fead40d.asset/AssetData/metadata.json): Transforms text into bullet points following user input directives.
-- [1a3b93](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/1a3b93adc4632ed94f07a7c89609872c90c6dce6.asset/AssetData/metadata.json): Creates and processes text to make it more friendly and readable.
-- [21713a](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/21713ac6abc5a8837016f2603692030e11b335bc.asset/AssetData/metadata.json): Creates summaries of text snippets within a 10 limit.
 - [4daba5](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/4daba5bdb4a00ebb9d4378e4d73ef997b4e008c3.asset/AssetData/metadata.json): Generates concise, natural mail response given user input and draft.
 - [58c912](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/58c912648fae39d1ab03e71be45f825bcaa96314.asset/AssetData/metadata.json): Supports generating structured responses to guided conversation questions.
 - [5abd97](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5abd97bb23a059f12376a2209f608046168fd015.asset/AssetData/metadata.json): Renames text to different style based on user instructions.
@@ -21,13 +19,9 @@ System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer B
 - [845a72](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/845a722d31ea1c32692c01967e3dd333cb18f23d.asset/AssetData/metadata.json): Creates tables from text based on system prompts and user input.
 - [89b479](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/89b4791ac034a0a3f2d71088b8acb7793c58494c.asset/AssetData/metadata.json): Makes text more friendly with ML model templates.
 - [8e7c96](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/8e7c96a478184b2bc0dcb6b086348e5e3fba75bf.asset/AssetData/metadata.json): Makes text more understandable with rank 64 base adapter.
-- [9b6c66](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/9b6c66a4fe393270a673fdcc3fb95bc2c0910702.asset/AssetData/metadata.json): Generates next conversational turn within a chat interaction framework.
 - [b536ef](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/b536ef054977d4f48b8d41544e5fe023fb7afd41.asset/AssetData/metadata.json): Returns curated movie assets based on movie ideas and traits.
-- [b7996c](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/b7996c3db9a46f17b0c070239231d267fc2d459b.asset/AssetData/metadata.json): Makes text more friendly through system and general prompts.
 - [c7f233](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c7f233bd03663d5f0ccb931bcc14b500b4617397.asset/AssetData/metadata.json): Generates short vivid scenes from user photos with details.
 - [ef56a4](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ef56a417170bb1085e2e92c80a472b7becf2bff5.asset/AssetData/metadata.json): Makes text more professional, adhering to British or Australian tone.
-- [fe6265](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/fe6265190939e1902c29032c3f98dd4cc69ad6de.asset/AssetData/metadata.json): Creates urgent classification prompts for conversational dialogue.
-- [1f2896](com_apple_MobileAsset_UAF_SummarizationKitConfiguration/purpose_auto/1f289643c1beb11123b7f425f49fac81dc358e73.asset/AssetData/summarization-template.json): Lots of interesting summarization prompts
 - [02da2d](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/02da2d8b9b48b42dfc82bf8895886f354f5dc573.asset/AssetData/metadata.json): Generates proofreading suggestions.
 - [2f98c2](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/2f98c28404a1dd931279dacd4a9d09f08e758a10.asset/AssetData/metadata.json): Several prompts for summarizing text in various contexts.
 - [32ad14](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/32ad14bd3a19ff6fe5385f13b8bf997faae68e91.asset/AssetData/metadata.json): Rewrites text
@@ -36,5 +30,8 @@ System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer B
 - [68ebe7](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/68ebe7a93b9c3f9c734b798f61fcefc6bfccc777.asset/AssetData/metadata.json): Makes text more professional.
 - [82790e](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/82790e42190160258b9dccb38af92327718f0338.asset/AssetData/metadata.json): Predicts next turn (?)
 - [892473](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/89247375851dbe95c8f569ad6666d923d4db1ee7.asset/AssetData/metadata.json): Makes text more concise.
-- [c3bebe](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c3bebe7db631b93420debf07976e46b7a376de49.asset/AssetData/metadata.json): Makes the user's input about urgency classification more interactive.
+- [c3bebe](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c3bebe7db631b93420debf07976e46b7a376de49.asset/AssetData/metadata.json): Classifies text as urgent or not.
 - [256dfc](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/256dfcc19eb64aabcd4b1b9298641410fbd04bda.asset/AssetData/metadata.json): Makes generated text more friendly using friendly tone input.
+- [1f2896](com_apple_MobileAsset_UAF_SummarizationKitConfiguration/purpose_auto/1f289643c1beb11123b7f425f49fac81dc358e73.asset/AssetData/summarization-template.json): Provides conversational summaries in exactly 3 short topic words.
+- [61b645](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/61b6452c419ad6124ade968e4ab9a2e44860a1be.asset/.AssetData/metadata.json): Classifies text as Safe or Unsafe
+- [ae9525](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ae95250c47005175958af451a28101590df48d2d.asset/.AssetData/metadata.json): Localization prompts
