@@ -1080,17 +1080,17 @@
 │           └── Info.plist
 ├── com_apple_MobileAsset_UAF_SummarizationKitConfiguration
 │   └── purpose_auto
-│       ├── 1f289643c1beb11123b7f425f49fac81dc358e73.asset
-│       │   ├── AssetData
-│       │   │   └── summarization-template.json
-│       │   └── Info.plist
-│       ├── 809d0154319c364fabf9ba0d0ad0ea6ae03b5d7a.asset
+│       ├── c8a4308d303f1997c3be793172f2bf0834b5bb08.asset
 │       │   ├── AssetData
 │       │   │   ├── ClassificationConfiguration.pbtxt
 │       │   │   ├── ClientSafetyConfiguration.pbtxt
 │       │   │   └── ClientSwitchConfiguration.pbtxt
 │       │   └── Info.plist
-│       └── com_apple_MobileAsset_UAF_SummarizationKitConfiguration.xml
+│       ├── com_apple_MobileAsset_UAF_SummarizationKitConfiguration.xml
+│       └── de4df6b7fa98be083eceec3d5b57b90924ae1f58.asset
+│           ├── AssetData
+│           │   └── summarization-template.json
+│           └── Info.plist
 ├── scripts
 │   ├── add_files.sh
 │   ├── build_summary.js

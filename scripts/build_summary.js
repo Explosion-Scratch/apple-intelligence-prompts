@@ -50,9 +50,16 @@ async function main() {
     "README.md",
     readFileSync("README.md", "utf-8").split(SPL)[0] + SPL + "\n" + summary
   );
+  const tc = (fn) => {
+    try {
+      return fn();
+    } catch(e){
+      return null;
+    }
+  }
   const formatted = ENTRIES.map(([k, v]) => {
     let id = k.split("/").slice(-3)[0].replace(".asset", "").slice(0, 6);
-    const parsed = JSON.parse(readFileSync(k, "utf-8"));
+    const parsed = tc(() => JSON.parse(readFileSync(k, "utf-8")));
     const KEYS = ["prompt_template", "system_prompt", "promptTemplates"];
     const CODE = "```";
 
@@ -73,7 +80,7 @@ async function main() {
         .map(([k2, v2]) => `**${k2}**:\n${CODE}\n${formatStr(v2)}\n${CODE}`)
         .join("\n");
 
-    return `## [${id}](${k}): ${v}\n${Object.entries(parsed)
+    return `## [${id}](${k}): ${v}\n${!parsed ? '[Invalid JSON]' : Object.entries(parsed)
       .filter((i) =>
         k.includes("summarization-template.json") ? true : KEYS.includes(i[0])
       )

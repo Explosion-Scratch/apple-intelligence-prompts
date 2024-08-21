@@ -27,7 +27,6 @@
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c3bebe7db631b93420debf07976e46b7a376de49.asset/AssetData/metadata.json": "Classifies text as urgent or not.",
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/895eef85098745225f15e925a58a0ae102835db5.asset/AssetData/metadata.json": "ane rank 16 lora.",
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/256dfcc19eb64aabcd4b1b9298641410fbd04bda.asset/AssetData/metadata.json": "Makes generated text more friendly using friendly tone input.",
-  "com_apple_MobileAsset_UAF_SummarizationKitConfiguration/purpose_auto/1f289643c1beb11123b7f425f49fac81dc358e73.asset/AssetData/summarization-template.json": "Provides conversational summaries in exactly 3 short topic words.",
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/34caab168f7861be2163bfbf333314ef283ceec1.asset/.AssetData/com.apple.fm.language.instruct_3b.answer_synthesis.draft/metadata.json": "A conversation between a user and a helpful assistant.",
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/34caab168f7861be2163bfbf333314ef283ceec1.asset/.AssetData/com.apple.fm.language.instruct_3b.autonaming_messages.draft/metadata.json": "A conversation between a user and a helpful assistant.",
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/34caab168f7861be2163bfbf333314ef283ceec1.asset/.AssetData/com.apple.fm.language.instruct_3b.concise_tone.draft/metadata.json": "A conversation between a user and a helpful assistant.",
@@ -42,5 +41,6 @@
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/34caab168f7861be2163bfbf333314ef283ceec1.asset/.AssetData/com.apple.fm.language.instruct_3b.urgency_classification.draft/metadata.json": "A conversation between a user and a helpful assistant.",
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/34caab168f7861be2163bfbf333314ef283ceec1.asset/.AssetData/metadata.json": "Blank.",
   "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/61b6452c419ad6124ade968e4ab9a2e44860a1be.asset/.AssetData/metadata.json": "Classifies text as Safe or Unsafe",
-  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ae95250c47005175958af451a28101590df48d2d.asset/.AssetData/metadata.json": "Localization prompts"
+  "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ae95250c47005175958af451a28101590df48d2d.asset/.AssetData/metadata.json": "Localization prompts",
+  "com_apple_MobileAsset_UAF_SummarizationKitConfiguration/purpose_auto/de4df6b7fa98be083eceec3d5b57b90924ae1f58.asset/AssetData/summarization-template.json": "Blank."
 }

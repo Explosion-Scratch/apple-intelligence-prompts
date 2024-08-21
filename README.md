@@ -32,6 +32,5 @@ System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer B
 - [892473](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/89247375851dbe95c8f569ad6666d923d4db1ee7.asset/AssetData/metadata.json): Makes text more concise.
 - [c3bebe](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c3bebe7db631b93420debf07976e46b7a376de49.asset/AssetData/metadata.json): Classifies text as urgent or not.
 - [256dfc](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/256dfcc19eb64aabcd4b1b9298641410fbd04bda.asset/AssetData/metadata.json): Makes generated text more friendly using friendly tone input.
-- [1f2896](com_apple_MobileAsset_UAF_SummarizationKitConfiguration/purpose_auto/1f289643c1beb11123b7f425f49fac81dc358e73.asset/AssetData/summarization-template.json): Provides conversational summaries in exactly 3 short topic words.
 - [61b645](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/61b6452c419ad6124ade968e4ab9a2e44860a1be.asset/.AssetData/metadata.json): Classifies text as Safe or Unsafe
 - [ae9525](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ae95250c47005175958af451a28101590df48d2d.asset/.AssetData/metadata.json): Localization prompts

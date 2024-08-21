@@ -8,9 +8,9 @@
 	<array>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>VgVfJlcXyF+1kEefvcl9q0RcP7s9J+EbracjbBEjrn4=</string>
+			<string>DLevxcTGuYIBLSLJBzCR39a5qUm/LdnYzfpggNIdzso=</string>
 			<key>ArchiveID</key>
-			<string>y97tvwEOojcA40JlyrsqRBzr8e3KpzgvibkrjpJJlOw=</string>
+			<string>A7YJ5GAZGCXDM1c2sujjjfiWW6PvjMnTaDOEP7QCr04=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -18,22 +18,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.SummarizationKitConfiguration</string>
 			<key>AssetVersion</key>
-			<string>1.0.3.13.200093,0</string>
+			<string>1.0.5.13.200249,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>1.0.3.13.200093,0</string>
+				<string>1.0.5.13.200249,0</string>
 				<key>AssetVersionTuple</key>
-				<string>1.0.3.13.200093</string>
+				<string>1.0.5.13.200249</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200093</string>
+				<string>13.13.200249</string>
 				<key>BundleVersionTuple</key>
-				<string>1.0.3</string>
+				<string>1.0.5</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200093</string>
+			<string>13M200249</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -67,133 +67,12 @@
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
 			<key>_DownloadSize</key>
-			<integer>20480</integer>
+			<integer>26624</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			elNgfch70G4Y4L2l1+6M7nGtk38=
-			</data>
-			<key>_MeasurementAlgorithm</key>
-			<string>SHA-1</string>
-			<key>_OSVersionCompatibilities</key>
-			<dict>
-				<key>Apple TV</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.0.0</string>
-				</dict>
-				<key>Apple Vision</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>2.0.0</string>
-				</dict>
-				<key>Apple Watch</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>11.0.0</string>
-				</dict>
-				<key>HomePod</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.0.0</string>
-				</dict>
-				<key>Mac</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>15.0.0</string>
-				</dict>
-				<key>iPad</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.0.0</string>
-				</dict>
-				<key>iPhone</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.0.0</string>
-				</dict>
-			</dict>
-			<key>_PreSoftwareUpdateAssetStaging</key>
-			<true/>
-			<key>_UnarchivedSize</key>
-			<integer>12288</integer>
-			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/003-94526/6E865DC4-F3B6-478A-9EE9-C129DD45069E/</string>
-			<key>__CanUseLocalCacheServer</key>
-			<true/>
-			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_SummarizationKitConfiguration/ECD08ED0-98BC-48D7-89C1-15439697314C.aar</string>
-			<key>version</key>
-			<string>1.0.3</string>
-		</dict>
-		<dict>
-			<key>ArchiveDecryptionKey</key>
-			<string>p9BDhpye0/Dk3QSEO5B1iBEmA4N5DNi6cKWdtQH7nY4=</string>
-			<key>ArchiveID</key>
-			<string>MU+AssAdx6bb/cRiKv32xOjHFY6FOSCwJCkDsw+JFcM=</string>
-			<key>AssetFormat</key>
-			<string>AppleArchive</string>
-			<key>AssetSpecifier</key>
-			<string>com.apple.summarizationkit.ota.configuration</string>
-			<key>AssetType</key>
-			<string>com.apple.MobileAsset.UAF.SummarizationKitConfiguration</string>
-			<key>AssetVersion</key>
-			<string>1.0.8.13.200212,0</string>
-			<key>AssetVersionInfo</key>
-			<dict>
-				<key>AssetVersionGroup</key>
-				<integer>0</integer>
-				<key>AssetVersionLong</key>
-				<string>1.0.8.13.200212,0</string>
-				<key>AssetVersionTuple</key>
-				<string>1.0.8.13.200212</string>
-				<key>BuildVersionTuple</key>
-				<string>13.13.200212</string>
-				<key>BundleVersionTuple</key>
-				<string>1.0.8</string>
-			</dict>
-			<key>Build</key>
-			<string>13M200212</string>
-			<key>Ramp</key>
-			<false/>
-			<key>SupportedDeviceNames</key>
-			<array>
-				<string>Mac</string>
-			</array>
-			<key>UnsupportedDevices</key>
-			<array>
-				<string>MacBook10,1</string>
-				<string>MacBookAir8,1</string>
-				<string>MacBookAir8,2</string>
-				<string>MacBookAir9,1</string>
-				<string>MacBookPro14,1</string>
-				<string>MacBookPro14,2</string>
-				<string>MacBookPro14,3</string>
-				<string>MacBookPro15,1</string>
-				<string>MacBookPro15,2</string>
-				<string>MacBookPro15,3</string>
-				<string>MacBookPro15,4</string>
-				<string>MacBookPro16,1</string>
-				<string>MacBookPro16,2</string>
-				<string>MacBookPro16,3</string>
-				<string>MacBookPro16,4</string>
-				<string>MacPro7,1</string>
-				<string>Macmini8,1</string>
-				<string>VirtualMac2,1</string>
-				<string>iMac20,1</string>
-				<string>iMac20,2</string>
-				<string>iMacPro1,1</string>
-			</array>
-			<key>_CompressionAlgorithm</key>
-			<string>AppleArchive</string>
-			<key>_DownloadSize</key>
-			<integer>22528</integer>
-			<key>_IsMAAutoAsset</key>
-			<true/>
-			<key>_Measurement</key>
-			<data>
-			uLXPOrBuy1d5Mflq6SxvFYjiUIE=
+			+VgXPwU2TnMbjALpZSag8AP96Mw=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
@@ -238,19 +117,140 @@
 			<key>_PreSoftwareUpdateAssetStaging</key>
 			<true/>
 			<key>_UnarchivedSize</key>
-			<integer>36864</integer>
+			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-53367/DEEB388A-B7B0-4C69-A830-A472D4A0A40E/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-67518/0816F69D-73C4-4836-B5D3-1DBF92363BD4/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_SummarizationKitConfiguration/A5E1EC18-7E5C-4B75-BF7A-A35E9071F916.aar</string>
+			<string>com_apple_MobileAsset_UAF_SummarizationKitConfiguration/8E3DF65F-BF96-4C4F-A81F-0DB20B06105F.aar</string>
 			<key>version</key>
-			<string>1.0.8</string>
+			<string>1.0.5</string>
+		</dict>
+		<dict>
+			<key>ArchiveDecryptionKey</key>
+			<string>WcCBfaFArWm9RYdRAtxGpmhLXzIjTkWbFHLdOkucv64=</string>
+			<key>ArchiveID</key>
+			<string>MnZbIuYYFR4/IamipmVPFZW11aaNeWYb9e/7CCAxNlc=</string>
+			<key>AssetFormat</key>
+			<string>AppleArchive</string>
+			<key>AssetSpecifier</key>
+			<string>com.apple.summarizationkit.ota.configuration</string>
+			<key>AssetType</key>
+			<string>com.apple.MobileAsset.UAF.SummarizationKitConfiguration</string>
+			<key>AssetVersion</key>
+			<string>1.0.9.13.200249,0</string>
+			<key>AssetVersionInfo</key>
+			<dict>
+				<key>AssetVersionGroup</key>
+				<integer>0</integer>
+				<key>AssetVersionLong</key>
+				<string>1.0.9.13.200249,0</string>
+				<key>AssetVersionTuple</key>
+				<string>1.0.9.13.200249</string>
+				<key>BuildVersionTuple</key>
+				<string>13.13.200249</string>
+				<key>BundleVersionTuple</key>
+				<string>1.0.9</string>
+			</dict>
+			<key>Build</key>
+			<string>13M200249</string>
+			<key>Ramp</key>
+			<false/>
+			<key>SupportedDeviceNames</key>
+			<array>
+				<string>Mac</string>
+			</array>
+			<key>UnsupportedDevices</key>
+			<array>
+				<string>MacBook10,1</string>
+				<string>MacBookAir8,1</string>
+				<string>MacBookAir8,2</string>
+				<string>MacBookAir9,1</string>
+				<string>MacBookPro14,1</string>
+				<string>MacBookPro14,2</string>
+				<string>MacBookPro14,3</string>
+				<string>MacBookPro15,1</string>
+				<string>MacBookPro15,2</string>
+				<string>MacBookPro15,3</string>
+				<string>MacBookPro15,4</string>
+				<string>MacBookPro16,1</string>
+				<string>MacBookPro16,2</string>
+				<string>MacBookPro16,3</string>
+				<string>MacBookPro16,4</string>
+				<string>MacPro7,1</string>
+				<string>Macmini8,1</string>
+				<string>VirtualMac2,1</string>
+				<string>iMac20,1</string>
+				<string>iMac20,2</string>
+				<string>iMacPro1,1</string>
+			</array>
+			<key>_CompressionAlgorithm</key>
+			<string>AppleArchive</string>
+			<key>_DownloadSize</key>
+			<integer>53248</integer>
+			<key>_IsMAAutoAsset</key>
+			<true/>
+			<key>_Measurement</key>
+			<data>
+			+11m7MCy7eYH9h7Sad9WaB8ZJT8=
+			</data>
+			<key>_MeasurementAlgorithm</key>
+			<string>SHA-1</string>
+			<key>_OSVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>18.1</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>2.1</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>11.1</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>18.1</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>15.1</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>18.1</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>18.1</string>
+				</dict>
+			</dict>
+			<key>_PreSoftwareUpdateAssetStaging</key>
+			<true/>
+			<key>_UnarchivedSize</key>
+			<integer>40960</integer>
+			<key>__BaseURL</key>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-67517/C5C95674-2976-43AB-9DA4-19EB7764867A/</string>
+			<key>__CanUseLocalCacheServer</key>
+			<true/>
+			<key>__RelativePath</key>
+			<string>com_apple_MobileAsset_UAF_SummarizationKitConfiguration/196573C4-3A88-4E86-B004-7A87C4D947EC.aar</string>
+			<key>version</key>
+			<string>1.0.9</string>
 		</dict>
 	</array>
 	<key>CachedAssetSetId</key>
-	<string>9068e75e-e2a4-4a4f-99ca-444721eee677</string>
+	<string>57f614d4-f3d3-4d6a-bd53-ed078f2b9b41</string>
 	<key>DownloadedFromLive</key>
 	<string>https://gdmf.apple.com/v2/assets</string>
 	<key>catalogInfo</key>
@@ -259,8 +259,8 @@
 		<true/>
 	</dict>
 	<key>lastTimeChecked</key>
-	<date>2024-08-13T15:00:11Z</date>
+	<date>2024-08-20T18:33:31Z</date>
 	<key>postedDate</key>
-	<date>2024-08-08T00:00:00Z</date>
+	<date>2024-08-19T00:00:00Z</date>
 </dict>
 </plist>
