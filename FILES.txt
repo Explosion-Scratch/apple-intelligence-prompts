@@ -12,21 +12,25 @@
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 125d1d3a3663c98e4d38bc4112795795ee5fe412.asset
+│       ├── 03afaa26b16e50118fd624cbf8adaab6d29bf6bd.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 135ef0aea73908521060216cfef15cf598edf949.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 180d473dba621909e874d91220455c5a8fead40d.asset
+│       ├── 095ed9c357798e03a7b6d5f1bf8637455e84e911.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
 │       ├── 256dfcc19eb64aabcd4b1b9298641410fbd04bda.asset
 │       │   ├── AssetData
 │       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 2ca582fd431bb076dabc86d865fd07594b3efaed.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 2db17a12efa9c86460b35a1170d971c1942c80ed.asset
+│       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
 │       ├── 2f98c28404a1dd931279dacd4a9d09f08e758a10.asset
@@ -653,7 +657,11 @@
 │       │           │   ├── tss-request.plist
 │       │           │   └── tss-response.plist
 │       │           └── receipt.plist
-│       ├── 4daba5bdb4a00ebb9d4378e4d73ef997b4e008c3.asset
+│       ├── 515977437f79f305052410adc80b1bac3655f3fa.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 52a77981b31cc13ce7b7802103ee0bb560d964f8.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
@@ -662,15 +670,7 @@
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 58c912648fae39d1ab03e71be45f825bcaa96314.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 5abd97bb23a059f12376a2209f608046168fd015.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 5c9f1d09e8f87a69c40abe00358320dfe38d20b4.asset
+│       ├── 5d48e58c05fcf115ae45248f6fd1435a70db2503.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
@@ -765,30 +765,18 @@
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 6a2bbad040933b68c4821e77b014508941d9c838.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 6fb380fd2be95b9495693dc369d6189bfb23b4f9.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 7acdd27442f6b12ccff9940ef07ad20b57e2fd38.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
 │       ├── 82790e42190160258b9dccb38af92327718f0338.asset
 │       │   ├── AssetData
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
+│       ├── 832d95c7d6b5a817ae6eb95ba23b6be5f2a96d4d.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
 │       ├── 834d6076d452f0894bad4a82de8ec8dfaf5b8eac.asset
 │       │   ├── AssetData
 │       │   │   └── tokenizer
-│       │   └── Info.plist
-│       ├── 845a722d31ea1c32692c01967e3dd333cb18f23d.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
 │       │   └── Info.plist
 │       ├── 89247375851dbe95c8f569ad6666d923d4db1ee7.asset
 │       │   ├── AssetData
@@ -800,11 +788,23 @@
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 89b4791ac034a0a3f2d71088b8acb7793c58494c.asset
+│       ├── 90998a3977e0e2ceb607cdccf83bb73a3d0599a9.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 8e7c96a478184b2bc0dcb6b086348e5e3fba75bf.asset
+│       ├── 949dc4bb4cf45625c0e310ff8a988a0c8cf35b34.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 95522ffd92c9083fa276862dc9187483dc86bc7c.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 992b921f10bce8329395f751d7747f5321d54179.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── ac2e7084fcded218b626e356292ee5640f396fc8.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
@@ -1051,7 +1051,15 @@
 │       │           │   ├── tss-request.plist
 │       │           │   └── tss-response.plist
 │       │           └── receipt.plist
-│       ├── b536ef054977d4f48b8d41544e5fe023fb7afd41.asset
+│       ├── b897c225d82b79ccf00204ee8a69faf55f227d39.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── be81c694fcaf131d0825fc7958f3b5fe2557b063.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── c1500bb9582d8d6407bb56143c301e48c778292d.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
@@ -1060,7 +1068,7 @@
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── c7f233bd03663d5f0ccb931bcc14b500b4617397.asset
+│       ├── c59d2037ac0b6a10d264b68d9c580f3db7f5791c.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
@@ -1070,13 +1078,9 @@
 │       │   │   └── metadata.json
 │       │   └── Info.plist
 │       ├── com_apple_MobileAsset_UAF_FM_GenerativeModels.xml
-│       ├── d1cb28c5dbb29d0a12dbfa35f623e85f9d997e52.asset
-│       │   ├── AssetData
-│       │   │   └── tokenizer
-│       │   └── Info.plist
-│       └── ef56a417170bb1085e2e92c80a472b7becf2bff5.asset
+│       └── d1cb28c5dbb29d0a12dbfa35f623e85f9d997e52.asset
 │           ├── AssetData
-│           │   └── metadata.json
+│           │   └── tokenizer
 │           └── Info.plist
 ├── com_apple_MobileAsset_UAF_SummarizationKitConfiguration
 │   └── purpose_auto
@@ -1101,4 +1105,4 @@
 │   └── run_all.sh
 └── summary.json
 
-479 directories, 623 files
+481 directories, 625 files

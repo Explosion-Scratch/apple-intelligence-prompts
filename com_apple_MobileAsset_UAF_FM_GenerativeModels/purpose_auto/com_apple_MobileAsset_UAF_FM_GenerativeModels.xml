@@ -8,11 +8,11 @@
 	<array>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>rNWZhGlqkHes23QdI8hrFAqUXXvZizk1HOyXM05dnPM=</string>
+			<string>mdwX16pRVTgZzGLXIqGe/zl/LsXjoS+ZrSU4VCA+luY=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>/IMbax7hDP0RMRsT6OwqTmkQ1Nf9r5C2HOK+WTPyL6A=</string>
+			<string>xeZi7FXml3fmb0yNTByIJSy3Qmaz1fRzvMiJEk/71dA=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -20,22 +20,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.4.0.13.200132,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.4.0.13.200132,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.4.0.13.200132</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200132</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.4.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200132</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -112,15 +112,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>23552</integer>
+			<integer>25600</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			uRZ6hKLB1QGAtbEaA0c3xvpPZac=
+			EKjGOTmtbU54QYIz/nilZY1BvaY=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -164,15 +202,15 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
+			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-09761/BBB0A540-C116-49A4-901E-4C59D4BD0526/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71466/74C7DCA0-A6D7-4B03-AFC6-DD0227A581EF/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/C79453FF-ECD0-47FA-8042-2D3429CB565C.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/4F9D2F21-A1C4-4018-9254-1C96A792E99E.aar</string>
 			<key>version</key>
-			<string>7.4.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -382,11 +420,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>G1q/+ZxN2y9OnwyLPDWqIQBaD+b1WG/dUNjtusdPkYc=</string>
+			<string>yomavSYUGnKj9sz1Uo0FaDGWerCeqPM5VU6zhZ1HIrE=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>FwWo8ByIhSNLUOrTkFE1ggNTkrHfM/Tuc3un95+WcK4=</string>
+			<string>DjctumN8HAcSnjFZbVK0YBvFJlKXkyAFFIZbjn+qglM=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -394,22 +432,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.9.0.13.200153,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.9.0.13.200153,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.9.0.13.200153</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200153</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.9.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200153</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -486,15 +524,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>24576</integer>
+			<integer>25600</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			2KYWJYApi2KolfEBcBIuVKKVIjE=
+			NqoA2m5h4V+Rv4BONrzWzz+yyfY=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -538,13 +614,15 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
+			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-21860/7E456A03-F631-4B3D-91E1-6EFA3E1B43F6/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71499/95736DF6-E1F9-49E1-8FF1-B3FA22112F22/</string>
+			<key>__CanUseLocalCacheServer</key>
+			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/5EA26A3C-86B4-4C86-81F0-A586ECB83F2E.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/13D9F2A5-D9AA-4FDA-88DD-31750CE0DFB6.aar</string>
 			<key>version</key>
-			<string>7.9.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -678,11 +756,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>1x6F9r6TrO0w7pOA1bZ0hyTLiwee/LOLUiJn+wVB6SU=</string>
+			<string>dJmrmkdtQz2mSXdRXiO9uIZoLgoh+p4j7bNGlrY2+Ts=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>EPwl9yPLql0dQBqQN4Qm7WDQk2LHs1DWr2PRrmCnRHw=</string>
+			<string>fJrshglLEFog8MVmRHhaYlt0qgb6OQIDiSJkPIdFuT8=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -690,22 +768,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.4.0.13.200132,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.4.0.13.200132,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.4.0.13.200132</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200132</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.4.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200132</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -782,15 +860,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>23552</integer>
+			<integer>25600</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			Gc3PZKvM4adfE6fdbd36ukUY4ac=
+			37GG7ogdIqjh7R3bjxyZG57qAAM=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -834,15 +950,15 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
+			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-09769/43212550-218D-4859-B383-129EC3558200/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71485/88FB3EC6-F65B-45DA-9036-D078A2E4FE20/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/94F0F877-10F0-4F9C-AB87-17500028F5E9.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/024A45D1-C890-49F7-8005-B9BB41AEA88B.aar</string>
 			<key>version</key>
-			<string>7.4.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -1052,11 +1168,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>8XH7hKB9DUaENdw+CHH5MoQuh+09xFK4LjdHhD1kyrg=</string>
+			<string>PzDRW30tNdY3/wc/diDhYafGYxk8j1fJwlicOcqPO3M=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>FpJuZEVnYJPAGwApuJSfbP8azQBpGkjCpbn3dQOw9Ig=</string>
+			<string>/t3f8fDVUHPKXhRmTU9Q2s43hVUPKrTWCrL+4fYgEu4=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -1064,22 +1180,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.4.0.13.200132,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.4.0.13.200132,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.4.0.13.200132</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200132</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.4.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200132</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -1156,15 +1272,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>23552</integer>
+			<integer>25600</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			A7OVOYE3o+ngkJNq/z6itZ87/SM=
+			OA4qMYDa6BM2UYQp/GM5HrNtC5w=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -1208,15 +1362,15 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
+			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-09775/3FD70EAD-4CF2-47FA-AA2C-317BAA3B9507/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71473/5781FD09-5DB6-476F-8322-D3D685A97A1F/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/B812E1F6-AC80-494A-B256-BC79312DF4E5.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/82E4CA2A-0FC3-43A5-8877-40A2BD2DB53B.aar</string>
 			<key>version</key>
-			<string>7.4.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -1426,11 +1580,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>cuf5H3w82KeL2bcMoyJ1h6mf7jRFyJUlEV5wnwRsZnw=</string>
+			<string>XzRcFe6h4XBXBLhQEWte/5W+KF35oD0G+oD1fL2CmKk=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>QGvI1l/fwJ8iW5tliZ5iETBu39KZAXfBOvRakLM9rrQ=</string>
+			<string>bmpGLeGh8gKa8j+dMWyQn+qB6UJwtNfINd2LYlTnTPM=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -1438,22 +1592,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.10.0.13.200283,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.10.0.13.200283,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.10.0.13.200283</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200283</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.10.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200283</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -1530,12 +1684,12 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>25600</integer>
+			<integer>27648</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			6WloZiK17+mjs8+Ppw+RDpBCud8=
+			2sUCFvkR0JgSh25SOFkEo7Ijh7k=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
@@ -1622,13 +1776,13 @@
 			<key>_UnarchivedSize</key>
 			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/005-13489/A584A39E-A4CF-4D5D-926B-ADD4A1050861/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71471/12BF2E78-87F1-4680-A3BC-F34C7B41A4F3/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/F73F8518-8C57-4FD9-9E9F-E09E84EDF80F.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/BAADF0A2-1CE4-4D29-B2D2-E229D9575071.aar</string>
 			<key>version</key>
-			<string>7.10.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -1838,11 +1992,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>QarEyokB6fF2oGG06Absoto7bMGZZueKhc4/k665XfU=</string>
+			<string>vwcbO2ESTorh3LfZdDSFw+J6niyd+1XSraqlDefa1YA=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>ZKoeeZAe5A1HmWWUtnlZOAwK6ka+9KToLo2h6j0q+j8=</string>
+			<string>XrWbujCcCfV2816lDaPO9AsTKpE10hD1/pBtdUrzJ88=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -1850,22 +2004,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.14.0.13.200195,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.14.0.13.200195,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.14.0.13.200195</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200195</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.14.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200195</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -1942,15 +2096,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>24576</integer>
+			<integer>25600</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			tUGAR2KY5E2MCfDSChk4uGBgeYc=
+			LfMiHvR1FE+z2mBsn7rc+VFuyqo=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -1996,13 +2188,13 @@
 			<key>_UnarchivedSize</key>
 			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-39467/78A42A8A-9FFB-47B6-A6D3-9A38DA155335/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71464/7B998525-C573-4AF5-8767-DA3537C29082/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/95BF2A7E-C098-4D20-82FF-F00711DFE68C.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/74A45642-701A-4579-9FFE-498D9128EC2C.aar</string>
 			<key>version</key>
-			<string>7.14.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -2212,11 +2404,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>xunVcOE3CvlDqr3iOPRQBydyN0dt9JoDSllfZT/KRn4=</string>
+			<string>llcE1OuSmmmV44wr6RNxs3s5tOZ2tzM3b9WbUkOvhf4=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>y5OZ+0hFuqHOQHdd6HwQCsj3pAtp4uKOe6zz1804EbI=</string>
+			<string>8GQLS1GANB9QNh+YL6x1altF6n1P1q2xB2vBFjmccSs=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -2224,22 +2416,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.11.0.13.200161,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.11.0.13.200161,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.11.0.13.200161</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200161</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.11.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200161</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -2316,15 +2508,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>23552</integer>
+			<integer>25600</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			DRweonOrW/sMNTb3YhRVlzDCgEU=
+			jBOjyHSigBCizepo+lydW4rxHqU=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -2368,15 +2598,15 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
+			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-27124/F3D97742-191E-47C6-8C21-0AB5E263A5F9/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71486/816127E8-3A21-4715-A0E7-5BBC5CAC2E51/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/8BCB1A51-52AD-4B35-8DFC-33F3046670A9.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/74026D14-1761-499C-B51D-7663F7A2C186.aar</string>
 			<key>version</key>
-			<string>7.11.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -2792,11 +3022,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>kEqfjDu4yAB3VSmOb7z0yj+H1gQtx5FtDHPPaIrdlOw=</string>
+			<string>Fclu2WWz/OdC/LbMu9WibYSwEp7LppXpmGfvI7w+3no=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>X95HI3obn4Y80pt8ez4moc5Jqs0L/yS6zx7F0yfIRQM=</string>
+			<string>8vViuWo6b6Uw4X3JWoe/Gu7uyHcvQz+AgAyAVCWhCRw=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -2804,22 +3034,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.8.0.13.200141,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.8.0.13.200141,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.8.0.13.200141</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200141</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.8.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200141</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -2896,15 +3126,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>24576</integer>
+			<integer>26624</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			FJ2TMSaUflKJvLOFqKaFyYRZuY4=
+			Fwp6YH7GJKd6+eitmp9heTvIALM=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -2948,15 +3216,15 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
+			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-10638/4CD16D6E-91CD-47AF-842A-1AAE4A834A08/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71465/C52FEC9B-1AB9-46B9-8894-7C3EF52A4062/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/67E5C235-C533-4DBE-942E-D9E345F28911.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/F06B5C00-DAD7-4D4E-BB63-288DA876DF4A.aar</string>
 			<key>version</key>
-			<string>7.8.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -3128,11 +3396,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>p4f1rRGgz25TLrAUiRwR4Ue1CSgPqS+hwvyZ+3qjQfY=</string>
+			<string>C1X3mrXjQ/5tmk4/hmBTVfSO+wLCokUCaoYEnHx0Fb0=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>t3nOCgZMLgSX2wUfnwQkHTYbavqX8zFMCJcdKxV5w5o=</string>
+			<string>t368Ep9CYXDRQ1qrQdSz/78furhBJangUcnoNQWWGX0=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -3140,22 +3408,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.4.0.13.200132,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.4.0.13.200132,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.4.0.13.200132</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200132</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.4.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200132</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -3232,15 +3500,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>23552</integer>
+			<integer>25600</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			zX9Wc+sfWssKizOuadRdgfBd+/A=
+			STOX2Dr49tJPXGmnwJI4RAKspns=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -3284,23 +3590,23 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
+			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-09766/F9B54D2B-CA2F-4ECB-96E5-B108F929945F/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71490/CF632E19-7C18-4C5E-9AD0-55B24A2E0980/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/84B07DEA-45B3-41D5-AAFB-2CA6343F5D76.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/FFEB2201-CB83-4A14-8128-03198E351C00.aar</string>
 			<key>version</key>
-			<string>7.4.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>R+XW7vaAwC2VZbDKy3YEnZJdFkF+aZBgTCL7H5+2ZYI=</string>
+			<string>HBTApcBKqPI3IPFNfdo4coQMZVzdQNUMem4+lqrAw9s=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>SoM8r4FmZzB8z/lFD+VlgO/XNjxIPn8VdYGxto9T+r4=</string>
+			<string>BGjYhVXLolruqMWYdACDjgsXyHFT8iaCzebL1kvAQ/E=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -3308,22 +3614,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.4.0.13.200132,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.4.0.13.200132,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.4.0.13.200132</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200132</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.4.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200132</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -3400,15 +3706,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>24576</integer>
+			<integer>25600</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			cyew3ou0BIvYhYSrgTxkfLz+b3E=
+			ys1n44wmwEOIBdqUYhMxLHfnkkM=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -3452,15 +3796,15 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
+			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-09767/C13C5950-C6EE-43CD-9732-FB28DD234773/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71495/515654C9-8B51-4606-975D-069A2D5F8B73/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/69E45121-46E1-48E8-ABD8-50F96D36BDDB.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/DE713361-64DE-4752-B31F-371CD43C33D5.aar</string>
 			<key>version</key>
-			<string>7.4.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -4044,174 +4388,6 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>vJZ5VVa2M52KINrMUw+cbi0zvVUw6zLr5BTDD16Z8JA=</string>
-			<key>ArchiveDecryptionKeyFile</key>
-			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
-			<key>ArchiveID</key>
-			<string>6XPP1JwrZsTKhy25SPfdr+NJy7uf+XMupqeZJcyAjoI=</string>
-			<key>AssetFormat</key>
-			<string>AppleArchive</string>
-			<key>AssetSpecifier</key>
-			<string>com.apple.gm.server.instruct_server_v1.planner.generic</string>
-			<key>AssetType</key>
-			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
-			<key>AssetVersion</key>
-			<string>7.12.0.13.200163,0</string>
-			<key>AssetVersionInfo</key>
-			<dict>
-				<key>AssetVersionGroup</key>
-				<integer>0</integer>
-				<key>AssetVersionLong</key>
-				<string>7.12.0.13.200163,0</string>
-				<key>AssetVersionTuple</key>
-				<string>7.12.0.13.200163</string>
-				<key>BuildVersionTuple</key>
-				<string>13.13.200163</string>
-				<key>BundleVersionTuple</key>
-				<string>7.12.0</string>
-			</dict>
-			<key>Build</key>
-			<string>13M200163</string>
-			<key>Ramp</key>
-			<false/>
-			<key>SupportedDeviceNames</key>
-			<array>
-				<string>Mac</string>
-				<string>iPad</string>
-				<string>iPhone</string>
-			</array>
-			<key>SupportedDevices</key>
-			<array>
-				<string>Mac13,1</string>
-				<string>Mac13,2</string>
-				<string>Mac14,10</string>
-				<string>Mac14,12</string>
-				<string>Mac14,13</string>
-				<string>Mac14,14</string>
-				<string>Mac14,15</string>
-				<string>Mac14,2</string>
-				<string>Mac14,3</string>
-				<string>Mac14,5</string>
-				<string>Mac14,6</string>
-				<string>Mac14,7</string>
-				<string>Mac14,8</string>
-				<string>Mac14,9</string>
-				<string>Mac15,10</string>
-				<string>Mac15,11</string>
-				<string>Mac15,12</string>
-				<string>Mac15,13</string>
-				<string>Mac15,3</string>
-				<string>Mac15,4</string>
-				<string>Mac15,5</string>
-				<string>Mac15,6</string>
-				<string>Mac15,7</string>
-				<string>Mac15,8</string>
-				<string>Mac15,9</string>
-				<string>MacBookAir10,1</string>
-				<string>MacBookPro17,1</string>
-				<string>MacBookPro18,1</string>
-				<string>MacBookPro18,2</string>
-				<string>MacBookPro18,3</string>
-				<string>MacBookPro18,4</string>
-				<string>Macmini9,1</string>
-				<string>iMac21,1</string>
-				<string>iMac21,2</string>
-				<string>iPad13,10</string>
-				<string>iPad13,11</string>
-				<string>iPad13,16</string>
-				<string>iPad13,17</string>
-				<string>iPad13,4</string>
-				<string>iPad13,5</string>
-				<string>iPad13,6</string>
-				<string>iPad13,7</string>
-				<string>iPad13,8</string>
-				<string>iPad13,9</string>
-				<string>iPad14,10</string>
-				<string>iPad14,11</string>
-				<string>iPad14,3</string>
-				<string>iPad14,4</string>
-				<string>iPad14,5</string>
-				<string>iPad14,6</string>
-				<string>iPad14,8</string>
-				<string>iPad14,9</string>
-				<string>iPad16,3</string>
-				<string>iPad16,4</string>
-				<string>iPad16,5</string>
-				<string>iPad16,6</string>
-				<string>iPhone16,1</string>
-				<string>iPhone16,2</string>
-			</array>
-			<key>_CompressionAlgorithm</key>
-			<string>AppleArchive</string>
-			<key>_ContentEncryption</key>
-			<string>DSME</string>
-			<key>_DownloadPolicy</key>
-			<integer>900</integer>
-			<key>_DownloadSize</key>
-			<integer>23552</integer>
-			<key>_IsMAAutoAsset</key>
-			<true/>
-			<key>_Measurement</key>
-			<data>
-			OqXJR3/2TfuPPRpnM9Vo/j7wKHM=
-			</data>
-			<key>_MeasurementAlgorithm</key>
-			<string>SHA-1</string>
-			<key>_OSVersionCompatibilities</key>
-			<dict>
-				<key>Apple TV</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.1</string>
-				</dict>
-				<key>Apple Vision</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>2.1</string>
-				</dict>
-				<key>Apple Watch</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>11.1</string>
-				</dict>
-				<key>HomePod</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.1</string>
-				</dict>
-				<key>Mac</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>15.1</string>
-				</dict>
-				<key>iPad</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.1</string>
-				</dict>
-				<key>iPhone</key>
-				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.1</string>
-				</dict>
-			</dict>
-			<key>_PreSoftwareUpdateAssetStaging</key>
-			<true/>
-			<key>_RetentionPolicy</key>
-			<integer>900</integer>
-			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
-			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-27468/7A659C39-2FC8-4F7B-8112-6D31A1847CE5/</string>
-			<key>__CanUseLocalCacheServer</key>
-			<true/>
-			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/0388678B-19D7-44CC-BC65-84CBC5ACE5CE.aar</string>
-			<key>version</key>
-			<string>7.12.0</string>
-		</dict>
-		<dict>
-			<key>ArchiveDecryptionKey</key>
 			<string>+OREeuwIncAPzk6008bmjGW/UYLwAyU8rcu/cbRmJ8M=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguageSecureAssets.930c073.priv</string>
@@ -4380,11 +4556,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>9KG+ToRPgBBPYZRhUtft60glwlbrDWaxgg8SyoSkFqo=</string>
+			<string>a2bYf8JpWpa6W0Pmbx+Jsuq+gCCUJL2GfXT+6fCxHmg=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>Ry651sjYFQci0n8pttrJaS5WYegYz3MtNyOyZUDX72U=</string>
+			<string>DJ+355S2i+FWdetFp6sCankJT+cRr1WtJsIOL9ZBPM0=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -4392,22 +4568,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.4.0.13.200132,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.4.0.13.200132,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.4.0.13.200132</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200132</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.4.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200132</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -4484,183 +4660,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>23552</integer>
+			<integer>25600</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			4qDXm6o9X2y7+XfWyA08ReN/emQ=
+			+kfU1Tc2Erk0Aoyk2cFcOJPc+nM=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
-			<key>_OSVersionCompatibilities</key>
+			<key>_OSRestoreVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
 				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.1</string>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
-					<key>_MinOSVersion</key>
-					<string>2.1</string>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
-					<key>_MinOSVersion</key>
-					<string>11.1</string>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.1</string>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
-					<key>_MinOSVersion</key>
-					<string>15.1</string>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.1</string>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
-					<key>_MinOSVersion</key>
-					<string>18.1</string>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
 				</dict>
 			</dict>
-			<key>_PreSoftwareUpdateAssetStaging</key>
-			<true/>
-			<key>_RetentionPolicy</key>
-			<integer>900</integer>
-			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
-			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-09764/0DCE37A2-1BA0-45C1-B883-9A81104141D3/</string>
-			<key>__CanUseLocalCacheServer</key>
-			<true/>
-			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/A3E6524A-DE57-4753-815F-13F7D7B1952E.aar</string>
-			<key>version</key>
-			<string>7.4.0</string>
-		</dict>
-		<dict>
-			<key>ArchiveDecryptionKey</key>
-			<string>pL6TXXpZ44cMMwIB5WE4G6T83hoMAXZ+l2mIUfkVgpI=</string>
-			<key>ArchiveDecryptionKeyFile</key>
-			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
-			<key>ArchiveID</key>
-			<string>LMQac+lGSOamWbzrEvPRbF3CHhuK3gCa+m1qx7InM9Q=</string>
-			<key>AssetFormat</key>
-			<string>AppleArchive</string>
-			<key>AssetSpecifier</key>
-			<string>com.apple.gm.server.instruct_server_v1.photos_memories_global_traits_v2.generic</string>
-			<key>AssetType</key>
-			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
-			<key>AssetVersion</key>
-			<string>7.8.0.13.200141,0</string>
-			<key>AssetVersionInfo</key>
-			<dict>
-				<key>AssetVersionGroup</key>
-				<integer>0</integer>
-				<key>AssetVersionLong</key>
-				<string>7.8.0.13.200141,0</string>
-				<key>AssetVersionTuple</key>
-				<string>7.8.0.13.200141</string>
-				<key>BuildVersionTuple</key>
-				<string>13.13.200141</string>
-				<key>BundleVersionTuple</key>
-				<string>7.8.0</string>
-			</dict>
-			<key>Build</key>
-			<string>13M200141</string>
-			<key>Ramp</key>
-			<false/>
-			<key>SupportedDeviceNames</key>
-			<array>
-				<string>Mac</string>
-				<string>iPad</string>
-				<string>iPhone</string>
-			</array>
-			<key>SupportedDevices</key>
-			<array>
-				<string>Mac13,1</string>
-				<string>Mac13,2</string>
-				<string>Mac14,10</string>
-				<string>Mac14,12</string>
-				<string>Mac14,13</string>
-				<string>Mac14,14</string>
-				<string>Mac14,15</string>
-				<string>Mac14,2</string>
-				<string>Mac14,3</string>
-				<string>Mac14,5</string>
-				<string>Mac14,6</string>
-				<string>Mac14,7</string>
-				<string>Mac14,8</string>
-				<string>Mac14,9</string>
-				<string>Mac15,10</string>
-				<string>Mac15,11</string>
-				<string>Mac15,12</string>
-				<string>Mac15,13</string>
-				<string>Mac15,3</string>
-				<string>Mac15,4</string>
-				<string>Mac15,5</string>
-				<string>Mac15,6</string>
-				<string>Mac15,7</string>
-				<string>Mac15,8</string>
-				<string>Mac15,9</string>
-				<string>MacBookAir10,1</string>
-				<string>MacBookPro17,1</string>
-				<string>MacBookPro18,1</string>
-				<string>MacBookPro18,2</string>
-				<string>MacBookPro18,3</string>
-				<string>MacBookPro18,4</string>
-				<string>Macmini9,1</string>
-				<string>iMac21,1</string>
-				<string>iMac21,2</string>
-				<string>iPad13,10</string>
-				<string>iPad13,11</string>
-				<string>iPad13,16</string>
-				<string>iPad13,17</string>
-				<string>iPad13,4</string>
-				<string>iPad13,5</string>
-				<string>iPad13,6</string>
-				<string>iPad13,7</string>
-				<string>iPad13,8</string>
-				<string>iPad13,9</string>
-				<string>iPad14,10</string>
-				<string>iPad14,11</string>
-				<string>iPad14,3</string>
-				<string>iPad14,4</string>
-				<string>iPad14,5</string>
-				<string>iPad14,6</string>
-				<string>iPad14,8</string>
-				<string>iPad14,9</string>
-				<string>iPad16,3</string>
-				<string>iPad16,4</string>
-				<string>iPad16,5</string>
-				<string>iPad16,6</string>
-				<string>iPhone16,1</string>
-				<string>iPhone16,2</string>
-			</array>
-			<key>_CompressionAlgorithm</key>
-			<string>AppleArchive</string>
-			<key>_ContentEncryption</key>
-			<string>DSME</string>
-			<key>_DownloadPolicy</key>
-			<integer>900</integer>
-			<key>_DownloadSize</key>
-			<integer>24576</integer>
-			<key>_IsMAAutoAsset</key>
-			<true/>
-			<key>_Measurement</key>
-			<data>
-			kHo2XWVMe298gwiogwSJZspJQY0=
-			</data>
-			<key>_MeasurementAlgorithm</key>
-			<string>SHA-1</string>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -4706,44 +4752,44 @@
 			<key>_UnarchivedSize</key>
 			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-10637/480EA835-9C61-4B32-82C3-AC5CD113151E/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71487/CC391571-6B3D-4F61-88F6-94C41C2BF504/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/52D9A864-EAC5-4FDB-88C1-1276639AC690.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/AAB79714-19CF-46DD-985E-31D958927DF7.aar</string>
 			<key>version</key>
-			<string>7.8.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>swulOW6a5AHJdYGSqJT3EFIYsvgcHcmJyH7XR4nlOxw=</string>
+			<string>/+Gap4yQV79Y28e6duhSJaWnd6mTft0hMuO6uaGNZJY=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>yRZt4v2kvCC3YyXWGORx9hp224h7cLYTGT8Q+e2nv4U=</string>
+			<string>0ZbEN7Dfu0nfpAgD/JJrntmzpRl+7eNehft+7GXR8k4=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
-			<string>com.apple.gm.server.instruct_server_v1.search_query_understanding.generic</string>
+			<string>com.apple.gm.server.instruct_server_v1.photos_memories_global_traits_v2.generic</string>
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.7.0.13.200136,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.7.0.13.200136,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.7.0.13.200136</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200136</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.7.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200136</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -4820,15 +4866,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>23552</integer>
+			<integer>27648</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			0AEGIBFeOxljpTykJwYPP6dw5VA=
+			bGX0y5f2BbYQdoI2gB4wFLmI4Nk=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -4872,23 +4956,23 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
+			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-10265/D74B55D9-2261-47C0-B696-BD5D5BDC303E/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71469/F6F71869-FD99-453D-A285-F201CDE4D422/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/22E24EE6-187A-4A9C-8057-B48E37338AEB.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/E701A491-0E94-40E1-8184-B0FEFFA01E22.aar</string>
 			<key>version</key>
-			<string>7.7.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>eTFEjTY34VvlJuGbeQgiQ+Bh7mS2Dvj381nfVZgvXhw=</string>
+			<string>JRtq2Wr8BmQXF5p7H65Lxy1vchy57hGldr/mxI7NAAg=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>duSh7fBZ3+CAZcqqoghSF5JTXcDVnnLI3c5eu5ETEwo=</string>
+			<string>EQKJGF/pTpoL86H4cvLznyIk9E3SCU5kIjxbsvPsUN8=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -4896,22 +4980,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.4.0.13.200132,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.4.0.13.200132,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.4.0.13.200132</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200132</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.4.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200132</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -4988,15 +5072,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>23552</integer>
+			<integer>25600</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			aj63eoxcqwuIBW9ZDa4rDRlejLc=
+			9T0WBnCRfS9uLTIYGggNEn9IdlI=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -5040,15 +5162,15 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>8192</integer>
+			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-09771/3E9C5447-F1D7-4C42-8DE4-1BF445B4B22C/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71488/4DCC851C-7B39-4F39-83A9-1C1F3A4373BB/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/665F4279-03D7-4094-ADBF-9E3B13C0081B.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/73068AE2-FC48-4700-AB35-87E6931883AA.aar</string>
 			<key>version</key>
-			<string>7.4.0</string>
+			<string>8.0.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -5632,34 +5754,34 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>hSIfFwGBB4XGrzGXAjpkZ/XfghU9YW4qzADNV7KqCfw=</string>
+			<string>w5B+vkI3Tp+kwNQe+nlRuggzfXJ2pvryRAOQ3V+uiMA=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>Pfbr6XjsExbmW8ApgW0rjUK6zOonMG/twAaviMFy0Pk=</string>
+			<string>MDvo+RAQJZuyvZ51jGI71GzPN0KJ7G2tyrzGYljggN0=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
-			<string>com.apple.gm.server.instruct_server_v1.mail_reply_qa.generic</string>
+			<string>com.apple.gm.server.instruct_server_v1.photos_memories_query_understanding_v3.generic</string>
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.4.0.13.200132,0</string>
+			<string>8.3.0.13.200301,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.4.0.13.200132,0</string>
+				<string>8.3.0.13.200301,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.4.0.13.200132</string>
+				<string>8.3.0.13.200301</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200132</string>
+				<string>13.13.200301</string>
 				<key>BundleVersionTuple</key>
-				<string>7.4.0</string>
+				<string>8.3.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200132</string>
+			<string>13M200301</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -5736,15 +5858,53 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>24576</integer>
+			<integer>27648</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			d91yNwcjX3ZP+9O0wW7L+DpBKJk=
+			drEAuLRecFvb3TtfH4y1cIat8+w=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -5790,44 +5950,44 @@
 			<key>_UnarchivedSize</key>
 			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-09780/5A433CC3-2711-48FB-A07B-16814C297F3B/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/005-16649/E5D1248E-380D-434D-A951-46322680BEAA/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/04577F0F-287F-48AB-B38A-A0D4A26A5FC1.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/CB9A42B3-F88F-400A-9AFD-70D2AB4F160B.aar</string>
 			<key>version</key>
-			<string>7.4.0</string>
+			<string>8.3.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>dxn6mzr0T74SVDA7+hWZt4JbExRDsnbgOm18iYJtFPg=</string>
+			<string>b3R/v3jhv153+XYkpZUzeaC4AwMaTEAZ2/g0A8cVhiI=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>HiU5zSyp30QG2fHDOlJezFVEG2v/+SN1t4vZaCqqRFE=</string>
+			<string>6DXgcdDEBWs7nkVfOGX3NWgw+Rzgp1+Yh1/1VixjR8k=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
-			<string>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</string>
+			<string>com.apple.gm.server.instruct_server_v1.mail_reply_qa.generic</string>
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.8.0.13.200141,0</string>
+			<string>8.0.0.13.200258,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.8.0.13.200141,0</string>
+				<string>8.0.0.13.200258,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.8.0.13.200141</string>
+				<string>8.0.0.13.200258</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200141</string>
+				<string>13.13.200258</string>
 				<key>BundleVersionTuple</key>
-				<string>7.8.0</string>
+				<string>8.0.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200141</string>
+			<string>13M200258</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -5909,10 +6069,48 @@
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			5nXN9jYvozHtNZehzHDbXIUiC3E=
+			PrvuiO0aHRmqA3xOhxwuN+kGvV0=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
 			<key>_OSVersionCompatibilities</key>
 			<dict>
 				<key>Apple TV</key>
@@ -5958,17 +6156,223 @@
 			<key>_UnarchivedSize</key>
 			<integer>12288</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-10634/60F95AFB-386E-4799-A852-92DA8F609F3C/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71491/B1C9BD06-2A33-4685-8F56-A3D16F6E695B/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/AF5D8596-4A42-4B91-9093-8A722B0A9004.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/DD726006-A900-4DE5-B261-0404CB9AFDCC.aar</string>
 			<key>version</key>
-			<string>7.8.0</string>
+			<string>8.0.0</string>
+		</dict>
+		<dict>
+			<key>ArchiveDecryptionKey</key>
+			<string>MgCTEen4luqGB+sxnPOe6673XJh1jMuigKwbZFnLV9I=</string>
+			<key>ArchiveDecryptionKeyFile</key>
+			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
+			<key>ArchiveID</key>
+			<string>KbA+kul0+xvcYaUFBsoKBDKpNbvb+ansq0EKK2a0jaE=</string>
+			<key>AssetFormat</key>
+			<string>AppleArchive</string>
+			<key>AssetSpecifier</key>
+			<string>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</string>
+			<key>AssetType</key>
+			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
+			<key>AssetVersion</key>
+			<string>8.0.0.13.200258,0</string>
+			<key>AssetVersionInfo</key>
+			<dict>
+				<key>AssetVersionGroup</key>
+				<integer>0</integer>
+				<key>AssetVersionLong</key>
+				<string>8.0.0.13.200258,0</string>
+				<key>AssetVersionTuple</key>
+				<string>8.0.0.13.200258</string>
+				<key>BuildVersionTuple</key>
+				<string>13.13.200258</string>
+				<key>BundleVersionTuple</key>
+				<string>8.0.0</string>
+			</dict>
+			<key>Build</key>
+			<string>13M200258</string>
+			<key>Ramp</key>
+			<false/>
+			<key>SupportedDeviceNames</key>
+			<array>
+				<string>Mac</string>
+				<string>iPad</string>
+				<string>iPhone</string>
+			</array>
+			<key>SupportedDevices</key>
+			<array>
+				<string>Mac13,1</string>
+				<string>Mac13,2</string>
+				<string>Mac14,10</string>
+				<string>Mac14,12</string>
+				<string>Mac14,13</string>
+				<string>Mac14,14</string>
+				<string>Mac14,15</string>
+				<string>Mac14,2</string>
+				<string>Mac14,3</string>
+				<string>Mac14,5</string>
+				<string>Mac14,6</string>
+				<string>Mac14,7</string>
+				<string>Mac14,8</string>
+				<string>Mac14,9</string>
+				<string>Mac15,10</string>
+				<string>Mac15,11</string>
+				<string>Mac15,12</string>
+				<string>Mac15,13</string>
+				<string>Mac15,3</string>
+				<string>Mac15,4</string>
+				<string>Mac15,5</string>
+				<string>Mac15,6</string>
+				<string>Mac15,7</string>
+				<string>Mac15,8</string>
+				<string>Mac15,9</string>
+				<string>MacBookAir10,1</string>
+				<string>MacBookPro17,1</string>
+				<string>MacBookPro18,1</string>
+				<string>MacBookPro18,2</string>
+				<string>MacBookPro18,3</string>
+				<string>MacBookPro18,4</string>
+				<string>Macmini9,1</string>
+				<string>iMac21,1</string>
+				<string>iMac21,2</string>
+				<string>iPad13,10</string>
+				<string>iPad13,11</string>
+				<string>iPad13,16</string>
+				<string>iPad13,17</string>
+				<string>iPad13,4</string>
+				<string>iPad13,5</string>
+				<string>iPad13,6</string>
+				<string>iPad13,7</string>
+				<string>iPad13,8</string>
+				<string>iPad13,9</string>
+				<string>iPad14,10</string>
+				<string>iPad14,11</string>
+				<string>iPad14,3</string>
+				<string>iPad14,4</string>
+				<string>iPad14,5</string>
+				<string>iPad14,6</string>
+				<string>iPad14,8</string>
+				<string>iPad14,9</string>
+				<string>iPad16,3</string>
+				<string>iPad16,4</string>
+				<string>iPad16,5</string>
+				<string>iPad16,6</string>
+				<string>iPhone16,1</string>
+				<string>iPhone16,2</string>
+			</array>
+			<key>_CompressionAlgorithm</key>
+			<string>AppleArchive</string>
+			<key>_ContentEncryption</key>
+			<string>DSME</string>
+			<key>_DownloadPolicy</key>
+			<integer>900</integer>
+			<key>_DownloadSize</key>
+			<integer>29696</integer>
+			<key>_IsMAAutoAsset</key>
+			<true/>
+			<key>_Measurement</key>
+			<data>
+			cNFOLRcUzRFMIybgecI+gfmqEeY=
+			</data>
+			<key>_MeasurementAlgorithm</key>
+			<string>SHA-1</string>
+			<key>_OSRestoreVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.14.518.0.0,0</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.18.519.0.0,0</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.10.517.0.0,0</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>24.2.18.0.0,0</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSRestoreVersion</key>
+					<string>22.2.17.0.1,0</string>
+				</dict>
+			</dict>
+			<key>_OSVersionCompatibilities</key>
+			<dict>
+				<key>Apple TV</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>18.1</string>
+				</dict>
+				<key>Apple Vision</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>2.1</string>
+				</dict>
+				<key>Apple Watch</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>11.1</string>
+				</dict>
+				<key>HomePod</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>18.1</string>
+				</dict>
+				<key>Mac</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>15.1</string>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>18.1</string>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>_MinOSVersion</key>
+					<string>18.1</string>
+				</dict>
+			</dict>
+			<key>_PreSoftwareUpdateAssetStaging</key>
+			<true/>
+			<key>_RetentionPolicy</key>
+			<integer>900</integer>
+			<key>_UnarchivedSize</key>
+			<integer>16384</integer>
+			<key>__BaseURL</key>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71470/E292B4C2-E9B8-4852-A8DD-EC9DB075CE22/</string>
+			<key>__CanUseLocalCacheServer</key>
+			<true/>
+			<key>__RelativePath</key>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/730E80C4-7826-4C32-A41F-B6E89BF47F2D.aar</string>
+			<key>version</key>
+			<string>8.0.0</string>
 		</dict>
 	</array>
 	<key>CachedAssetSetId</key>
-	<string>61df3bff-dcd6-4220-9171-b4d29a0361df</string>
+	<string>df2c9700-6436-437a-895e-97f3b5bfb2c3</string>
 	<key>DownloadedFromLive</key>
 	<string>https://gdmf.apple.com/v2/assets</string>
 	<key>catalogInfo</key>
@@ -5977,8 +6381,8 @@
 		<true/>
 	</dict>
 	<key>lastTimeChecked</key>
-	<date>2024-08-20T18:33:27Z</date>
+	<date>2024-09-01T16:31:01Z</date>
 	<key>postedDate</key>
-	<date>2024-08-08T00:00:00Z</date>
+	<date>2024-08-29T00:00:00Z</date>
 </dict>
 </plist>
