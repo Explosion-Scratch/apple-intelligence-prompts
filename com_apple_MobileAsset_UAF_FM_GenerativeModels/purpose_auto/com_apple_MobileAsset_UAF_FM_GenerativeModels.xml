@@ -104,6 +104,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -163,36 +167,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -310,6 +328,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -369,36 +391,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -516,6 +552,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -575,36 +615,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -701,36 +755,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -756,11 +824,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>dJmrmkdtQz2mSXdRXiO9uIZoLgoh+p4j7bNGlrY2+Ts=</string>
+			<string>lVOx89ECzqVtQxFXq3MyTwqeiU8ff9muAqZx66wueZc=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguage.de3f086.priv</string>
 			<key>ArchiveID</key>
-			<string>fJrshglLEFog8MVmRHhaYlt0qgb6OQIDiSJkPIdFuT8=</string>
+			<string>6uEgLYwPHvAweyLgEpL+ES22w1+v4yVDq1hb2iWyEz4=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -768,22 +836,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>8.0.0.13.200258,0</string>
+			<string>8.5.0.13.200320,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>8.0.0.13.200258,0</string>
+				<string>8.5.0.13.200320,0</string>
 				<key>AssetVersionTuple</key>
-				<string>8.0.0.13.200258</string>
+				<string>8.5.0.13.200320</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200258</string>
+				<string>13.13.200320</string>
 				<key>BundleVersionTuple</key>
-				<string>8.0.0</string>
+				<string>8.5.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200258</string>
+			<string>13M200320</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -852,6 +920,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -860,12 +932,12 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>25600</integer>
+			<integer>24576</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			37GG7ogdIqjh7R3bjxyZG57qAAM=
+			f2+asJb3CLdpfbgvmeT+P8OMjao=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
@@ -911,36 +983,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -950,23 +1036,23 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>12288</integer>
+			<integer>8192</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-71485/88FB3EC6-F65B-45DA-9036-D078A2E4FE20/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/005-19329/DEB0812D-6BBF-4140-BE51-960E7C0666DE/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/024A45D1-C890-49F7-8005-B9BB41AEA88B.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/647A34B3-1DED-402D-92EF-02FABE8DC501.aar</string>
 			<key>version</key>
-			<string>8.0.0</string>
+			<string>8.5.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>izDi+V3sIh6Ff5BY/8p84YrNBSZqe1w2gSZnAM08A7Y=</string>
+			<string>mHhdBdR6F3mNDzzqHYu3IE6pU79uxEWulxBmQHa7FT8=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguageAdapters.dfd6ce9.priv</string>
 			<key>ArchiveID</key>
-			<string>+IYmaTlJjgEBekH26wlNTde54OUa/jM17MPARdI9ik4=</string>
+			<string>WrR/kO+PWCcrE8pJm09fNMK4LgqywlnWAPO1WnizeE4=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -974,22 +1060,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.1.0.13.100223,0</string>
+			<string>7.4.0.13.100297,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.1.0.13.100223,0</string>
+				<string>7.4.0.13.100297,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.1.0.13.100223</string>
+				<string>7.4.0.13.100297</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.100223</string>
+				<string>13.13.100297</string>
 				<key>BundleVersionTuple</key>
-				<string>7.1.0</string>
+				<string>7.4.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M100223</string>
+			<string>13M100297</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -1058,6 +1144,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -1071,7 +1161,7 @@
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			bSk5jz9IkjLcPMHirkvS2XDUB8U=
+			kzmkslV2dda916ctJ914u7Gqajo=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
@@ -1117,36 +1207,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -1158,13 +1262,13 @@
 			<key>_UnarchivedSize</key>
 			<integer>44875776</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-60143/F1C978AC-1FC7-4279-B213-BE3FD673BC07/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/005-23883/D048D653-8E14-455D-AD53-1DE10D5C55BA/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/F832210D-458C-4674-AE96-3BD01CAF3DD1.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/BAA1C8B6-8D72-469D-93BC-A6201027BF92.aar</string>
 			<key>version</key>
-			<string>7.1.0</string>
+			<string>7.4.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -1264,6 +1368,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -1323,36 +1431,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -1470,6 +1592,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -1529,36 +1655,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -1676,6 +1816,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -1735,36 +1879,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -1786,11 +1944,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>to66AfUAPLGXlFnR9bl9Q1BkgucioDUIgznyDxHO6o8=</string>
+			<string>gb/JJvJ1RZThm37aOIrf3CheeUHTAfYwd+O6BXs2RuQ=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguageAdapters.dfd6ce9.priv</string>
 			<key>ArchiveID</key>
-			<string>kZp5t9DoML4IP1uWnKT+XgeIO4IULqNPLNP/VgPUOtY=</string>
+			<string>09A+8zRniDmOfs71BGxR84WHadV8TLzMJ+lxKqFZsLQ=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -1798,22 +1956,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.0.0.13.100221,0</string>
+			<string>7.4.0.13.100297,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.0.0.13.100221,0</string>
+				<string>7.4.0.13.100297,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.0.0.13.100221</string>
+				<string>7.4.0.13.100297</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.100221</string>
+				<string>13.13.100297</string>
 				<key>BundleVersionTuple</key>
-				<string>7.0.0</string>
+				<string>7.4.0</string>
 			</dict>
 			<key>Build</key>
-			<string>13M100221</string>
+			<string>13M100297</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -1882,6 +2040,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -1895,7 +2057,7 @@
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			jo1MnWiQ6ieQIY75QoRKGyAVFDA=
+			pnfGF4/qwcKM8ZjYSRff39M/hiA=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
@@ -1941,36 +2103,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -1982,13 +2158,13 @@
 			<key>_UnarchivedSize</key>
 			<integer>44867584</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-60066/7C3DA6D5-5EE9-4C56-A36B-A4BE1A131C2D/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/005-23851/2B0EF3E0-286D-4A63-90A2-CBA5BAEFC146/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/0038B57C-BD1C-4063-9407-A86FCD6EA7D0.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/60CC75E6-CC43-4C5E-9BD6-AC9E1EAA9AC2.aar</string>
 			<key>version</key>
-			<string>7.0.0</string>
+			<string>7.4.0</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -2088,6 +2264,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -2147,36 +2327,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -2294,6 +2488,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -2353,36 +2551,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -2500,6 +2712,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -2559,36 +2775,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -2706,6 +2936,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -2765,36 +2999,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -2912,6 +3160,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -2971,36 +3223,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -3118,6 +3384,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -3177,36 +3447,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -3324,6 +3608,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -3345,36 +3633,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -3492,6 +3794,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -3551,36 +3857,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -3698,6 +4018,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -3757,36 +4081,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -3904,6 +4242,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -3925,36 +4267,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -4072,6 +4428,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -4131,36 +4491,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -4278,6 +4652,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -4337,36 +4715,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -4501,36 +4893,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -4652,6 +5058,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -4711,36 +5121,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -4858,6 +5282,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -4917,36 +5345,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -5064,6 +5506,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -5123,36 +5569,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -5174,11 +5634,11 @@
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>Jg2Aw9H9BzG2kb7Cv/KQZPDVf37VsCPZ0AOZh196kEY=</string>
+			<string>axRb3qZ60L7aE2XVfilgnKcG9WBblKEHyfbxkDt6lsE=</string>
 			<key>ArchiveDecryptionKeyFile</key>
 			<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguageSecureAssets.930c073.priv</string>
 			<key>ArchiveID</key>
-			<string>HoQeQjqotfknquKemz4zQLRWhChRkWaSsZskwvqLPUE=</string>
+			<string>icg2kG/4hVu56lyKkSegicJTmzPfGcc25HgwzJPIMZI=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -5186,22 +5646,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
 			<key>AssetVersion</key>
-			<string>7.3.81307.13.200245,0</string>
+			<string>7.9.81307.13.200393,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>7.3.81307.13.200245,0</string>
+				<string>7.9.81307.13.200393,0</string>
 				<key>AssetVersionTuple</key>
-				<string>7.3.81307.13.200245</string>
+				<string>7.9.81307.13.200393</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200245</string>
+				<string>13.13.200393</string>
 				<key>BundleVersionTuple</key>
-				<string>7.3.81307</string>
+				<string>7.9.81307</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200245</string>
+			<string>13M200393</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -5236,12 +5696,12 @@
 			<key>_DownloadPolicy</key>
 			<integer>900</integer>
 			<key>_DownloadSize</key>
-			<integer>402653184</integer>
+			<integer>343932928</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			/2x/ujyoxQUxsclOQobW3fEJc/U=
+			2YbFT+TFcNBxW0/Br3DwW0KwUNw=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
@@ -5287,36 +5747,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -5326,19 +5800,19 @@
 			<key>_RetentionPolicy</key>
 			<integer>900</integer>
 			<key>_UnarchivedSize</key>
-			<integer>398856192</integer>
+			<integer>337993728</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-65976/48D0E20A-C4A8-4B4E-9904-33F644ABB016/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/005-41382/28FD62D3-0A85-4848-9140-1C60805827BC/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__ContainsCryptexContents</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/1029AA39-38B9-4030-910B-EF6F6EAF34E0.aar</string>
+			<string>com_apple_MobileAsset_UAF_FM_GenerativeModels/419E1A1A-D56A-4242-B226-27AB49AB09DF.aar</string>
 			<key>__RequiresPersonalization</key>
 			<true/>
 			<key>version</key>
-			<string>7.3.81307</string>
+			<string>7.9.81307</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -5438,6 +5912,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -5497,36 +5975,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -5644,6 +6136,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -5703,36 +6199,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -5850,6 +6360,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -5909,36 +6423,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -6056,6 +6584,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -6115,36 +6647,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -6262,6 +6808,10 @@
 				<string>iPad16,6</string>
 				<string>iPhone16,1</string>
 				<string>iPhone16,2</string>
+				<string>iPhone17,1</string>
+				<string>iPhone17,2</string>
+				<string>iPhone17,3</string>
+				<string>iPhone17,4</string>
 			</array>
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
@@ -6321,36 +6871,50 @@
 			<dict>
 				<key>Apple TV</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Apple Vision</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>2.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>2.1</string>
 				</dict>
 				<key>Apple Watch</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>11.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>11.1</string>
 				</dict>
 				<key>HomePod</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>Mac</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>15.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>15.1</string>
 				</dict>
 				<key>iPad</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
 				<key>iPhone</key>
 				<dict>
+					<key>_MaxOSVersion</key>
+					<string>18.1.9999</string>
 					<key>_MinOSVersion</key>
 					<string>18.1</string>
 				</dict>
@@ -6372,7 +6936,7 @@
 		</dict>
 	</array>
 	<key>CachedAssetSetId</key>
-	<string>df2c9700-6436-437a-895e-97f3b5bfb2c3</string>
+	<string>757e1389-ab58-485e-836a-8a50df3aa5e8</string>
 	<key>DownloadedFromLive</key>
 	<string>https://gdmf.apple.com/v2/assets</string>
 	<key>catalogInfo</key>
@@ -6381,8 +6945,8 @@
 		<true/>
 	</dict>
 	<key>lastTimeChecked</key>
-	<date>2024-09-01T16:31:01Z</date>
+	<date>2024-09-19T00:53:28Z</date>
 	<key>postedDate</key>
-	<date>2024-08-29T00:00:00Z</date>
+	<date>2024-09-14T00:00:00Z</date>
 </dict>
 </plist>

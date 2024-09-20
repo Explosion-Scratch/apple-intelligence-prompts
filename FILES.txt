@@ -20,84 +20,13 @@
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 256dfcc19eb64aabcd4b1b9298641410fbd04bda.asset
-│       │   ├── AssetData
-│       │   │   ├── lora.part.bin
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 2ca582fd431bb076dabc86d865fd07594b3efaed.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 2db17a12efa9c86460b35a1170d971c1942c80ed.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 2f98c28404a1dd931279dacd4a9d09f08e758a10.asset
-│       │   ├── AssetData
-│       │   │   ├── lora.part.bin
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 32ad14bd3a19ff6fe5385f13b8bf997faae68e91.asset
-│       │   ├── AssetData
-│       │   │   ├── lora.part.bin
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 34caab168f7861be2163bfbf333314ef283ceec1.asset
+│       ├── 1b812b13723b7ae6e10ccc6c88f4b4d685cf567c.asset
 │       │   ├── .AssetData
 │       │   │   ├── System
 │       │   │   │   └── Library
 │       │   │   │       └── CoreServices
 │       │   │   │           ├── RestoreVersion.plist
 │       │   │   │           └── SystemVersion.plist
-│       │   │   ├── com.apple.fm.language.instruct_3b.answer_synthesis.draft
-│       │   │   │   ├── metadata.json
-│       │   │   │   ├── model.bundle
-│       │   │   │   │   └── H13G.bundle
-│       │   │   │   │       ├── H13G.e5
-│       │   │   │   │       ├── extend_1024_64
-│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
-│       │   │   │   │       │   │   ├── model.espresso.net
-│       │   │   │   │       │   │   ├── model.espresso.shape
-│       │   │   │   │       │   │   └── model.espresso.weights
-│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
-│       │   │   │   │       │       └── fragment.mil
-│       │   │   │   │       ├── extend_2048_64
-│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
-│       │   │   │   │       │   │   ├── model.espresso.net
-│       │   │   │   │       │   │   ├── model.espresso.shape
-│       │   │   │   │       │   │   └── model.espresso.weights
-│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
-│       │   │   │   │       │       └── fragment.mil
-│       │   │   │   │       ├── extend_2048_8
-│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
-│       │   │   │   │       │   │   ├── model.espresso.net
-│       │   │   │   │       │   │   ├── model.espresso.shape
-│       │   │   │   │       │   │   └── model.espresso.weights
-│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
-│       │   │   │   │       │   │   └── fragment.mil
-│       │   │   │   │       │   └── multiprocedure
-│       │   │   │   │       │       └── model.hwx
-│       │   │   │   │       ├── extend_256_64
-│       │   │   │   │       │   ├── extend_256_64_classic_cpu
-│       │   │   │   │       │   │   ├── model.espresso.net
-│       │   │   │   │       │   │   ├── model.espresso.shape
-│       │   │   │   │       │   │   └── model.espresso.weights
-│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
-│       │   │   │   │       │       └── fragment.mil
-│       │   │   │   │       ├── extend_512_64
-│       │   │   │   │       │   ├── extend_512_64_classic_cpu
-│       │   │   │   │       │   │   ├── model.espresso.net
-│       │   │   │   │       │   │   ├── model.espresso.shape
-│       │   │   │   │       │   │   └── model.espresso.weights
-│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
-│       │   │   │   │       │       └── fragment.mil
-│       │   │   │   │       └── load_embeddings
-│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
-│       │   │   │   │               ├── fragment.mil
-│       │   │   │   │               └── weights.bin
-│       │   │   │   ├── model.mil
-│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
 │       │   │   ├── com.apple.fm.language.instruct_3b.autonaming_messages.draft
 │       │   │   │   ├── metadata.json
 │       │   │   │   ├── model.bundle
@@ -530,54 +459,6 @@
 │       │   │   │   │               └── weights.bin
 │       │   │   │   ├── model.mil
 │       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
-│       │   │   ├── com.apple.fm.language.instruct_3b.ui_previews.draft
-│       │   │   │   ├── metadata.json
-│       │   │   │   ├── model.bundle
-│       │   │   │   │   └── H13G.bundle
-│       │   │   │   │       ├── H13G.e5
-│       │   │   │   │       ├── extend_1024_64
-│       │   │   │   │       │   ├── extend_1024_64_classic_cpu
-│       │   │   │   │       │   │   ├── model.espresso.net
-│       │   │   │   │       │   │   ├── model.espresso.shape
-│       │   │   │   │       │   │   └── model.espresso.weights
-│       │   │   │   │       │   └── extend_1024_64_e5_minimal_cpu
-│       │   │   │   │       │       └── fragment.mil
-│       │   │   │   │       ├── extend_2048_64
-│       │   │   │   │       │   ├── extend_2048_64_classic_cpu
-│       │   │   │   │       │   │   ├── model.espresso.net
-│       │   │   │   │       │   │   ├── model.espresso.shape
-│       │   │   │   │       │   │   └── model.espresso.weights
-│       │   │   │   │       │   └── extend_2048_64_e5_minimal_cpu
-│       │   │   │   │       │       └── fragment.mil
-│       │   │   │   │       ├── extend_2048_8
-│       │   │   │   │       │   ├── extend_2048_8_classic_cpu
-│       │   │   │   │       │   │   ├── model.espresso.net
-│       │   │   │   │       │   │   ├── model.espresso.shape
-│       │   │   │   │       │   │   └── model.espresso.weights
-│       │   │   │   │       │   ├── extend_2048_8_e5_minimal_cpu
-│       │   │   │   │       │   │   └── fragment.mil
-│       │   │   │   │       │   └── multiprocedure
-│       │   │   │   │       │       └── model.hwx
-│       │   │   │   │       ├── extend_256_64
-│       │   │   │   │       │   ├── extend_256_64_classic_cpu
-│       │   │   │   │       │   │   ├── model.espresso.net
-│       │   │   │   │       │   │   ├── model.espresso.shape
-│       │   │   │   │       │   │   └── model.espresso.weights
-│       │   │   │   │       │   └── extend_256_64_e5_minimal_cpu
-│       │   │   │   │       │       └── fragment.mil
-│       │   │   │   │       ├── extend_512_64
-│       │   │   │   │       │   ├── extend_512_64_classic_cpu
-│       │   │   │   │       │   │   ├── model.espresso.net
-│       │   │   │   │       │   │   ├── model.espresso.shape
-│       │   │   │   │       │   │   └── model.espresso.weights
-│       │   │   │   │       │   └── extend_512_64_e5_minimal_cpu
-│       │   │   │   │       │       └── fragment.mil
-│       │   │   │   │       └── load_embeddings
-│       │   │   │   │           └── load_embeddings_e5_minimal_cpu
-│       │   │   │   │               ├── fragment.mil
-│       │   │   │   │               └── weights.bin
-│       │   │   │   ├── model.mil
-│       │   │   │   └── photon-multiproc-v3-9m-via-fmexport.bin
 │       │   │   ├── com.apple.fm.language.instruct_3b.urgency_classification.draft
 │       │   │   │   ├── metadata.json
 │       │   │   │   ├── model.bundle
@@ -636,12 +517,12 @@
 │       │   │       │   │       └── cryptex1
 │       │   │       │   │           └── com.apple.MobileAsset.UAF.FM.GenerativeModels:com.apple.fm.language.instruct_3b.drafts.generic-H13g
 │       │   │       │   │               └── apticket.mobileassetx86macosap.im4m
-│       │   │       │   ├── UC_INSTRUCT_3B_DRAFTS_GENERIC_H13G_Cryptex.dmg.cryptex_info
-│       │   │       │   ├── UC_INSTRUCT_3B_DRAFTS_GENERIC_H13G_Cryptex.dmg.integrity_catalog
-│       │   │       │   ├── UC_INSTRUCT_3B_DRAFTS_GENERIC_H13G_Cryptex.dmg.root_hash
-│       │   │       │   └── UC_INSTRUCT_3B_DRAFTS_GENERIC_H13G_Cryptex.dmg.trustcache
+│       │   │       │   ├── UC_FM_LANGUAGE_INSTRUCT_3B_DRAFTS_GENERIC_GENERIC_H13G_Cryptex.dmg.cryptex_info
+│       │   │       │   ├── UC_FM_LANGUAGE_INSTRUCT_3B_DRAFTS_GENERIC_GENERIC_H13G_Cryptex.dmg.integrity_catalog
+│       │   │       │   ├── UC_FM_LANGUAGE_INSTRUCT_3B_DRAFTS_GENERIC_GENERIC_H13G_Cryptex.dmg.root_hash
+│       │   │       │   └── UC_FM_LANGUAGE_INSTRUCT_3B_DRAFTS_GENERIC_GENERIC_H13G_Cryptex.dmg.trustcache
 │       │   │       ├── Restore.plist
-│       │   │       └── UC_INSTRUCT_3B_DRAFTS_GENERIC_H13G_Cryptex.dmg
+│       │   │       └── UC_FM_LANGUAGE_INSTRUCT_3B_DRAFTS_GENERIC_GENERIC_H13G_Cryptex.dmg
 │       │   ├── Info.plist
 │       │   └── SecureAssetData
 │       │       ├── BuildManifest.plist
@@ -657,11 +538,34 @@
 │       │           │   ├── tss-request.plist
 │       │           │   └── tss-response.plist
 │       │           └── receipt.plist
-│       ├── 515977437f79f305052410adc80b1bac3655f3fa.asset
+│       ├── 256dfcc19eb64aabcd4b1b9298641410fbd04bda.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 2ca582fd431bb076dabc86d865fd07594b3efaed.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 52a77981b31cc13ce7b7802103ee0bb560d964f8.asset
+│       ├── 2db17a12efa9c86460b35a1170d971c1942c80ed.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 2f8cc28dfc81d500f17854833ef89af440cad5db.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 32ad14bd3a19ff6fe5385f13b8bf997faae68e91.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 4b20b27e16294d9e36d6b4afbc4abc154afa5014.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 515977437f79f305052410adc80b1bac3655f3fa.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
@@ -756,10 +660,6 @@
 │       │           │   ├── tss-request.plist
 │       │           │   └── tss-response.plist
 │       │           └── receipt.plist
-│       ├── 658fe974d685d7051ce8a66f8ff7e48f4595afaa.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
 │       ├── 68ebe7a93b9c3f9c734b798f61fcefc6bfccc777.asset
 │       │   ├── AssetData
 │       │   │   ├── lora.part.bin
@@ -789,10 +689,6 @@
 │       │   │   └── metadata.json
 │       │   └── Info.plist
 │       ├── 90998a3977e0e2ceb607cdccf83bb73a3d0599a9.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 949dc4bb4cf45625c0e310ff8a988a0c8cf35b34.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
@@ -1063,13 +959,13 @@
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── c3bebe7db631b93420debf07976e46b7a376de49.asset
-│       │   ├── AssetData
-│       │   │   ├── lora.part.bin
-│       │   │   └── metadata.json
-│       │   └── Info.plist
 │       ├── c59d2037ac0b6a10d264b68d9c580f3db7f5791c.asset
 │       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── c8f32d908e4d007fb30b48c94a5cd3636a27b34c.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
 │       ├── ce455c38c933891bc0ec297adb84c249a2aaa8aa.asset
@@ -1105,4 +1001,4 @@
 │   └── run_all.sh
 └── summary.json
 
-481 directories, 625 files
+435 directories, 567 files
