@@ -6,15 +6,10 @@ System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer B
 **See [PROMPTS.md](PROMPTS.md) for a markdown breakdown of all the prompts**
 
 <!-- SUMMARY -->
-- [02da2d](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/02da2d8b9b48b42dfc82bf8895886f354f5dc573.asset/AssetData/metadata.json): Generates proofreading suggestions.
 - [32ad14](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/32ad14bd3a19ff6fe5385f13b8bf997faae68e91.asset/AssetData/metadata.json): Rewrites text
-- [579f6e](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/579f6e215861bb041361364d36f76080e92f40d4.asset/AssetData/metadata.json): Generates two short reply snippets for mail responses.
 - [68ebe7](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/68ebe7a93b9c3f9c734b798f61fcefc6bfccc777.asset/AssetData/metadata.json): Makes text more professional.
-- [82790e](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/82790e42190160258b9dccb38af92327718f0338.asset/AssetData/metadata.json): Predicts next turn (?)
 - [892473](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/89247375851dbe95c8f569ad6666d923d4db1ee7.asset/AssetData/metadata.json): Makes text more concise.
 - [256dfc](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/256dfcc19eb64aabcd4b1b9298641410fbd04bda.asset/AssetData/metadata.json): Makes generated text more friendly using friendly tone input.
-- [61b645](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/61b6452c419ad6124ade968e4ab9a2e44860a1be.asset/.AssetData/metadata.json): Classifies text as Safe or Unsafe
-- [ae9525](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ae95250c47005175958af451a28101590df48d2d.asset/.AssetData/metadata.json): Localization prompts
 - [03afaa](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/03afaa26b16e50118fd624cbf8adaab6d29bf6bd.asset/AssetData/metadata.json): Transforms text into bullet points following instructions.
 - [095ed9](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/095ed9c357798e03a7b6d5f1bf8637455e84e911.asset/AssetData/metadata.json): Creates visual stories from user photos based on user input.
 - [2ca582](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/2ca582fd431bb076dabc86d865fd07594b3efaed.asset/AssetData/metadata.json): Makes long-form text responses with given customer service context.
@@ -33,3 +28,6 @@ System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer B
 - [2f8cc2](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/2f8cc28dfc81d500f17854833ef89af440cad5db.asset/AssetData/metadata.json): Converts text into keypoints or key takeaways.
 - [4b20b2](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/4b20b27e16294d9e36d6b4afbc4abc154afa5014.asset/AssetData/metadata.json): Classify text as urgent or not.
 - [c8f32d](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c8f32d908e4d007fb30b48c94a5cd3636a27b34c.asset/AssetData/metadata.json): Summarize things into 3 topic words
+- [68780a](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/68780a452018c44098bb0e21c9c128051700a8d8.asset/AssetData/metadata.json): Proofreads given text for errors and consistency issues resolution.
+- [77457f](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/77457ff28bb83c8b17e78c3e05e4678507dd175d.asset/AssetData/metadata.json): Generates two different short email response snippets semantically.
+- [8b9774](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/8b97748be659843d0585e6f01040ba11b7154a48.asset/AssetData/metadata.json): Predicts conversational next step in messaging dialogue interaction.

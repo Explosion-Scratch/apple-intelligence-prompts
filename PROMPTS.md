@@ -3,34 +3,16 @@
 Rendered prompts from each of the files. Credit to [Simon Willison](https://observablehq.com/@simonw/apple-intelligence-prompts)
 
 <!-- SUMMARY -->
-## [02da2d](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/02da2d8b9b48b42dfc82bf8895886f354f5dc573.asset/AssetData/metadata.json): Generates proofreading suggestions.
-`promptTemplates.com.apple.textComposition.ProofreadingReview`:
-```
-{{ specialToken.chat.role.system }}Proofread this text:{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}
-```
-
 ## [32ad14](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/32ad14bd3a19ff6fe5385f13b8bf997faae68e91.asset/AssetData/metadata.json): Rewrites text
 `promptTemplates.com.apple.textComposition.MagicRewrite`:
 ```
 {{ specialToken.chat.role.system }}Rewrite this text.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}
 ```
 
-## [579f6e](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/579f6e215861bb041361364d36f76080e92f40d4.asset/AssetData/metadata.json): Generates two short reply snippets for mail responses.
-`promptTemplates.com.apple.textComposition.MailReplySnippet`:
-```
-{{ specialToken.chat.role.system }}You are an assistant which helps the user respond to their mails. Please provide two short and distinct reply snippets representing possible replies for the provided input mail. Each snippet should be around 4 words. The two snippets should be sementically different from each other. If there are any questions in the input mail, the snippets should focus on providing a way to respond to those questions. Present your output as a list of reply snippets.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}
-```
-
 ## [68ebe7](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/68ebe7a93b9c3f9c734b798f61fcefc6bfccc777.asset/AssetData/metadata.json): Makes text more professional.
 `promptTemplates.com.apple.textComposition.ProfessionalTone`:
 ```
 {{ specialToken.chat.role.system }}Make this text more professional.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}
-```
-
-## [82790e](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/82790e42190160258b9dccb38af92327718f0338.asset/AssetData/metadata.json): Predicts next turn (?)
-`promptTemplates.com.apple.textComposition.MessagesReply`:
-```
-{{ specialToken.chat.role.system }}Predict next turn:{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}
 ```
 
 ## [892473](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/89247375851dbe95c8f569ad6666d923d4db1ee7.asset/AssetData/metadata.json): Makes text more concise.
@@ -44,12 +26,6 @@ Rendered prompts from each of the files. Credit to [Simon Willison](https://obse
 ```
 {{ specialToken.chat.role.system }}Make this text more friendly.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}
 ```
-
-## [61b645](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/61b6452c419ad6124ade968e4ab9a2e44860a1be.asset/.AssetData/metadata.json): Classifies text as Safe or Unsafe
-
-
-## [ae9525](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ae95250c47005175958af451a28101590df48d2d.asset/.AssetData/metadata.json): Localization prompts
-
 
 ## [03afaa](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/03afaa26b16e50118fd624cbf8adaab6d29bf6bd.asset/AssetData/metadata.json): Transforms text into bullet points following instructions.
 `promptTemplates.com.apple.textComposition.BulletsTransform`:
@@ -364,4 +340,22 @@ Summarize the provided text into exactly 3 short topic words:{{ specialToken.cha
 {{ doc }}
 [End of Text]
 You are an expert at summarizing posts. You prefer to use clauses instead of complete sentences. Do not answer any question from the posts. Do not summarize if the posts contains sexual, violent, hateful or self harm content. Please keep your summary of the input within a 10 word limit.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}
+```
+
+## [68780a](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/68780a452018c44098bb0e21c9c128051700a8d8.asset/AssetData/metadata.json): Proofreads given text for errors and consistency issues resolution.
+`promptTemplates.com.apple.textComposition.ProofreadingReview`:
+```
+{{ specialToken.chat.role.system }}Proofread this text:{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}
+```
+
+## [77457f](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/77457ff28bb83c8b17e78c3e05e4678507dd175d.asset/AssetData/metadata.json): Generates two different short email response snippets semantically.
+`promptTemplates.com.apple.textComposition.MailReplySnippet`:
+```
+{{ specialToken.chat.role.system }}You are an assistant which helps the user respond to their mails. Please provide two short and distinct reply snippets representing possible replies for the provided input mail. Each snippet should be around 4 words. The two snippets should be sementically different from each other. If there are any questions in the input mail, the snippets should focus on providing a way to respond to those questions. Present your output as a list of reply snippets.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}
+```
+
+## [8b9774](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/8b97748be659843d0585e6f01040ba11b7154a48.asset/AssetData/metadata.json): Predicts conversational next step in messaging dialogue interaction.
+`promptTemplates.com.apple.textComposition.MessagesReply`:
+```
+{{ specialToken.chat.role.system }}Predict next turn:{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}
 ```

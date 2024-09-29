@@ -7,20 +7,379 @@
 ├── README.md
 ├── com_apple_MobileAsset_UAF_FM_GenerativeModels
 │   └── purpose_auto
-│       ├── 02da2d8b9b48b42dfc82bf8895886f354f5dc573.asset
-│       │   ├── AssetData
-│       │   │   ├── lora.part.bin
-│       │   │   └── metadata.json
-│       │   └── Info.plist
 │       ├── 03afaa26b16e50118fd624cbf8adaab6d29bf6bd.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 065239a77f3e7f496c49a0f92f1e6ac95f425a8c.asset
+│       │   ├── AssetData
+│       │   │   └── tokenizer
 │       │   └── Info.plist
 │       ├── 095ed9c357798e03a7b6d5f1bf8637455e84e911.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 1b812b13723b7ae6e10ccc6c88f4b4d685cf567c.asset
+│       ├── 256dfcc19eb64aabcd4b1b9298641410fbd04bda.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 2963ef627a58c652dd1e9f17a575a4c7cbbbea82.asset
+│       │   ├── .AssetData
+│       │   │   ├── System
+│       │   │   │   └── Library
+│       │   │   │       └── CoreServices
+│       │   │   │           ├── RestoreVersion.plist
+│       │   │   │           └── SystemVersion.plist
+│       │   │   ├── metadata.json
+│       │   │   └── model.bundle
+│       │   │       └── H13G.bundle
+│       │   │           ├── H13G.e5
+│       │   │           ├── load_embeddings
+│       │   │           │   └── load_embeddings_e5_minimal_cpu
+│       │   │           │       ├── fragment.mil
+│       │   │           │       └── weights.bin
+│       │   │           ├── lora_16_extend_1024_16
+│       │   │           │   ├── lora_16_extend_1024_16_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_extend_1024_16_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_extend_1024_64
+│       │   │           │   ├── lora_16_extend_1024_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_extend_1024_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_extend_2048_16
+│       │   │           │   ├── lora_16_extend_2048_16_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_extend_2048_16_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_extend_2048_64
+│       │   │           │   ├── lora_16_extend_2048_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_extend_2048_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_extend_2048_8
+│       │   │           │   ├── lora_16_extend_2048_8_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_extend_2048_8_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_extend_256_16
+│       │   │           │   ├── lora_16_extend_256_16_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_extend_256_16_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_extend_256_64
+│       │   │           │   ├── lora_16_extend_256_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_extend_256_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_extend_512_16
+│       │   │           │   ├── lora_16_extend_512_16_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_extend_512_16_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_extend_512_64
+│       │   │           │   ├── lora_16_extend_512_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_extend_512_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_extend_512_8
+│       │   │           │   ├── lora_16_extend_512_8_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_extend_512_8_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_prompt_opt_1024_64
+│       │   │           │   ├── lora_16_prompt_opt_1024_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_prompt_opt_1024_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_prompt_opt_2048_64
+│       │   │           │   ├── lora_16_prompt_opt_2048_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_prompt_opt_2048_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_prompt_opt_256_64
+│       │   │           │   ├── lora_16_prompt_opt_256_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_prompt_opt_256_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_16_prompt_opt_512_64
+│       │   │           │   ├── lora_16_prompt_opt_512_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_16_prompt_opt_512_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_32_extend_1024_64
+│       │   │           │   ├── lora_32_extend_1024_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_32_extend_1024_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_32_extend_2048_64
+│       │   │           │   ├── lora_32_extend_2048_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_32_extend_2048_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_32_extend_2048_8
+│       │   │           │   ├── lora_32_extend_2048_8_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_32_extend_2048_8_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_32_extend_256_64
+│       │   │           │   ├── lora_32_extend_256_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_32_extend_256_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_32_extend_512_64
+│       │   │           │   ├── lora_32_extend_512_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_32_extend_512_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_32_extend_512_8
+│       │   │           │   ├── lora_32_extend_512_8_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_32_extend_512_8_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_32_prompt_opt_256_64
+│       │   │           │   ├── lora_32_prompt_opt_256_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_32_prompt_opt_256_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_8_extend_1024_64
+│       │   │           │   ├── lora_8_extend_1024_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_8_extend_1024_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_8_extend_2048_64
+│       │   │           │   ├── lora_8_extend_2048_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_8_extend_2048_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_8_extend_2048_8
+│       │   │           │   ├── lora_8_extend_2048_8_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_8_extend_2048_8_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_8_extend_256_64
+│       │   │           │   ├── lora_8_extend_256_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_8_extend_256_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── lora_8_extend_512_64
+│       │   │           │   ├── lora_8_extend_512_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   ├── lora_8_extend_512_64_e5_minimal_cpu
+│       │   │           │   │   └── fragment.mil
+│       │   │           │   └── multiprocedure
+│       │   │           │       └── model.hwx
+│       │   │           ├── lora_8_extend_512_8
+│       │   │           │   ├── lora_8_extend_512_8_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── lora_8_extend_512_8_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           └── lora_8_prompt_opt_256_64
+│       │   │               ├── lora_8_prompt_opt_256_64_classic_cpu
+│       │   │               │   ├── model.espresso.net
+│       │   │               │   ├── model.espresso.shape
+│       │   │               │   └── model.espresso.weights
+│       │   │               └── lora_8_prompt_opt_256_64_e5_minimal_cpu
+│       │   │                   └── fragment.mil
+│       │   ├── AssetData
+│       │   │   └── Restore
+│       │   │       ├── BuildManifest.plist
+│       │   │       ├── Firmware
+│       │   │       │   ├── Manifests
+│       │   │       │   │   └── restore
+│       │   │       │   │       └── cryptex1
+│       │   │       │   │           └── com.apple.MobileAsset.UAF.FM.GenerativeModels:com.apple.fm.language.instruct_3b.base.generic-H13g
+│       │   │       │   │               └── apticket.mobileassetx86macosap.im4m
+│       │   │       │   ├── UC_FM_LANGUAGE_INSTRUCT_3B_BASE_GENERIC_GENERIC_H13G_Cryptex.dmg.cryptex_info
+│       │   │       │   ├── UC_FM_LANGUAGE_INSTRUCT_3B_BASE_GENERIC_GENERIC_H13G_Cryptex.dmg.integrity_catalog
+│       │   │       │   ├── UC_FM_LANGUAGE_INSTRUCT_3B_BASE_GENERIC_GENERIC_H13G_Cryptex.dmg.root_hash
+│       │   │       │   └── UC_FM_LANGUAGE_INSTRUCT_3B_BASE_GENERIC_GENERIC_H13G_Cryptex.dmg.trustcache
+│       │   │       ├── Restore.plist
+│       │   │       └── UC_FM_LANGUAGE_INSTRUCT_3B_BASE_GENERIC_GENERIC_H13G_Cryptex.dmg
+│       │   ├── Info.plist
+│       │   └── SecureAssetData
+│       │       ├── BuildManifest.plist
+│       │       ├── SecureMobileAsset-Info.plist
+│       │       ├── SecureMobileAsset.dmg
+│       │       ├── SecureMobileAsset.integritycatalog
+│       │       ├── SecureMobileAsset.root_hash
+│       │       ├── SecureMobileAsset.trustcache
+│       │       └── amai
+│       │           ├── Cryptex1
+│       │           │   └── Cryptex1,Ticket
+│       │           ├── debug
+│       │           │   ├── tss-request.plist
+│       │           │   └── tss-response.plist
+│       │           └── receipt.plist
+│       ├── 2ca582fd431bb076dabc86d865fd07594b3efaed.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 2db17a12efa9c86460b35a1170d971c1942c80ed.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 2f8cc28dfc81d500f17854833ef89af440cad5db.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 32ad14bd3a19ff6fe5385f13b8bf997faae68e91.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 3616812d4222ed8164cd1bff07349e9d2f265b3e.asset
+│       │   ├── .AssetData
+│       │   │   ├── System
+│       │   │   │   └── Library
+│       │   │   │       └── CoreServices
+│       │   │   │           ├── RestoreVersion.plist
+│       │   │   │           └── SystemVersion.plist
+│       │   │   ├── metadata.json
+│       │   │   └── model.bundle
+│       │   │       └── H13G.bundle
+│       │   │           ├── H13G.e5
+│       │   │           ├── extend_1024_64
+│       │   │           │   ├── extend_1024_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── extend_1024_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── extend_2048_64
+│       │   │           │   ├── extend_2048_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── extend_2048_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── extend_2048_8
+│       │   │           │   ├── extend_2048_8_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   ├── extend_2048_8_e5_minimal_cpu
+│       │   │           │   │   └── fragment.mil
+│       │   │           │   └── multiprocedure
+│       │   │           │       └── model.hwx
+│       │   │           ├── extend_256_64
+│       │   │           │   ├── extend_256_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── extend_256_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           ├── extend_512_64
+│       │   │           │   ├── extend_512_64_classic_cpu
+│       │   │           │   │   ├── model.espresso.net
+│       │   │           │   │   ├── model.espresso.shape
+│       │   │           │   │   └── model.espresso.weights
+│       │   │           │   └── extend_512_64_e5_minimal_cpu
+│       │   │           │       └── fragment.mil
+│       │   │           └── load_embeddings
+│       │   │               └── load_embeddings_e5_minimal_cpu
+│       │   │                   ├── fragment.mil
+│       │   │                   └── weights.bin
+│       │   ├── AssetData
+│       │   │   └── Restore
+│       │   │       ├── BuildManifest.plist
+│       │   │       ├── Firmware
+│       │   │       │   ├── Manifests
+│       │   │       │   │   └── restore
+│       │   │       │   │       └── cryptex1
+│       │   │       │   │           └── com.apple.MobileAsset.UAF.FM.GenerativeModels:com.apple.fm.language.safety_guardrail.base.generic-H13g
+│       │   │       │   │               └── apticket.mobileassetx86macosap.im4m
+│       │   │       │   ├── UC_FM_LANGUAGE_SAFETY_GUARDRAIL_BASE_GENERIC_GENERIC_H13G_Cryptex.dmg.cryptex_info
+│       │   │       │   ├── UC_FM_LANGUAGE_SAFETY_GUARDRAIL_BASE_GENERIC_GENERIC_H13G_Cryptex.dmg.integrity_catalog
+│       │   │       │   ├── UC_FM_LANGUAGE_SAFETY_GUARDRAIL_BASE_GENERIC_GENERIC_H13G_Cryptex.dmg.root_hash
+│       │   │       │   └── UC_FM_LANGUAGE_SAFETY_GUARDRAIL_BASE_GENERIC_GENERIC_H13G_Cryptex.dmg.trustcache
+│       │   │       ├── Restore.plist
+│       │   │       └── UC_FM_LANGUAGE_SAFETY_GUARDRAIL_BASE_GENERIC_GENERIC_H13G_Cryptex.dmg
+│       │   ├── Info.plist
+│       │   └── SecureAssetData
+│       │       ├── BuildManifest.plist
+│       │       ├── SecureMobileAsset-Info.plist
+│       │       ├── SecureMobileAsset.dmg
+│       │       ├── SecureMobileAsset.integritycatalog
+│       │       ├── SecureMobileAsset.root_hash
+│       │       ├── SecureMobileAsset.trustcache
+│       │       └── amai
+│       │           ├── Cryptex1
+│       │           │   └── Cryptex1,Ticket
+│       │           ├── debug
+│       │           │   ├── tss-request.plist
+│       │           │   └── tss-response.plist
+│       │           └── receipt.plist
+│       ├── 3abef39a566c66141e1a34dab9943f98ada01a39.asset
+│       │   ├── AssetData
+│       │   │   └── tokenizer
+│       │   └── Info.plist
+│       ├── 4b20b27e16294d9e36d6b4afbc4abc154afa5014.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 515977437f79f305052410adc80b1bac3655f3fa.asset
+│       │   ├── AssetData
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 5535c1b295022cc92fc704d93639953c3b4b2b69.asset
 │       │   ├── .AssetData
 │       │   │   ├── System
 │       │   │   │   └── Library
@@ -538,134 +897,21 @@
 │       │           │   ├── tss-request.plist
 │       │           │   └── tss-response.plist
 │       │           └── receipt.plist
-│       ├── 256dfcc19eb64aabcd4b1b9298641410fbd04bda.asset
-│       │   ├── AssetData
-│       │   │   ├── lora.part.bin
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 2ca582fd431bb076dabc86d865fd07594b3efaed.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 2db17a12efa9c86460b35a1170d971c1942c80ed.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 2f8cc28dfc81d500f17854833ef89af440cad5db.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 32ad14bd3a19ff6fe5385f13b8bf997faae68e91.asset
-│       │   ├── AssetData
-│       │   │   ├── lora.part.bin
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 4b20b27e16294d9e36d6b4afbc4abc154afa5014.asset
-│       │   ├── AssetData
-│       │   │   ├── lora.part.bin
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 515977437f79f305052410adc80b1bac3655f3fa.asset
-│       │   ├── AssetData
-│       │   │   └── metadata.json
-│       │   └── Info.plist
-│       ├── 579f6e215861bb041361364d36f76080e92f40d4.asset
-│       │   ├── AssetData
-│       │   │   ├── lora.part.bin
-│       │   │   └── metadata.json
-│       │   └── Info.plist
 │       ├── 5d48e58c05fcf115ae45248f6fd1435a70db2503.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 61b6452c419ad6124ade968e4ab9a2e44860a1be.asset
-│       │   ├── .AssetData
-│       │   │   ├── System
-│       │   │   │   └── Library
-│       │   │   │       └── CoreServices
-│       │   │   │           ├── RestoreVersion.plist
-│       │   │   │           └── SystemVersion.plist
-│       │   │   ├── metadata.json
-│       │   │   └── model.bundle
-│       │   │       └── H13G.bundle
-│       │   │           ├── H13G.e5
-│       │   │           ├── extend_1024_64
-│       │   │           │   ├── extend_1024_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── extend_1024_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── extend_2048_64
-│       │   │           │   ├── extend_2048_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── extend_2048_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── extend_2048_8
-│       │   │           │   ├── extend_2048_8_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   ├── extend_2048_8_e5_minimal_cpu
-│       │   │           │   │   └── fragment.mil
-│       │   │           │   └── multiprocedure
-│       │   │           │       └── model.hwx
-│       │   │           ├── extend_256_64
-│       │   │           │   ├── extend_256_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── extend_256_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── extend_512_64
-│       │   │           │   ├── extend_512_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── extend_512_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           └── load_embeddings
-│       │   │               └── load_embeddings_e5_minimal_cpu
-│       │   │                   ├── fragment.mil
-│       │   │                   └── weights.bin
+│       ├── 68780a452018c44098bb0e21c9c128051700a8d8.asset
 │       │   ├── AssetData
-│       │   │   └── Restore
-│       │   │       ├── BuildManifest.plist
-│       │   │       ├── Firmware
-│       │   │       │   ├── Manifests
-│       │   │       │   │   └── restore
-│       │   │       │   │       └── cryptex1
-│       │   │       │   │           └── com.apple.MobileAsset.UAF.FM.GenerativeModels:com.apple.fm.language.safety_guardrail.base.generic-H13g
-│       │   │       │   │               └── apticket.mobileassetx86macosap.im4m
-│       │   │       │   ├── UC_SAFETY_GUARDRAIL_BASE_GENERIC_H13G_Cryptex.dmg.cryptex_info
-│       │   │       │   ├── UC_SAFETY_GUARDRAIL_BASE_GENERIC_H13G_Cryptex.dmg.integrity_catalog
-│       │   │       │   ├── UC_SAFETY_GUARDRAIL_BASE_GENERIC_H13G_Cryptex.dmg.root_hash
-│       │   │       │   └── UC_SAFETY_GUARDRAIL_BASE_GENERIC_H13G_Cryptex.dmg.trustcache
-│       │   │       ├── Restore.plist
-│       │   │       └── UC_SAFETY_GUARDRAIL_BASE_GENERIC_H13G_Cryptex.dmg
-│       │   ├── Info.plist
-│       │   └── SecureAssetData
-│       │       ├── BuildManifest.plist
-│       │       ├── SecureMobileAsset-Info.plist
-│       │       ├── SecureMobileAsset.dmg
-│       │       ├── SecureMobileAsset.integritycatalog
-│       │       ├── SecureMobileAsset.root_hash
-│       │       ├── SecureMobileAsset.trustcache
-│       │       └── amai
-│       │           ├── Cryptex1
-│       │           │   └── Cryptex1,Ticket
-│       │           ├── debug
-│       │           │   ├── tss-request.plist
-│       │           │   └── tss-response.plist
-│       │           └── receipt.plist
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
 │       ├── 68ebe7a93b9c3f9c734b798f61fcefc6bfccc777.asset
 │       │   ├── AssetData
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 82790e42190160258b9dccb38af92327718f0338.asset
+│       ├── 77457ff28bb83c8b17e78c3e05e4678507dd175d.asset
 │       │   ├── AssetData
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
@@ -674,16 +920,17 @@
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── 834d6076d452f0894bad4a82de8ec8dfaf5b8eac.asset
-│       │   ├── AssetData
-│       │   │   └── tokenizer
-│       │   └── Info.plist
 │       ├── 89247375851dbe95c8f569ad6666d923d4db1ee7.asset
 │       │   ├── AssetData
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
 │       ├── 895eef85098745225f15e925a58a0ae102835db5.asset
+│       │   ├── AssetData
+│       │   │   ├── lora.part.bin
+│       │   │   └── metadata.json
+│       │   └── Info.plist
+│       ├── 8b97748be659843d0585e6f01040ba11b7154a48.asset
 │       │   ├── AssetData
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
@@ -704,249 +951,6 @@
 │       │   ├── AssetData
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── ae95250c47005175958af451a28101590df48d2d.asset
-│       │   ├── .AssetData
-│       │   │   ├── System
-│       │   │   │   └── Library
-│       │   │   │       └── CoreServices
-│       │   │   │           ├── RestoreVersion.plist
-│       │   │   │           └── SystemVersion.plist
-│       │   │   ├── metadata.json
-│       │   │   └── model.bundle
-│       │   │       └── H13G.bundle
-│       │   │           ├── H13G.e5
-│       │   │           ├── load_embeddings
-│       │   │           │   └── load_embeddings_e5_minimal_cpu
-│       │   │           │       ├── fragment.mil
-│       │   │           │       └── weights.bin
-│       │   │           ├── lora_16_extend_1024_16
-│       │   │           │   ├── lora_16_extend_1024_16_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_extend_1024_16_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_extend_1024_64
-│       │   │           │   ├── lora_16_extend_1024_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_extend_1024_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_extend_2048_16
-│       │   │           │   ├── lora_16_extend_2048_16_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_extend_2048_16_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_extend_2048_64
-│       │   │           │   ├── lora_16_extend_2048_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_extend_2048_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_extend_2048_8
-│       │   │           │   ├── lora_16_extend_2048_8_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_extend_2048_8_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_extend_256_16
-│       │   │           │   ├── lora_16_extend_256_16_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_extend_256_16_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_extend_256_64
-│       │   │           │   ├── lora_16_extend_256_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_extend_256_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_extend_512_16
-│       │   │           │   ├── lora_16_extend_512_16_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_extend_512_16_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_extend_512_64
-│       │   │           │   ├── lora_16_extend_512_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_extend_512_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_extend_512_8
-│       │   │           │   ├── lora_16_extend_512_8_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_extend_512_8_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_prompt_opt_1024_64
-│       │   │           │   ├── lora_16_prompt_opt_1024_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_prompt_opt_1024_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_prompt_opt_2048_64
-│       │   │           │   ├── lora_16_prompt_opt_2048_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_prompt_opt_2048_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_prompt_opt_256_64
-│       │   │           │   ├── lora_16_prompt_opt_256_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_prompt_opt_256_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_16_prompt_opt_512_64
-│       │   │           │   ├── lora_16_prompt_opt_512_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_16_prompt_opt_512_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_32_extend_1024_64
-│       │   │           │   ├── lora_32_extend_1024_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_32_extend_1024_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_32_extend_2048_64
-│       │   │           │   ├── lora_32_extend_2048_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_32_extend_2048_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_32_extend_2048_8
-│       │   │           │   ├── lora_32_extend_2048_8_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_32_extend_2048_8_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_32_extend_256_64
-│       │   │           │   ├── lora_32_extend_256_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_32_extend_256_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_32_extend_512_64
-│       │   │           │   ├── lora_32_extend_512_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_32_extend_512_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_32_extend_512_8
-│       │   │           │   ├── lora_32_extend_512_8_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_32_extend_512_8_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_32_prompt_opt_256_64
-│       │   │           │   ├── lora_32_prompt_opt_256_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_32_prompt_opt_256_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_8_extend_1024_64
-│       │   │           │   ├── lora_8_extend_1024_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_8_extend_1024_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_8_extend_2048_64
-│       │   │           │   ├── lora_8_extend_2048_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_8_extend_2048_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_8_extend_2048_8
-│       │   │           │   ├── lora_8_extend_2048_8_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_8_extend_2048_8_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_8_extend_256_64
-│       │   │           │   ├── lora_8_extend_256_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_8_extend_256_64_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           ├── lora_8_extend_512_64
-│       │   │           │   ├── lora_8_extend_512_64_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   ├── lora_8_extend_512_64_e5_minimal_cpu
-│       │   │           │   │   └── fragment.mil
-│       │   │           │   └── multiprocedure
-│       │   │           │       └── model.hwx
-│       │   │           ├── lora_8_extend_512_8
-│       │   │           │   ├── lora_8_extend_512_8_classic_cpu
-│       │   │           │   │   ├── model.espresso.net
-│       │   │           │   │   ├── model.espresso.shape
-│       │   │           │   │   └── model.espresso.weights
-│       │   │           │   └── lora_8_extend_512_8_e5_minimal_cpu
-│       │   │           │       └── fragment.mil
-│       │   │           └── lora_8_prompt_opt_256_64
-│       │   │               ├── lora_8_prompt_opt_256_64_classic_cpu
-│       │   │               │   ├── model.espresso.net
-│       │   │               │   ├── model.espresso.shape
-│       │   │               │   └── model.espresso.weights
-│       │   │               └── lora_8_prompt_opt_256_64_e5_minimal_cpu
-│       │   │                   └── fragment.mil
-│       │   ├── AssetData
-│       │   │   └── Restore
-│       │   │       ├── BuildManifest.plist
-│       │   │       ├── Firmware
-│       │   │       │   ├── Manifests
-│       │   │       │   │   └── restore
-│       │   │       │   │       └── cryptex1
-│       │   │       │   │           └── com.apple.MobileAsset.UAF.FM.GenerativeModels:com.apple.fm.language.instruct_3b.base.generic-H13g
-│       │   │       │   │               └── apticket.mobileassetx86macosap.im4m
-│       │   │       │   ├── UC_INSTRUCT_3B_BASE_GENERIC_H13G_Cryptex.dmg.cryptex_info
-│       │   │       │   ├── UC_INSTRUCT_3B_BASE_GENERIC_H13G_Cryptex.dmg.integrity_catalog
-│       │   │       │   ├── UC_INSTRUCT_3B_BASE_GENERIC_H13G_Cryptex.dmg.root_hash
-│       │   │       │   └── UC_INSTRUCT_3B_BASE_GENERIC_H13G_Cryptex.dmg.trustcache
-│       │   │       ├── Restore.plist
-│       │   │       └── UC_INSTRUCT_3B_BASE_GENERIC_H13G_Cryptex.dmg
-│       │   ├── Info.plist
-│       │   └── SecureAssetData
-│       │       ├── BuildManifest.plist
-│       │       ├── SecureMobileAsset-Info.plist
-│       │       ├── SecureMobileAsset.dmg
-│       │       ├── SecureMobileAsset.integritycatalog
-│       │       ├── SecureMobileAsset.root_hash
-│       │       ├── SecureMobileAsset.trustcache
-│       │       └── amai
-│       │           ├── Cryptex1
-│       │           │   └── Cryptex1,Ticket
-│       │           ├── debug
-│       │           │   ├── tss-request.plist
-│       │           │   └── tss-response.plist
-│       │           └── receipt.plist
 │       ├── b897c225d82b79ccf00204ee8a69faf55f227d39.asset
 │       │   ├── AssetData
 │       │   │   └── metadata.json
@@ -973,24 +977,20 @@
 │       │   │   ├── lora.part.bin
 │       │   │   └── metadata.json
 │       │   └── Info.plist
-│       ├── com_apple_MobileAsset_UAF_FM_GenerativeModels.xml
-│       └── d1cb28c5dbb29d0a12dbfa35f623e85f9d997e52.asset
-│           ├── AssetData
-│           │   └── tokenizer
-│           └── Info.plist
+│       └── com_apple_MobileAsset_UAF_FM_GenerativeModels.xml
 ├── com_apple_MobileAsset_UAF_SummarizationKitConfiguration
 │   └── purpose_auto
+│       ├── 1284f80a4544337aa942f6aea3b441ca7d202ff3.asset
+│       │   ├── AssetData
+│       │   │   └── SummarizationOverrideRules.pbtxt
+│       │   └── Info.plist
 │       ├── c8a4308d303f1997c3be793172f2bf0834b5bb08.asset
 │       │   ├── AssetData
 │       │   │   ├── ClassificationConfiguration.pbtxt
 │       │   │   ├── ClientSafetyConfiguration.pbtxt
 │       │   │   └── ClientSwitchConfiguration.pbtxt
 │       │   └── Info.plist
-│       ├── com_apple_MobileAsset_UAF_SummarizationKitConfiguration.xml
-│       └── de4df6b7fa98be083eceec3d5b57b90924ae1f58.asset
-│           ├── AssetData
-│           │   └── summarization-template.json
-│           └── Info.plist
+│       └── com_apple_MobileAsset_UAF_SummarizationKitConfiguration.xml
 ├── scripts
 │   ├── add_files.sh
 │   ├── build_summary.js

@@ -8,9 +8,9 @@
 	<array>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
-			<string>DLevxcTGuYIBLSLJBzCR39a5qUm/LdnYzfpggNIdzso=</string>
+			<string>lKo7XLSfyi/r5ca5Hn6cRLJCIOIy6Qt5mrT/4ikkM68=</string>
 			<key>ArchiveID</key>
-			<string>A7YJ5GAZGCXDM1c2sujjjfiWW6PvjMnTaDOEP7QCr04=</string>
+			<string>ARXzqIeLU64lA5Ko4VFO3wZawGf2s/wzD4BZ0IXNsKY=</string>
 			<key>AssetFormat</key>
 			<string>AppleArchive</string>
 			<key>AssetSpecifier</key>
@@ -18,22 +18,22 @@
 			<key>AssetType</key>
 			<string>com.apple.MobileAsset.UAF.SummarizationKitConfiguration</string>
 			<key>AssetVersion</key>
-			<string>1.0.5.13.200249,0</string>
+			<string>1.0.6.13.200404,0</string>
 			<key>AssetVersionInfo</key>
 			<dict>
 				<key>AssetVersionGroup</key>
 				<integer>0</integer>
 				<key>AssetVersionLong</key>
-				<string>1.0.5.13.200249,0</string>
+				<string>1.0.6.13.200404,0</string>
 				<key>AssetVersionTuple</key>
-				<string>1.0.5.13.200249</string>
+				<string>1.0.6.13.200404</string>
 				<key>BuildVersionTuple</key>
-				<string>13.13.200249</string>
+				<string>13.13.200404</string>
 				<key>BundleVersionTuple</key>
-				<string>1.0.5</string>
+				<string>1.0.6</string>
 			</dict>
 			<key>Build</key>
-			<string>13M200249</string>
+			<string>13M200404</string>
 			<key>Ramp</key>
 			<false/>
 			<key>SupportedDeviceNames</key>
@@ -43,6 +43,8 @@
 			<key>UnsupportedDevices</key>
 			<array>
 				<string>MacBook10,1</string>
+				<string>MacBookAir7,1</string>
+				<string>MacBookAir7,2</string>
 				<string>MacBookAir8,1</string>
 				<string>MacBookAir8,2</string>
 				<string>MacBookAir9,1</string>
@@ -60,6 +62,7 @@
 				<string>MacPro7,1</string>
 				<string>Macmini8,1</string>
 				<string>VirtualMac2,1</string>
+				<string>iMac16,1</string>
 				<string>iMac20,1</string>
 				<string>iMac20,2</string>
 				<string>iMacPro1,1</string>
@@ -67,12 +70,12 @@
 			<key>_CompressionAlgorithm</key>
 			<string>AppleArchive</string>
 			<key>_DownloadSize</key>
-			<integer>26624</integer>
+			<integer>20480</integer>
 			<key>_IsMAAutoAsset</key>
 			<true/>
 			<key>_Measurement</key>
 			<data>
-			+VgXPwU2TnMbjALpZSag8AP96Mw=
+			Tl8rj4KMwGXtl5lzvvgNnZN+1wc=
 			</data>
 			<key>_MeasurementAlgorithm</key>
 			<string>SHA-1</string>
@@ -117,15 +120,15 @@
 			<key>_PreSoftwareUpdateAssetStaging</key>
 			<true/>
 			<key>_UnarchivedSize</key>
-			<integer>12288</integer>
+			<integer>8192</integer>
 			<key>__BaseURL</key>
-			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/023-67518/0816F69D-73C4-4836-B5D3-1DBF92363BD4/</string>
+			<string>https://updates.cdn-apple.com/2024/Iris/mobileassets/005-42919/E0FA444A-3352-4521-8C1A-18C696CEEFFE/</string>
 			<key>__CanUseLocalCacheServer</key>
 			<true/>
 			<key>__RelativePath</key>
-			<string>com_apple_MobileAsset_UAF_SummarizationKitConfiguration/8E3DF65F-BF96-4C4F-A81F-0DB20B06105F.aar</string>
+			<string>com_apple_MobileAsset_UAF_SummarizationKitConfiguration/D60B8474-AD1F-422D-90E3-849EE3955C37.aar</string>
 			<key>version</key>
-			<string>1.0.5</string>
+			<string>1.0.6</string>
 		</dict>
 		<dict>
 			<key>ArchiveDecryptionKey</key>
@@ -164,6 +167,8 @@
 			<key>UnsupportedDevices</key>
 			<array>
 				<string>MacBook10,1</string>
+				<string>MacBookAir7,1</string>
+				<string>MacBookAir7,2</string>
 				<string>MacBookAir8,1</string>
 				<string>MacBookAir8,2</string>
 				<string>MacBookAir9,1</string>
@@ -181,6 +186,7 @@
 				<string>MacPro7,1</string>
 				<string>Macmini8,1</string>
 				<string>VirtualMac2,1</string>
+				<string>iMac16,1</string>
 				<string>iMac20,1</string>
 				<string>iMac20,2</string>
 				<string>iMacPro1,1</string>
@@ -250,7 +256,7 @@
 		</dict>
 	</array>
 	<key>CachedAssetSetId</key>
-	<string>75871e28-109f-463e-98b7-d2514fa3c72a</string>
+	<string>56864ddc-61b4-4a41-aa52-1ff67defb580</string>
 	<key>DownloadedFromLive</key>
 	<string>https://gdmf.apple.com/v2/assets</string>
 	<key>catalogInfo</key>
@@ -259,8 +265,8 @@
 		<true/>
 	</dict>
 	<key>lastTimeChecked</key>
-	<date>2024-09-19T00:53:30Z</date>
+	<date>2024-09-28T16:18:58Z</date>
 	<key>postedDate</key>
-	<date>2024-09-10T00:00:00Z</date>
+	<date>2024-09-20T00:00:00Z</date>
 </dict>
 </plist>
