@@ -1,0 +1,11 @@
+{
+  "model_type": "ane",
+  "rank": 16,
+  "type": "lora_16",
+  "backbone_signature": "7031329bcbc3c209fdea9858d0d844f5ded53193",
+  "adapter_signature": "75f8bce3c9072389a4f73c72390540afde6c93aa",
+  "ref_id": "bh6qb28uuk",
+  "promptTemplates": {
+    "com.apple.SummarizationKit.urgencyClassification.general": "{{ specialToken.chat.role.system.default }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}<n><n>Is this urgent?{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  }
+}

@@ -6,28 +6,23 @@ System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer B
 **See [PROMPTS.md](PROMPTS.md) for a markdown breakdown of all the prompts**
 
 <!-- SUMMARY -->
-- [32ad14](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/32ad14bd3a19ff6fe5385f13b8bf997faae68e91.asset/AssetData/metadata.json): Rewrites text
-- [68ebe7](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/68ebe7a93b9c3f9c734b798f61fcefc6bfccc777.asset/AssetData/metadata.json): Makes text more professional.
-- [892473](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/89247375851dbe95c8f569ad6666d923d4db1ee7.asset/AssetData/metadata.json): Makes text more concise.
-- [256dfc](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/256dfcc19eb64aabcd4b1b9298641410fbd04bda.asset/AssetData/metadata.json): Makes generated text more friendly using friendly tone input.
-- [03afaa](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/03afaa26b16e50118fd624cbf8adaab6d29bf6bd.asset/AssetData/metadata.json): Transforms text into bullet points following instructions.
-- [095ed9](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/095ed9c357798e03a7b6d5f1bf8637455e84e911.asset/AssetData/metadata.json): Creates visual stories from user photos based on user input.
-- [2ca582](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/2ca582fd431bb076dabc86d865fd07594b3efaed.asset/AssetData/metadata.json): Makes long-form text responses with given customer service context.
-- [2db17a](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/2db17a12efa9c86460b35a1170d971c1942c80ed.asset/AssetData/metadata.json): Conversational query understanding task making structured queries.
-- [515977](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/515977437f79f305052410adc80b1bac3655f3fa.asset/AssetData/metadata.json): Makes text reply based on provided snippet within 50 words.
-- [5d48e5](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/5d48e58c05fcf115ae45248f6fd1435a70db2503.asset/AssetData/metadata.json): Makes text more friendly by adjusting its tone slightly.
-- [832d95](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/832d95c7d6b5a817ae6eb95ba23b6be5f2a96d4d.asset/AssetData/metadata.json): Extracts top relevant questions from given e-mail and replies.
-- [90998a](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/90998a3977e0e2ceb607cdccf83bb73a3d0599a9.asset/AssetData/metadata.json): Makes text more professional upon user input request.
-- [95522f](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/95522ffd92c9083fa276862dc9187483dc86bc7c.asset/AssetData/metadata.json): Transforms user prompt into structured JSON query format requested.
-- [992b92](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/992b921f10bce8329395f751d7747f5321d54179.asset/AssetData/metadata.json): Makes text more concise using given input parameters.
-- [ac2e70](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ac2e7084fcded218b626e356292ee5640f396fc8.asset/AssetData/metadata.json): Generates visual story themes from user's life context information.
-- [b897c2](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/b897c225d82b79ccf00204ee8a69faf55f227d39.asset/AssetData/metadata.json): Curate assets that best match a movie script chapter.
-- [be81c6](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/be81c694fcaf131d0825fc7958f3b5fe2557b063.asset/AssetData/metadata.json): Rewrites text from user to system assistant style.
-- [c1500b](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c1500bb9582d8d6407bb56143c301e48c778292d.asset/AssetData/metadata.json): Transforms text into table format on demand.
-- [c59d20](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c59d2037ac0b6a10d264b68d9c580f3db7f5791c.asset/AssetData/metadata.json): Summarizes text into 3 sentence summaries under 60 words.
-- [2f8cc2](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/2f8cc28dfc81d500f17854833ef89af440cad5db.asset/AssetData/metadata.json): Converts text into keypoints or key takeaways.
-- [4b20b2](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/4b20b27e16294d9e36d6b4afbc4abc154afa5014.asset/AssetData/metadata.json): Classify text as urgent or not.
-- [c8f32d](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c8f32d908e4d007fb30b48c94a5cd3636a27b34c.asset/AssetData/metadata.json): Summarize things into 3 topic words
-- [68780a](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/68780a452018c44098bb0e21c9c128051700a8d8.asset/AssetData/metadata.json): Proofreads given text for errors and consistency issues resolution.
-- [77457f](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/77457ff28bb83c8b17e78c3e05e4678507dd175d.asset/AssetData/metadata.json): Generates two different short email response snippets semantically.
-- [8b9774](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/8b97748be659843d0585e6f01040ba11b7154a48.asset/AssetData/metadata.json): Predicts conversational next step in messaging dialogue interaction.
+- [1cbfc6](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/1cbfc6f709b56915c1363ab8860da8bfd717e1ca.asset/AssetData/metadata.json): Classifies instructions into categories.
+- [2b55b2](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/2b55b2cba8def9e314d45c4c9f92b7befe5d957b.asset/AssetData/metadata.json): Curates diverse assets for movie chapter selection.
+- [43f49a](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/43f49aa9d2289810aa7d30745b0a1ea417a1e362.asset/AssetData/metadata.json): Rewrites provided text.
+- [645ece](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/645ece223e3b633f31cd3b5cd48dd40913231278.asset/AssetData/metadata.json): Makes text more concise
+- [6decd6](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/6decd604596769c3145f01c1fbc21c600ff3caa8.asset/AssetData/metadata.json): Makes text more professional
+- [7d0d94](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/7d0d94dd33a731e746585cae81ec7d44e88f083d.asset/AssetData/metadata.json): Generates visual themes for photo story creation.
+- [9d95cd](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/9d95cd7662e5466dd41dfb8e47ebfa0776adf515.asset/AssetData/metadata.json): Extracts calendar event details from OCR text.
+- [a03db9](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/a03db9b12b7b7a180c1de8826c28e800422d7602.asset/AssetData/metadata.json): Makes text more friendly.
+- [aef33e](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/aef33e76c3dae5f7082fe8d087256eb69605ea3e.asset/AssetData/metadata.json): Generates paraphrased text for various contexts.
+- [b9e06f](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/b9e06f8ff36cd824244c604078f8b4f69fd0a438.asset/AssetData/metadata.json): Returns output text based on input and instructions.
+- [ee07da](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/ee07dac44d25ebae746b5a46da7515406c694085.asset/AssetData/metadata.json): Summarizes text messages, emails, notifications, and posts.
+- [099fdd](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/099fdde101ec7409ac20aaaa9844632ecd1c9df9.asset/AssetData/metadata.json): Determines if answer is hallucinated or supported.
+- [1987c1](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/1987c13d59ded3334203c45eb910608f57484394.asset/AssetData/metadata.json): Creates stories from user photos and themes.
+- [2e4c3e](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/2e4c3eff36e07913c721a62622b3a3f029d92cd4.asset/AssetData/metadata.json): Makes response more professional in tone.
+- [3315bb](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/3315bb84e9baa89dc4c4f4852d7aa6da5f4611e1.asset/AssetData/metadata.json): Extracts key:value pairs from OCR text as JSON.
+- [863cba](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/863cba27fd75d564eb19e8e112ceb577d1078643.asset/AssetData/metadata.json): Transforms prompts into structured JSON format for photo queries.
+- [8e519a](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/8e519acec577fd94e0344aa18fcc65b38dc6ae29.asset/AssetData/metadata.json): Makes text more friendly
+- [c2881f](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c2881f4526709fbb6a5b9b0b91974de962b80af0.asset/AssetData/metadata.json): Summarizes text, emails, and email threads in brief.
+- [d0c426](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/d0c4262fc12e4369c2eb961c7320da9ba6dad3ec.asset/AssetData/metadata.json): Transforms natural language prompts into structured queries.
+- [f3a6a8](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/f3a6a838622035bcf0657d14c1c98de8d4a9c2fe.asset/AssetData/metadata.json): Extracts key:value pairs from text as JSON objects.

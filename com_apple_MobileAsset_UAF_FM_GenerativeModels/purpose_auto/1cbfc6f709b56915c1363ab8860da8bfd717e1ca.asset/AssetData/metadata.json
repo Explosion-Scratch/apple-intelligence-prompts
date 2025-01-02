@@ -1,0 +1,79 @@
+{
+  "model_type": "mlm",
+  "tamm_id": "afm-text-30b-instruct-v5_1-astc-6x6-20240910",
+  "checkpoint": "model.mlm",
+  "tokenizer": "afm-text-instruct-multilingual-100k-20240519",
+  "original_checkpoint": "bolttorchmodel://bes3mkcypu/1896",
+  "export_date": "10/17/2024-07:33:34",
+  "mlm_config": {
+    "model_name": "ajax",
+    "backend": "metal",
+    "context_len": 2048,
+    "batch_size": 1,
+    "sampling_type": 2,
+    "temperature": 1.0,
+    "repeat_penalty": 1.0,
+    "topp": 1.0,
+    "topk": 10,
+    "num_layers": 48,
+    "hidden_dim": 7168,
+    "num_heads": 56,
+    "num_kv_heads": 8,
+    "checkpoint_type": "tamm-adapt",
+    "seed": 1234,
+    "checkpoint": "/coreflow/data/conductor/bolt-prod-2701209384/tasks/bes3mkcypu/artifacts/train/checkpoint_1896.tar",
+    "save_model_path": "/task_wrapper/user_output/artifacts/model.mlm",
+    "data_type": "fp16",
+    "merge_loras": false,
+    "state_dict_kw": "network",
+    "adapter_only": true,
+    "export_draft_model": false,
+    "ignore_spq_params": false,
+    "state_dict_include_regex": [],
+    "state_dict_exclude_regex": [
+      "reference"
+    ],
+    "speculative_decode_type": "none",
+    "ffn_dim": 23296.0,
+    "pos_emb": 1,
+    "lora_scale": 0.5
+  },
+  "default_parameters": {
+    "samplingType": "TIE_ARGMAX",
+    "temperature": 1.0,
+    "seed": 1234,
+    "topK": 10,
+    "topP": 1.0,
+    "repeatPenalty": 1.0
+  },
+  "special_tokens_map": {
+    "start_prompt_token": 1,
+    "end_prompt_token": "",
+    "chat.role.system": "system\n",
+    "chat.role.user": "user\n",
+    "chat.role.assistant": "assistant\n",
+    "chat.component.turnEnd": "<turn_end>",
+    "stop_token": "<turn_end>",
+    "chat.role.system.default": "system\nA conversation between a user and a helpful assistant."
+  },
+  "disable_speculative_decoding": false,
+  "disable_speculative_streaming": false,
+  "localization": {
+    "chat.role.system.default": {
+      "en_GB": "system\nA conversation between a user located in Britain and a helpful assistant. The assistant is mindful of British spelling, vocabulary, entities and other British context.",
+      "en_AU": "system\nA conversation between a user located in Australia and a helpful assistant. The assistant is mindful of Australian spelling, vocabulary, entities and other Australian context.",
+      "en_CA": "system\nA conversation between a user located in Canada and a helpful assistant. The assistant is mindful of Canadian spelling, vocabulary, entities and other Canadian context.",
+      "en_IE": "system\nA conversation between a user located in Ireland and a helpful assistant. The assistant is mindful of Irish spelling, vocabulary, entities and other Irish context.",
+      "en_NZ": "system\nA conversation between a user located in New Zealand and a helpful assistant. The assistant is mindful of New Zealand spelling, vocabulary, entities and other New Zealand context.",
+      "en_ZA": "system\nA conversation between a user located in South Africa and a helpful assistant. The assistant is mindful of South African spelling, vocabulary, entities and other South African context.",
+      "en_IN": "system\nA conversation between a user located in India and a helpful assistant. The assistant is mindful of Indian spelling, vocabulary, entities and other Indian context.",
+      "en_SG": "system\nA conversation between a user located in Singapore and a helpful assistant. The assistant is mindful of Singaporean spelling, vocabulary, entities and other Singaporean context."
+    }
+  },
+  "display_version": "v5.1-30b",
+  "ref_id": "bes3mkcypu",
+  "promptTemplates": {
+    "com.apple.textComposition.OpenEndedToneQueryResponse": "{{ specialToken.chat.role.system }}Classify the given instruction as Harmful, Action, Formatting, Attribution, Transformation or Generation.\n{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  },
+  "disable_spec_decoding": false
+}

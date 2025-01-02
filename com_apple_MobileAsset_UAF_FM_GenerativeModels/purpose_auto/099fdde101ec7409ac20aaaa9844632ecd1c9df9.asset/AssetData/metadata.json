@@ -1,0 +1,11 @@
+{
+  "model_type": "ane",
+  "rank": 64,
+  "type": "lora_64",
+  "backbone_signature": "8317a58e4df5a1dbe704b8583562948c08f7e590",
+  "adapter_signature": "0d8700319b235a3843489594c6a82f9907a4af15",
+  "ref_id": "268dn3g2us",
+  "promptTemplates": {
+    "com.apple.omniSearch.HallucinationDetection": "{{ specialToken.chat.role.system }}You will receive a list of `personal_data_sources`, a `query` and an `answer`. Your task is to reply Yes if the `answer` is hallucinated when it is not fully supported by the `personal_data_sources` or reply No if it is grounded and fully supported by the `personal_data_sources`. Please only reply with `Yes` or `No` for your judgement, otherwise it won't be helpful.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userPrompt }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model_type": "ane",
+  "rank": 16,
+  "type": "lora_16",
+  "backbone_signature": "8317a58e4df5a1dbe704b8583562948c08f7e590",
+  "adapter_signature": "3d695a4ffaff35d2a85c0049814576e6091809de",
+  "ref_id": "njxns7mvtu",
+  "promptTemplates": {
+    "com.apple.ADMPromptRewrite.default": "{{ specialToken.chat.role.system }}A conversation between a user and a helpful assistant.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}",
+    "com.apple.ADMPromptRewrite.genmoji": "{{ specialToken.chat.role.system }}Paraphrase this text.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}",
+    "com.apple.ADMPromptRewrite.gp": "{{ specialToken.chat.role.system }}Paraphrase this text for generative playground.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  }
+}

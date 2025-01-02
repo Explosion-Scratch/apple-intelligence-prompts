@@ -1,0 +1,8 @@
+{
+  "model_type": "ane",
+  "rank": 16,
+  "type": "lora_16",
+  "backbone_signature": "8317a58e4df5a1dbe704b8583562948c08f7e590",
+  "adapter_signature": "3d695a4ffaff35d2a85c0049814576e6091809de",
+  "ref_id": "z72y3rw8it"
+}

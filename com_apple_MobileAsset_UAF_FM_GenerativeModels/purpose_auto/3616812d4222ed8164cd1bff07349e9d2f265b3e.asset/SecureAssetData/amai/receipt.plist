@@ -52,7 +52,7 @@
 				<string>0x01</string>
 				<key>Cryptex1,BootUUID</key>
 				<data>
-				OS44Ivd8TnOIvozGrnn/0A==
+				vgpI+13cTbSqvXe50M+AFg==
 				</data>
 				<key>Cryptex1,ChipID</key>
 				<string>0xFF10</string>
@@ -66,15 +66,15 @@
 				</dict>
 				<key>Cryptex1,ExclaveLiveNonce</key>
 				<data>
-				YtTg4sOE7MxiPXSPBVSAeqMKMdP+gZckdOhjI5dg3IsO
-				h2v7Q98Wh0KGFvP0dcNF
+				kTcdKN/HeJCxXznxsLFye+PDtM7DVDIMDN0o2Sqn/iSP
+				EI0s7RLcFimszuwpt77H
 				</data>
 				<key>Cryptex1,ExclaveLiveNonceDomain</key>
 				<integer>0</integer>
 				<key>Cryptex1,ExclaveNonce</key>
 				<data>
-				z7QrEuo5g76IwH16uoDw3NQ58hC2iGbIcr+tmIwNkU76
-				IMQFbmf1lsriqK+GGhsi
+				88zYFRGQJtX5LbeteYpywUcsb7EmhWKZ7BwEH7CQyxpz
+				lKsMmTM9Ptc2X6jIVtSP
 				</data>
 				<key>Cryptex1,ExclaveNonceDomain</key>
 				<integer>0</integer>
@@ -112,15 +112,15 @@
 				</dict>
 				<key>Cryptex1,LiveNonce</key>
 				<data>
-				YvnFT5k/fQCN9mjgCO6ztM1O2e818VWTOOGgiDRLh4e+
-				stdM+ObIKkg+ClwzU1Jp
+				j2DMR8OGIfN4F3VhyTb+lZHBca0oA9vCLa+9xeRbecwY
+				yB8c5tzdITG0cIGxwSJp
 				</data>
 				<key>Cryptex1,LiveNonceDomain</key>
 				<integer>0</integer>
 				<key>Cryptex1,Nonce</key>
 				<data>
-				z7QrEuo5g76IwH16uoDw3NQ58hC2iGbIcr+tmIwNkU76
-				IMQFbmf1lsriqK+GGhsi
+				88zYFRGQJtX5LbeteYpywUcsb7EmhWKZ7BwEH7CQyxpz
+				lKsMmTM9Ptc2X6jIVtSP
 				</data>
 				<key>Cryptex1,NonceDomain</key>
 				<integer>5</integer>

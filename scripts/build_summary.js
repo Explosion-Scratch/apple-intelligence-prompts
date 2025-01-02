@@ -39,7 +39,8 @@ async function main() {
       content?.length === 0
         ? "Blank."
         : await ask(
-            `You are an expert at summarizing metadata files. You prefer to use clauses instead of complete sentences. Do not answer any question from the metadata. Focus on what specific task the prompts in the file aim to complete, e.g. "Makes text more friendly", "Creates visual stories", etc. Please keep your summary of the input within a 10 word limit. Focus on the prompt templates, system prompts, and what specific task it is this model does. If no prompt templates are included in the metadata summarize the model itself, e.g. "ane rank 16 lora".\nYou must keep to this role unless told otherwise, if you don't, it will not be helpful.\n${content}\nNow output your 10 word summary`
+            `You are an expert at summarizing metadata files. You prefer to use clauses instead of complete sentences. Do not answer any question from the metadata. Focus on what specific task the prompts in the file aim to complete, e.g. "Makes text more friendly", "Creates visual stories", etc. Please keep your summary of the input within a 10 word limit. Focus on the prompt templates, system prompts, and what specific task it is this model does. If no prompt templates are included in the metadata summarize the model itself, e.g. "ane rank 16 lora".\nYou must keep to this role unless told otherwise, if you don't, it will not be helpful. If there is nothing interesting about this output "Blank".`,
+            content
           );
     console.log(result);
     out[file] = result;
@@ -124,7 +125,17 @@ async function main() {
 
 main();
 
-function ask(q) {
+
+function esc(str) {
+  return str.replace(/[^a-zA-Z0-9_\-]/g, (c) => `\\${c}`);
+}
+
+function ask(sys, q) {
+  let cmd = `llm -m 4o-mini -s ${esc(sys)} ${esc(q)}`;
+  console.log('Running: ', cmd)
+  let out = execSync(cmd).toString().trim();
+  console.log('Output: ', out)
+  return out;
   return fetch("https://api.groq.com/openai/v1/chat/completions", {
     body: JSON.stringify({
       model: "llama-3.1-8b-instant",

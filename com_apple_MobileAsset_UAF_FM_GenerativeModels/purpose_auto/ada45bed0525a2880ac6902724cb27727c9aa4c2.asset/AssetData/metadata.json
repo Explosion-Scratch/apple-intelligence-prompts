@@ -1,0 +1,28 @@
+{
+  "model_type": "ane",
+  "rank": 16,
+  "type": "lora_16",
+  "backbone_signature": "7031329bcbc3c209fdea9858d0d844f5ded53193",
+  "adapter_signature": "75f8bce3c9072389a4f73c72390540afde6c93aa",
+  "ref_id": "uaw3x2e9fa",
+  "localization": {
+    "chat.role.system.default": {
+      "en_AU": "system<n> Proofread this text using Australian English:",
+      "en_CA": "system<n> Proofread this text using Canadian English:",
+      "en_GB": "system<n> Proofread this text using British English:",
+      "en_IE": "system<n> Proofread this text using English as spoken in Ireland:",
+      "en_IN": "system<n> Proofread this text using Indian English:",
+      "en_NZ": "system<n> Proofread this text using English as spoken in New Zealand:",
+      "en_SG": "system<n> Proofread this text using English as spoken in Singapore:",
+      "en_US": "system<n> Proofread this text:",
+      "en_ZA": "system<n> Proofread this text using English as spoken in South Africa:"
+    }
+  },
+  "promptTemplates": {
+    "com.apple.textComposition.ProofreadingReview": "{{ specialToken.chat.role.system.default }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  },
+  "special_tokens_map": {
+    "chat.role.system.default": "system<n> Proofread this text:"
+  },
+  "disable_spec_decoding": false
+}

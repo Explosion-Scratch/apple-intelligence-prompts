@@ -1,0 +1,28 @@
+{
+  "model_type": "ane",
+  "rank": 16,
+  "type": "lora_16",
+  "backbone_signature": "7031329bcbc3c209fdea9858d0d844f5ded53193",
+  "adapter_signature": "75f8bce3c9072389a4f73c72390540afde6c93aa",
+  "ref_id": "ct7e85gyf8",
+  "localization": {
+    "chat.role.system.default": {
+      "en_AU": "system<n> Predict next turn using Australian English:",
+      "en_CA": "system<n> Predict next turn using Canadian English:",
+      "en_GB": "system<n> Predict next turn using British English:",
+      "en_IE": "system<n> Predict next turn using English as spoken in Ireland:",
+      "en_IN": "system<n> Predict next turn using Indian English:",
+      "en_NZ": "system<n> Predict next turn using English as spoken in New Zealand:",
+      "en_SG": "system<n> Predict next turn using English as spoken in Singapore:",
+      "en_US": "system<n> Predict next turn:",
+      "en_ZA": "system<n> Predict next turn using English as spoken in South Africa:"
+    }
+  },
+  "promptTemplates": {
+    "com.apple.textComposition.MessagesReply": "{{ specialToken.chat.role.system.default }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  },
+  "special_tokens_map": {
+    "chat.role.system.default": "system<n> Predict next turn:"
+  },
+  "disable_spec_decoding": false
+}

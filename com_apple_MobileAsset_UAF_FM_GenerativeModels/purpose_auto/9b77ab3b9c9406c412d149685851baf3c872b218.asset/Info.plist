@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6</string>
+	<key>CFBundleName</key>
+	<string>com.apple.fm.language.instruct_3b.drafts.generic</string>
+	<key>CFBundleShortVersionString</key>
+	<string>8.6.81307</string>
+	<key>CFBundleVersion</key>
+	<string>8.6.81307</string>
+	<key>MobileAssetProperties</key>
+	<dict>
+		<key>ArchiveDecryptionKeyFile</key>
+		<string>com.apple.MobileAsset.DecryptionKey.UAFFMLanguageSecureAssets.930c073.priv</string>
+		<key>AssetSpecifier</key>
+		<string>com.apple.fm.language.instruct_3b.drafts.generic</string>
+		<key>AssetVersion</key>
+		<string>8.6.81307.13.200703,0</string>
+		<key>AssetVersionInfo</key>
+		<dict>
+			<key>AssetVersionGroup</key>
+			<integer>0</integer>
+			<key>AssetVersionLong</key>
+			<string>8.6.81307.13.200703,0</string>
+			<key>AssetVersionTuple</key>
+			<string>8.6.81307.13.200703</string>
+			<key>BuildVersionTuple</key>
+			<string>13.13.200703</string>
+			<key>BundleVersionTuple</key>
+			<string>8.6.81307</string>
+		</dict>
+		<key>Build</key>
+		<string>13M200703</string>
+		<key>Variant</key>
+		<string>com.apple.MobileAsset.UAF.FM.GenerativeModels:com.apple.fm.language.instruct_3b.drafts.generic-H13g</string>
+		<key>_ContentEncryption</key>
+		<string>DSME</string>
+		<key>_IsMAAutoAsset</key>
+		<true/>
+		<key>_PreSoftwareUpdateAssetStaging</key>
+		<true/>
+		<key>__ContainsCryptexContents</key>
+		<true/>
+		<key>__RequiresPersonalization</key>
+		<true/>
+		<key>version</key>
+		<string>8.6.81307</string>
+	</dict>
+	<key>_ContentEncryption</key>
+	<string>DSME</string>
+	<key>_DisableAFSCCompression</key>
+	<true/>
+</dict>
+</plist>

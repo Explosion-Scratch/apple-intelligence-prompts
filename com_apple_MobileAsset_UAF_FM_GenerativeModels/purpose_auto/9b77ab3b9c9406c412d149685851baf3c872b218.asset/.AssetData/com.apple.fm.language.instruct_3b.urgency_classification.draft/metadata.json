@@ -1,0 +1,66 @@
+{
+  "model_type": "ane",
+  "model_config": "v3-9m",
+  "backbone_signature": "5a56214625186326cd12683198cc2fab4e436fcb",
+  "e5_function_name_map": {
+    "extend_512_64": {
+      "type": "extend",
+      "ctx_len": 512,
+      "seq_len": 64
+    },
+    "extend_256_64": {
+      "type": "extend",
+      "ctx_len": 256,
+      "seq_len": 64
+    },
+    "extend_2048_64": {
+      "type": "extend",
+      "ctx_len": 2048,
+      "seq_len": 64
+    },
+    "extend_2048_8": {
+      "type": "extend",
+      "ctx_len": 2048,
+      "seq_len": 8
+    },
+    "extend_1024_64": {
+      "type": "extend",
+      "ctx_len": 1024,
+      "seq_len": 64
+    }
+  },
+  "default_parameters": {
+    "temperature": 0.1,
+    "draft_steps": 1,
+    "draft_is_adaptive": false,
+    "draft_tree_factor": 1,
+    "draft_soft_match_tolerance": 0.0,
+    "draft_tree_max_paths": null,
+    "draft_use_rejection_sampling": false,
+    "speculative_decode_type": "speculative_decoding"
+  },
+  "special_tokens_map": {
+    "start_prompt_token": 1,
+    "end_prompt_token": "",
+    "stop_token": "<turn_end>",
+    "chat.role.system": "system\n",
+    "chat.role.assistant": "assistant\n",
+    "chat.role.user": "user\n",
+    "chat.component.turnEnd": "<turn_end>",
+    "chat.role.system.default": "system\nA conversation between a user and a helpful assistant."
+  },
+  "localization": {
+    "chat.role.system.default": {
+      "en_GB": "system\nA conversation between a user located in Britain and a helpful assistant. The assistant is mindful of British spelling, vocabulary, entities and other British context.",
+      "en_AU": "system\nA conversation between a user located in Australia and a helpful assistant. The assistant is mindful of Australian spelling, vocabulary, entities and other Australian context.",
+      "en_CA": "system\nA conversation between a user located in Canada and a helpful assistant. The assistant is mindful of Canadian spelling, vocabulary, entities and other Canadian context.",
+      "en_IE": "system\nA conversation between a user located in Ireland and a helpful assistant. The assistant is mindful of Irish spelling, vocabulary, entities and other Irish context.",
+      "en_NZ": "system\nA conversation between a user located in New Zealand and a helpful assistant. The assistant is mindful of New Zealand spelling, vocabulary, entities and other New Zealand context.",
+      "en_ZA": "system\nA conversation between a user located in South Africa and a helpful assistant. The assistant is mindful of South African spelling, vocabulary, entities and other South African context.",
+      "en_IN": "system\nA conversation between a user located in India and a helpful assistant. The assistant is mindful of Indian spelling, vocabulary, entities and other Indian context.",
+      "en_SG": "system\nA conversation between a user located in Singapore and a helpful assistant. The assistant is mindful of Singaporean spelling, vocabulary, entities and other Singaporean context."
+    }
+  },
+  "context_length": 2048,
+  "ref_id": "km9p4knpni"
+}

@@ -1,0 +1,14 @@
+{
+  "model_type": "ane",
+  "rank": 64,
+  "type": "lora_64",
+  "backbone_signature": "8317a58e4df5a1dbe704b8583562948c08f7e590",
+  "adapter_signature": "0d8700319b235a3843489594c6a82f9907a4af15",
+  "ref_id": "pysv7qwfgn",
+  "promptTemplates": {
+    "com.apple.fm.language.safety_guardrail": "{{ specialToken.chat.role.system.default }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userPrompt }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  },
+  "special_tokens_map": {
+    "chat.role.system.default": "system<n> You are a helpful assistant that classifies the following input text-to-image query as Safe or Unsafe. In the first line, reply with Safe or Unsafe. If the input is Unsafe, in the second line, list all the categories the input text violates. The Unsafe categories are: CSEAI, Drugs, Gore, Harassment, Hate, Nudity or sexual, Offensive words, Self-harm, Suggestive, Terrorism or extremism, Toxic, Violence, Weapons."
+  }
+}

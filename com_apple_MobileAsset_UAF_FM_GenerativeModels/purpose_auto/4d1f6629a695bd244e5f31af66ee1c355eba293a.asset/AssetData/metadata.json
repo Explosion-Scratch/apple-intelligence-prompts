@@ -1,0 +1,28 @@
+{
+  "model_type": "ane",
+  "rank": 16,
+  "type": "lora_16",
+  "backbone_signature": "7031329bcbc3c209fdea9858d0d844f5ded53193",
+  "adapter_signature": "75f8bce3c9072389a4f73c72390540afde6c93aa",
+  "ref_id": "cvr9wjuh7g",
+  "localization": {
+    "chat.role.system.default": {
+      "en_AU": "system<n> Respond in Australian English. Make this text more concise.",
+      "en_CA": "system<n> Respond in Canadian English. Make this text more concise.",
+      "en_GB": "system<n> Respond in British English. Make this text more concise.",
+      "en_IE": "system<n> Respond in English as spoken in Ireland. Make this text more concise.",
+      "en_IN": "system<n> Respond in Indian English. Make this text more concise.",
+      "en_NZ": "system<n> Respond in English as spoken in New Zealand. Make this text more concise.",
+      "en_SG": "system<n> Respond in English as spoken in Singapore. Make this text more concise.",
+      "en_US": "system<n> Make this text more concise.",
+      "en_ZA": "system<n> Respond in English as spoken in South Africa. Make this text more concise."
+    }
+  },
+  "promptTemplates": {
+    "com.apple.textComposition.ConciseTone": "{{ specialToken.chat.role.system.default }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  },
+  "special_tokens_map": {
+    "chat.role.system.default": "system<n> Make this text more concise."
+  },
+  "disable_spec_decoding": false
+}

@@ -1,0 +1,12 @@
+{
+  "model_type": "ane",
+  "rank": 16,
+  "type": "lora_16",
+  "backbone_signature": "7031329bcbc3c209fdea9858d0d844f5ded53193",
+  "adapter_signature": "75f8bce3c9072389a4f73c72390540afde6c93aa",
+  "ref_id": "pnbqrmhi36",
+  "promptTemplates": {
+    "com.apple.textComposition.TextPersonExtraction": "{{ specialToken.chat.role.system }}Extract key:value pairs from the given OCR text as a json object. Do not hallucinate any value in the response, the value should be either be present or can be inferred from the provided text.{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.user }}Here is the OCR text <n>{{ userContent }}{{ specialToken.chat.component.turnEnd }}{{ specialToken.chat.role.assistant }}"
+  },
+  "disable_spec_decoding": false
+}
