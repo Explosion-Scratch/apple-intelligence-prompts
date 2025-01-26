@@ -2,6 +2,8 @@
 
 System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer Beta. These prompts give lots of insight into how Apple Intelligence works and what it can do.
 
+
+
 # Files and what prompts they contain:
 **See [PROMPTS.md](PROMPTS.md) for a markdown breakdown of all the prompts**
 
@@ -26,3 +28,6 @@ System prompts from Apple Intelligence on the new macOS Sequoia 15.1 Developer B
 - [c2881f](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/c2881f4526709fbb6a5b9b0b91974de962b80af0.asset/AssetData/metadata.json): Summarizes text, emails, and email threads in brief.
 - [d0c426](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/d0c4262fc12e4369c2eb961c7320da9ba6dad3ec.asset/AssetData/metadata.json): Transforms natural language prompts into structured queries.
 - [f3a6a8](com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto/f3a6a838622035bcf0657d14c1c98de8d4a9c2fe.asset/AssetData/metadata.json): Extracts key:value pairs from text as JSON objects.
+
+# Models and what prompts they contain:
+**See [MODELSandPROMPTS.md](MODELSandPROMPTS.md) for a markdown breakdown of all the prompts**
