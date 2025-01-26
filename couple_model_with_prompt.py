@@ -49,7 +49,7 @@ def process_model_folders(base_path):
             pass
             # print(f"metadata.json not found in {model_dir.name}")
         
-        folder_dict[model_dir.name] = {"plist": plist_data, "metadata": metadata}
+        folder_dict[model_dir.name] = {"plist": plist_data, "metadata": metadata, 'metadata_path': metadata_path}
     
     
     keys_to_delete = [key for key, value in folder_dict.items() if value['plist'] is None or value['metadata'] is None]
@@ -112,7 +112,7 @@ def generate_markdown_doc(data_dict):
     doc_lines.append("# Models Documentation\n")
     doc_lines.append(f"Total Models: {len(data_dict)}\n")
     for key, value in data_dict.items():
-        doc_lines.append(f"## {value['model_name']}\n")
+        doc_lines.append(f"## [{value['model_name']}]({value['metadata_path']})\n")
         for template_name, processed_template in value['templates'].items():
             doc_lines.append(f"### Template: {template_name}\n")
             doc_lines.append(f"```\n{processed_template}\n```\n")
@@ -121,7 +121,7 @@ def generate_markdown_doc(data_dict):
 if __name__ == "__main__":
     
     # Replace with your actual path
-    base_path = "/data/jhfeng/apple-intelligence-prompts/com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto"
+    base_path = "com_apple_MobileAsset_UAF_FM_GenerativeModels/purpose_auto"
     data_dict = process_model_folders(base_path)
     data_dict = extract_model_info(data_dict)
     extract_prompt_info(data_dict)
